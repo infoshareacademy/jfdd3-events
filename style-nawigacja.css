@@ -1,0 +1,13 @@
+a.knopf
+{
+   background-color: blue;
+    color: gold;
+    transition: all 0.6s;
+}
+
+a.pad
+{
+ padding: 25px 40px;
+    font-size: 30px;
+
+}
