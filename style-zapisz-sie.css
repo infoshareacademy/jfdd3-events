@@ -1,0 +1,43 @@
+.zapisz-sie {
+    background-color: #499CB8;
+    width: 1920px;
+    height:1080px;
+
+
+}
+.zapisz-sie p {
+    color:#ffffff;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+button {
+    color:#499CB8;
+    display: inline;
+    border: 1px solid #ffffff;
+    background-color: #ADA8A9;
+}
+
+form{
+    display:inline;
+    color:#499CB8;
+
+}
+input{
+    color:#499CB8;
+    border: 1px solid #ffffff;
+    background-color: #ADA8A9;
+}
+::-webkit-input-placeholder {
+    color: #499CB8;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: #499CB8;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    color: #499CB8;
+}
+
+:-ms-input-placeholder {
+    color: #499CB8;
+}
