@@ -1,18 +1,18 @@
 .zajawka
 {
-    background-image: url(images/tlo.bmp);
+    /*background-image: url(images/tlo.bmp);*/
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    min-height: 740px;
+    min-height: 100px;
     background-repeat: no-repeat;
 }
 .logo
 {
     display: block;
     color: white;
-    min-height: 480px;
-    font-size: 100px;
+    min-height: 80px;
+    font-size: 60px;
     padding-right: 300px;
     padding-left: 300px;
     text-align: center;

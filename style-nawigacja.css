@@ -38,3 +38,19 @@ a.pad
     position: relative;
 
 }
+
+#menu
+{
+    min-height: 50px;
+    background-color: #CC0066;
+
+}
+
+.teil
+{
+    display: block;
+    float: left;
+    border: 5px;
+    min-width: 300px;
+
+}
