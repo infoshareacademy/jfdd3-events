@@ -1,6 +1,14 @@
-.oferta-tlo{
-    background-color: yellow;
+#oferta {
+    width: 1200px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 500px;
+    padding-top: 15px;
 }
 .calendar-padding{
-    padding-right: 1000px;
+    padding-left: 300px;
+    padding-right: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
