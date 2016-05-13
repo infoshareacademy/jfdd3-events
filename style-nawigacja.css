@@ -1,9 +1,97 @@
 body
 {
-    background-color: #F0F8FF;
+    background-color: #8EB4E6;
     color: #000000;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-size: 20px;
+    margin: 0;
+}
+
+main
+{
+    width: 980px;
+    padding: 10px;
+    background-color: bisque;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+nav
+{
+    width: 100%;
+    padding: 10px 0;
+    background-color: #CC0066;
+    text-align: center;
+    margin: 0;
+}
+
+ol
+{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 20px;
+    height: 35px;
+    line-height: 200%;
+    display: inline-block;
+}
+
+ol a
+{
+    color: greenyellow;
+    text-decoration: none;
+
+
+}
+
+ol > li
+{
+    float: left;
+    width: 180px;
+    height: 40px;
+    display: block;
+    border-right: 2px solid black;
+}
+
+ol > li:hover
+{
+  background-color: aquamarine;
+
+}
+ol > li:hover >a
+{
+    color: deeppink;
+}
+
+
+
+ol > li:last-child
+{
+    border-right: none;
+
+}
+
+.nawigacja
+{
+
+    text-align: center;
+    display:block;
+    /* margin-top: 400px; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    float: none;
+    position: relative;
+}
+
+footer
+{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+    height: 35px;
 
 }
 
@@ -13,7 +101,9 @@ a.knopf
     background-color: blue;
     color: gold;
     transition: background-color 3s;
-    font-size: 32px;
+    font-size: 28px;
+    display: inline-block;
+    text-align: center;
 }
 
 a.knopf:hover
@@ -33,7 +123,6 @@ a.pad
     border-radius: 100px 100px 100px 100px;
     background-color: #8EB4E6;
     float: none;
-    text-align: center;
     opacity: 0.85;
     position: relative;
 

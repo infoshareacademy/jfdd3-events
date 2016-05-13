@@ -2,70 +2,105 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Landing Page Event </title>
+    <title>Landing Page Event</title>
     <link rel="stylesheet" href="style-zajawka.css">
     <link rel="stylesheet" href="style-oferta.css">
     <link rel="stylesheet" href="style-zapisz-sie.css">
     <link rel="stylesheet" href="style-nawigacja.css">
 </head>
 <body>
-<section class="zajawka"><div class="logo">Logo</div>
-    <div id="menu">
-        <div class="teil">SPORT</div>
-        <div class="teil">KONCERTY</div>
-        <div class="teil">DZIECI</div>
-        <div class="teil">INNE</div>
-        <div style="clear:both"></div>
-      </div>
+<header>
+    <div class="logo">kalendarz imprez</div>
+
+</header>
+<nav>
+    <ol>
+        <li><a href="#">Moje imprezy</a></li>
+        <li><a href="#">Wyszukiwarka</a></li>
+        <li><a href="#">Miejsca</a></li>
+        <li><a href="#">Dla kogo</a></li>
+        <li><a href="#">Coś ekstra!</a></li>
+        <li><a href="#">O nas</a></li>
+
+    </ol>
+
+</nav>
+
+<main>
+    <div id="zajawka"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis faucibus gravida.
+        Aenean
+        porttitor sed urna sed porttitor. Quisque quis cursus est. Suspendisse nec ultricies tellus, at rhoncus diam.
+        Nullam dapibus ex luctus accumsan interdum. Cras quis pulvinar dui. Vestibulum eget placerat quam. Mauris neque
+        felis, tempus ac consectetur id, dictum maximus turpis. Nunc aliquet non arcu in rutrum. Sed vitae dui sit amet
+        neque suscipit laoreet. Aliquam vulputate nunc eget metus bibendum, in viverra quam scelerisque.</p>
+
+        <p>Curabitur vulputate enim id rutrum maximus. Cras ac ex ut massa tincidunt volutpat. Fusce eleifend dolor nec
+            tristique vestibulum. Vivamus vestibulum convallis urna, at suscipit lectus convallis lobortis. Proin eget
+            libero ac dolor hendrerit cursus vel vel risus. Nulla sit amet tincidunt felis, in accumsan lectus. Maecenas
+            et
+            turpis faucibus, laoreet mi in, luctus quam. Mauris imperdiet, tellus sit amet feugiat pellentesque, ex
+            lorem
+            dapibus ipsum, at viverra tellus nibh condimentum enim. Donec vitae auctor tellus, eu accumsan sapien. Morbi
+            dapibus diam sapien, vel aliquet velit pharetra at. Aliquam pulvinar ipsum et tortor fringilla molestie.
+            Curabitur eget tortor dui. Curabitur vulputate leo nisl, ut malesuada augue ornare id. Quisque aliquam
+            lectus
+            sed hendrerit finibus.</p>
+
+        <div class="nawigacja"><a href="#oferta" onclick="app.scrollTo(event, '#oferta')" class="knopf pad">Chcesz
+            dowiedzieć więcej?</a></div>
 
 
-    <a href="#oferta" onclick="app.scrollTo(event, '#oferta')" class="knopf pad">Chcesz dowiedzieć więcej?</a>
-</section> <!-- Gabriela -->
-<section id="oferta" class="oferta">
-    <p>Co oferujemy</p>
-
-    <div class="oferta-opis">
-        <p>W naszym serwisie znajdziesz zawszę aktulną informację o wydarzeniach w Twoim mieście</p>
-        <ul>
-            <li>Imprezy sportowe</li>
-            <li>Koncerty</li>
-            <li>Gry i zabaway dla dzieci</li>
-            <li>Inne imprezy</li>
-        </ul>
     </div>
-    <div class="calendar-padding">
-        <img src="images/kalendarium_1.jpg" alt="kalendarz" title="kalendarz">
+
+    <div id="oferta"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis faucibus gravida.
+        Aenean
+        porttitor sed urna sed porttitor. Quisque quis cursus est. Suspendisse nec ultricies tellus, at rhoncus diam.
+        Nullam dapibus ex luctus accumsan interdum. Cras quis pulvinar dui. Vestibulum eget placerat quam. Mauris neque
+        felis, tempus ac consectetur id, dictum maximus turpis. Nunc aliquet non arcu in rutrum. Sed vitae dui sit amet
+        neque suscipit laoreet. Aliquam vulputate nunc eget metus bibendum, in viverra quam scelerisque.</p>
+
+
+        <p>Curabitur vulputate enim id rutrum maximus. Cras ac ex ut massa tincidunt volutpat. Fusce eleifend dolor nec
+            tristique vestibulum. Vivamus vestibulum convallis urna, at suscipit lectus convallis lobortis. Proin eget
+            libero ac dolor hendrerit cursus vel vel risus. Nulla sit amet tincidunt felis, in accumsan lectus. Donec
+            vitae auctor tellus, eu accumsan sapien. Morbi dapibus diam sapien, vel aliquet velit pharetra at. Aliquam
+            pulvinar ipsum et tortor fringilla molestie.
+            Curabitur eget tortor dui. Curabitur vulputate leo nisl, ut malesuada augue ornare id. Quisque aliquam
+            lectus
+            sed hendrerit finibus.</p>
+
+        <p>Nunc malesuada tempor mollis. Donec sollicitudin ligula eget libero suscipit dictum. Phasellus ultricies
+            velit
+            sed massa scelerisque laoreet. Aenean et bibendum libero. In cursus scelerisque gravida. Praesent lobortis
+            cursus nisi eget scelerisque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+            turpis egestas. Quisque sit amet ligula nec leo facilisis fringilla eget at dolor. Vivamus ac scelerisque
+            justo,
+            a cursus dui.</p>
+
+        <div class="nawigacja"><a href="#zapisz" onclick="app.scrollTo(event, '#zapisz')" class="knopf pad">Zapisz
+            się!</a></div>
     </div>
-
-    <a href="#zapisz-sie" onclick="app.scrollTo(event, '#zapisz-sie')" class="knopf pad">Zapisz się na premierę!</a>
-
-
-</section> <!-- Sławek -->
-<section class="zapisz-sie">
-    <div class="main-containter">
-        <div class="box">
-            <p>zainteresoway ?</p>
-        </div>
-        <div class="box">
-            <p>chcesz być na bieżąco?</p>
-        </div>
-        <div class="box">
-            <p>darmowe eventy, dla klubowiczów </p>
-        </div>
-
-        <div class="box1"><p>nie zwlekaj, <span>zapisz się już dziś</span></p>
-        <img src="images/arrow.png" alt="arrow"></div>
-        <div class="box2">
-             <form class="formular">
-            <input type="email" name="email" placeholder="Wpisz Email">
-             </form>
-            <button type="button" class="btn-class">Zapisz się</button>
-        </div>
-        <div class="box3">
-            <p> Zapisujesz sie w celu otrzymywania informacji reklamowych i promocji aplikacji <span><a href="#home">Event Calendar</a>.</span></p>
+    <div id="zapisz">
+        <section class="zapisz-sie">
+            <div class="box1">
+                <div>
+                    <p>Zainteresowany ?!</p>
+                    <p>Musisz być na bieżąco</p>
+                    <p>Zostaw adres email a... <span>...My</span></p>
+                    <p>poinformujemy Cie o premierze aplikacji</p>
+                    <p>Nie Zwlekaj, <span>zapisz się już dziś</span></p>
+                </div>
+                <div class="box2">
+                    <form class="formular">
+                        <input type="email" name="email" placeholder="Wpisz Email">
+                    </form>
+                    <button type="button">Zapisz się</button>
+                </div>
+            </div>
+        </section>
     </div>
-        </div>
-</section> <!-- Marcin -->
+</main>
+<footer>kalendarzimprez.com &copy; 2016 by 50/50</footer>
 
 </body>
 </html>
