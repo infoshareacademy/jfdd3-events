@@ -3,8 +3,8 @@
 }
 
 #oferta {
-    width: 1200px;
-    margin: 10px;
+    width: 980px;
+    padding: 10px;
     margin-left: auto;
     margin-right: auto;
     min-height: 500px;
@@ -22,7 +22,7 @@
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 10px;
-    
+
 }
 .kontenerek2 {
     background-color: red;
