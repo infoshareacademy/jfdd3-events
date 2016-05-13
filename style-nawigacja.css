@@ -1,10 +1,13 @@
 body
 {
-    background-color: #8EB4E6;
+    background-size: auto;
+    background-image: url("images/img1.jpeg");
     color: #000000;
     font-family: 'Arial', sans-serif;
     font-size: 20px;
     margin: 0;
+
+
 }
 
 main
@@ -12,6 +15,7 @@ main
     width: 980px;
     padding: 10px;
     background-color: bisque;
+    opacity: 0.75;
     margin-right: auto;
     margin-left: auto;
 
