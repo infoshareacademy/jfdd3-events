@@ -1,60 +1,38 @@
 .zapisz-sie {
-    background-color: #499CB8;
-    background: url(images/bg-zapisz-sie.jpg) no-repeat;
-    background-size: 100%, 100%, auto;
-    height:100vh;
-}
-.zapisz-sie div p {
-    color: #ffffff;
+    background-color: gray;
+    height: 100vh;
+    width: 100vw;
+    text-align:center;
+    color:white;
     font-size: 25px;
+    }
+.zapisz-sie p{
+    padding: 25px;
+}
+.zapisz-sie p:first-letter{
     text-transform: uppercase;
-    text-align: center;
-
-}
-div p:nth-child(1){
-    padding-top:25px;
-
-}
-}
-button {
-
-    color:#499CB8;
-    border: 1px solid #ffffff;
-    background-color: #ADA8A9;
-}
-
-form {
-
-    color:#499CB8;
-
+    font-size: 30px;
+    color:gold;
 }
 input{
-    width:300px;
-    padding:5px;
-    color:#499CB8;
-    border: 1px solid #ffffff;
-    background-color: #ADA8A9;
-    border-radius:2px;
+    font-size: 25px;
+    color: black;
+    padding: 10px;
+    width: 300px;
+    }
+input:hover{
+    color:white;
+    background-color: black;
+    border: 1px solid cornsilk;
+}
+span {
+    color: gold;
+}
+span a{
+    text-decoration: none;
+    color:gold;
 
 }
-::-webkit-input-placeholder {
-    color: #499CB8;
 
-}
-:-moz-placeholder { /* Firefox 18- */
-    color: #499CB8;
-}
-
-::-moz-placeholder {  /* Firefox 19+ */
-    color: #499CB8;
-}
-
-:-ms-input-placeholder {
-    color: #499CB8;
-}
-span{
-    font-weight:bold;
-    font-size:30px;
-}
 
 
