@@ -2,68 +2,107 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Landing Page Event </title>
+    <title>Landing Page Event</title>
+    <link rel="stylesheet" href="css_reset.css">
     <link rel="stylesheet" href="style-zajawka.css">
     <link rel="stylesheet" href="style-oferta.css">
     <link rel="stylesheet" href="style-zapisz-sie.css">
     <link rel="stylesheet" href="style-nawigacja.css">
-
 </head>
 <body>
-<section class="zajawka"><div class="logo">Logo</div>
-    <a href="#oferta" onclick="app.scrollTo(event, '#oferta')" class="knopf pad">Chcesz dowiedzieć więcej?</a>
-</section> <!-- Gabriela -->
-<section id="oferta" class="oferta">
-    <p>Co oferujemy</p>
 
-    <div class="oferta-marginesy">
-        <div class="kontenerek1">
-            <h1 class="oferta-tytul-boxa">Kalendarz imprez</h1>
-            <p>tu będzie przykładowe zdjecie kalendarza z dostępnymi imprezami</p>
-            <p>tu będzie przykładowe zdjecie kalendarza z dostępnymi imprezami</p>
-            <p>tu będzie przykładowe zdjecie kalendarza z dostępnymi imprezami</p>
-            <p>tu będzie przykładowe zdjecie kalendarza z dostępnymi imprezami</p>
-            <p>tu będzie przykładowe zdjecie kalendarza z dostępnymi imprezami</p>
-            <p>tu będzie przykładowe zdjecie kalendarza z dostępnymi imprezami</p>
-            <p>tu będzie przykładowe zdjecie kalendarza z dostępnymi imprezami</p>
-            <p>tu będzie przykładowe zdjecie kalendarza z dostępnymi imprezami</p>
-            <img src="images/kalendarium_1.jpg" class="oferta-zdjecia">
-        </div>
+<nav>
+    <ol>
 
-        <div class="kontenerek2">
-            <h1 class="oferta-tytul-boxa">wyszukaj imprezę</h1>
-            <p>tu będzie przykładowe zdjęcie wyszukiwarki imprez</p>
-            <img src="images/koncert-muzyczny-uniesione-dlonie-ramiona-rece.jpg" class="oferta-zdjecia">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Moje imprezy</a>
+            <ul>
+                <li><a href="#">impreza 1</a></li>
+                <li><a href="#">impreza 2</a></li>
+                <li><a href="#">impreza 3</a></li>
+                <li><a href="#">impreza 4</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Gdańsk</a>
+            <ul>
+                <li><a href="#">miejsce 1</a> </li>
+                <li><a href="#">miejsce 2</a> </li>
+                <li><a href="#">miejsce 3</a> </li>
+                <li><a href="#">miejsce 4</a> </li>
+            </ul>
+        </li>
+        <li><a href="#">Miejsca</a>
+            <ul>
+                <li><a href="#">miejsce 1</a></li>
+                <li><a href="#">miejsce 2</a></li>
+                <li><a href="#">miejsce 3</a></li>
+                <li><a href="#">miejsce 4</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Dla kogo</a>
+            <ul>
+                <li><a href="#">dzieci</a></li>
+                <li><a href="#">młodzież</a></li>
+                <li><a href="#">studenci</a></li>
+                <li><a href="#">single</a></li>
+            </ul>
+        </li>
+        <li><a href="#">O autorach</a></li>
+        <li><a href="#">Szukaj</a></li>
 
-        </div>
+    </ol>
 
-        <div class="kontenerek3">
-            <h1 class="oferta-tytul-boxa">Wyszukaj fajne miejsce</h1>
-            <p>tu będzie coś pokazującego wyszukiwanie wg miejsc</p>
-            <img src="images/mapa-jarmark-dominikanski-gdansk-2013.jpg" class="oferta-zdjecia"
+</nav>
 
-        </div>
+<main>
+    <div id="zajawka">
 
-        <div class="clear"></div>
+        <div class="nawigacja"><a href="#oferta" class="guzik">Chcesz
+            dowiedzieć więcej?</a></div>
+
+
     </div>
-    <a href="#zapisz-sie" onclick="app.scrollTo(event, '#zapisz-sie')" class="knopf pad">Zapisz się na premierę!</a>
+
+    <div id="oferta"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis faucibus gravida.
+        Aenean
+        porttitor sed urna sed porttitor. Quisque quis cursus est. Suspendisse nec ultricies tellus, at rhoncus diam.
+        Nullam dapibus ex luctus accumsan interdum. Cras quis pulvinar dui. Vestibulum eget placerat quam. Mauris neque
+        felis, tempus ac consectetur id, dictum maximus turpis. Nunc aliquet non arcu in rutrum. Sed vitae dui sit amet
+        neque suscipit laoreet. Aliquam vulputate nunc eget metus bibendum, in viverra quam scelerisque.</p>
 
 
-</section> <!-- Sławek -->
-<section id="zapisz-sie">
-    <p class="">Zainteresowany?</p>
+        <p>Curabitur vulputate enim id rutrum maximus. Cras ac ex ut massa tincidunt volutpat. Fusce eleifend dolor nec
+            tristique vestibulum. Vivamus vestibulum convallis urna, at suscipit lectus convallis lobortis. Proin eget
+            libero ac dolor hendrerit cursus vel vel risus. Nulla sit amet tincidunt felis, in accumsan lectus. Donec
+            vitae auctor tellus, eu accumsan sapien. Morbi dapibus diam sapien, vel aliquet velit pharetra at. Aliquam
+            pulvinar ipsum et tortor fringilla molestie.
+            Curabitur eget tortor dui. Curabitur vulputate leo nisl, ut malesuada augue ornare id. Quisque aliquam
+            lectus
+            sed hendrerit finibus.</p>
 
-    <p>Ciekawski?</p>
+        <p>Nunc malesuada tempor mollis. Donec sollicitudin ligula eget libero suscipit dictum. Phasellus ultricies
+            velit
+            sed massa scelerisque laoreet. Aenean et bibendum libero. In cursus scelerisque gravida. Praesent lobortis
+            cursus nisi eget scelerisque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+            turpis egestas. Quisque sit amet ligula nec leo facilisis fringilla eget at dolor. Vivamus ac scelerisque
+            justo,
+            a cursus dui.</p>
 
-    <p>Zostaw adres email</p>
+        <div class="nawigacja1"><a href="#zapisz" class="guzik">Zapisz się!</a></div>
 
-    <p>Bądz na <span>topie</span></p>
 
-    <form class="formular">
-        <input type="email" name="email" placeholder="Wpisz Email">
-    </form>
-    <button type="button">Zapisz się</button>
-</section> <!-- Marcin -->
+     </div>
+     <div id="zapisz">
 
-</body>
-</html>
+        <div class="form1">
+         <form>
+             <input type="email" placeholder="tu wpisz swój e-mail">
+            <input type="submit" value="Wyślij">
+         </form>
+        </div>
+     </div>
+ </main>
+ <footer>kalendarzimprez.com &copy; 2016 by 50/50</footer>
+
+ </body>
+ </html>

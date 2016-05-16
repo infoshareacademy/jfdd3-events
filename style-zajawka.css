@@ -1,31 +1,32 @@
-.zajawka
+#zajawka
 {
-    /*background-image: url(images/tlo.bmp);*/
-    width: 980px;
+    /*background-image: url(images/001.jpg);*/
+    background-color: black;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
     margin-left: auto;
     margin-right: auto;
-    min-height: 500px;
-    background-color: #73ff51;
-    background-repeat: no-repeat;
 }
-header
+/*header
 {
     width: 100%;
-    background-color: aqua;
-    padding: 15px 0;
+    background-color: transparent;
+    padding: 10px 0;
     margin: 0;
-}
+}*/
 
+/*
 .logo
 {
     font-family: 'Arial', sans-serif;
-    font-size: 80px;
+    font-size: 35px;
     padding-top: 10px;
     padding-left: 10px;
     letter-spacing: 3px;
-    color: coral;
+    color: black;
     text-transform: uppercase;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
-}
+}*/
