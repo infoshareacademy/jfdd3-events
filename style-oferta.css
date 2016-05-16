@@ -1,15 +1,13 @@
 #oferta
 {
-    width: 1060px;
-    position: relative;
-    border: dotted 1px;
-    border-color: magenta;
-    top: 40px;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
     margin-left: auto;
     margin-right: auto;
-    min-height: 620px;
+
 }
-.oferta
+/*.oferta
 {
     position: relative;
 }
@@ -28,4 +26,4 @@
     border: 5px solid red;
     width: 500px;
     float: left;
-}
+}*/

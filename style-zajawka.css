@@ -1,22 +1,22 @@
 #zajawka
 {
-    background-image: url(images/001.jpg);
+    /*background-image: url(images/001.jpg);*/
+    background-color: black;
     position: relative;
-    width: 1060px;
+    width: 100vw;
+    height: 100vh;
     margin-left: auto;
     margin-right: auto;
-    min-height: 580px;
-    background-color: transparent;
-    background-repeat: no-repeat;
 }
-header
+/*header
 {
     width: 100%;
     background-color: transparent;
     padding: 10px 0;
     margin: 0;
-}
+}*/
 
+/*
 .logo
 {
     font-family: 'Arial', sans-serif;
@@ -29,4 +29,4 @@ header
     margin-right: auto;
     margin-left: auto;
     text-align: center;
-}
+}*/
