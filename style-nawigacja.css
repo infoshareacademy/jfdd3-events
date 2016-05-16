@@ -1,50 +1,164 @@
 body
 {
-    background-color: #F0F8FF;
-    color: #000000;
+    background-color: white;
+    color: black;
     font-family: 'Lato', sans-serif;
-    font-size: 20px;
-
+    font-size: 15px;
+    margin: 0;
 }
 
-
-a.knopf
+main
 {
-    background-color: blue;
-    color: gold;
-    transition: background-color 3s;
-    font-size: 32px;
-}
-
-a.knopf:hover
-{
-
-    background-color: #CC0066;
-}
-
-a.pad
-{
-    display:block;
-    /* margin-top: 400px; */
-    margin-left: auto;
+    width: 100%;
+    padding: 0;
+    background-color: transparent;
     margin-right: auto;
-    width: 200px;
-    height: 200px;
-    border-radius: 100px 100px 100px 100px;
-    background-color: #8EB4E6;
-    float: none;
-    text-align: center;
-    opacity: 0.85;
-    position: relative;
+    margin-left: auto;
 
 }
 
-#menu
+nav
 {
-    min-height: 50px;
+    position: fixed;
+    width: 100%;
+    padding: 5px 0;
     background-color: #CC0066;
+    text-align: center;
+    margin: 0;
+    height: 30px;
+    z-index: 100;
+}
+
+ol
+{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 15px;
+    height: 30px;
+    line-height: 200%;
+    display: inline-block;
+}
+
+ol a
+{
+    color: greenyellow;
+    text-decoration: none;
+    position: relative;
+    padding: 5px 25px;
 
 }
+
+ol > li
+{
+    float: left;
+    width: 180px;
+    height: 30px;
+    display: block;
+    border-right: 2px solid black;
+}
+
+ol > li:hover
+{
+  background-color: aquamarine;
+
+}
+ol > li:hover >a
+{
+    color: deeppink;
+}
+
+
+
+/*ol > li:last-child
+{
+    border-right: none;*/
+
+ol > li > ul
+{
+   list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 30px;
+    display: none;
+}
+ol > li:hover > ul
+{
+    display: block;
+
+}
+
+ol > li > ul >li
+{
+    background-color: #766f34;
+    position: relative;
+    z-index: 100;
+    border-top: 1px dashed black;
+}
+
+ol > li > ul >li:hover
+{
+
+    background-color: #0088cc;
+}
+ol > li > ul >li:hover >a
+{
+    color: #766f34;
+
+}
+
+
+.nawigacja
+{
+    text-align: center;
+    display: block;
+    padding-top: 15px;
+    width: 200px;
+    height: 30px;
+    background-color: magenta;
+    float: none;
+    position: relative;
+    z-index: 100;
+    left: 45px;
+    top: 500px;
+
+}
+.nawigacja1
+{
+    text-align: center;
+    display: block;
+    padding-top: 15px;
+    width: 200px;
+    height: 30px;
+    background-color: magenta;
+    float: none;
+    position: relative;
+    z-index: 100;
+    left: 45px;
+    top: 290px;
+
+}
+
+.guzik
+{
+    font-size: 15px;
+    text-decoration: none;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+footer
+{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 15px;
+    height: 35px;
+
+
+}
+
 
 .teil
 {

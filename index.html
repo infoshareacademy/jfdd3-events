@@ -2,70 +2,120 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Landing Page Event </title>
+    <title>Landing Page Event</title>
+    <link rel="stylesheet" href="css_reset.css">
     <link rel="stylesheet" href="style-zajawka.css">
     <link rel="stylesheet" href="style-oferta.css">
     <link rel="stylesheet" href="style-zapisz-sie.css">
     <link rel="stylesheet" href="style-nawigacja.css">
 </head>
 <body>
-<section class="zajawka"><div class="logo">Logo</div>
-    <div id="menu">
-        <div class="teil">SPORT</div>
-        <div class="teil">KONCERTY</div>
-        <div class="teil">DZIECI</div>
-        <div class="teil">INNE</div>
-        <div style="clear:both"></div>
-      </div>
+
+<nav>
+    <ol>
+
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Moje imprezy</a>
+            <ul>
+                <li><a href="#">impreza 1</a></li>
+                <li><a href="#">impreza 2</a></li>
+                <li><a href="#">impreza 3</a></li>
+                <li><a href="#">impreza 4</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Gdańsk</a>
+            <ul>
+                <li><a href="#">miejsce 1</a> </li>
+                <li><a href="#">miejsce 2</a> </li>
+                <li><a href="#">miejsce 3</a> </li>
+                <li><a href="#">miejsce 4</a> </li>
+            </ul>
+        </li>
+        <li><a href="#">Miejsca</a>
+            <ul>
+                <li><a href="#">miejsce 1</a></li>
+                <li><a href="#">miejsce 2</a></li>
+                <li><a href="#">miejsce 3</a></li>
+                <li><a href="#">miejsce 4</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Dla kogo</a>
+            <ul>
+                <li><a href="#">dzieci</a></li>
+                <li><a href="#">młodzież</a></li>
+                <li><a href="#">studenci</a></li>
+                <li><a href="#">single</a></li>
+            </ul>
+        </li>
+        <li><a href="#">O autorach</a></li>
+        <li><a href="#">Szukaj</a></li>
+
+    </ol>
+
+</nav>
+
+<main>
+    <div id="zajawka">
+
+        <div class="nawigacja"><a href="#oferta" class="guzik">Chcesz
+            dowiedzieć więcej?</a></div>
 
 
-    <a href="#oferta" onclick="app.scrollTo(event, '#oferta')" class="knopf pad">Chcesz dowiedzieć więcej?</a>
-</section> <!-- Gabriela -->
-<section id="oferta" class="oferta">
-    <p>Co oferujemy</p>
-
-    <div class="oferta-opis">
-        <p>W naszym serwisie znajdziesz zawszę aktulną informację o wydarzeniach w Twoim mieście</p>
-        <ul>
-            <li>Imprezy sportowe</li>
-            <li>Koncerty</li>
-            <li>Gry i zabaway dla dzieci</li>
-            <li>Inne imprezy</li>
-        </ul>
     </div>
-    <div class="calendar-padding">
-        <img src="images/kalendarium_1.jpg" alt="kalendarz" title="kalendarz">
-    </div>
 
-    <a href="#zapisz-sie" onclick="app.scrollTo(event, '#zapisz-sie')" class="knopf pad">Zapisz się na premierę!</a>
+    <section id="oferta" class="oferta">
+        <p>Co oferujemy</p>
+
+        <div class="oferta-marginesy">
+            <div class="kontenerek1">
+                <h1 class="oferta-tytul-boxa">Kalendarz imprez</h1>
+                <p>tu będzie przykładowe zdjecie kalendarza z dostępnymi imprezami</p>
+                <p>tu będzie przykładowe zdjecie kalendarza z dostępnymi imprezami</p>
+                <p>tu będzie przykładowe zdjecie kalendarza z dostępnymi imprezami</p>
+                <p>tu będzie przykładowe zdjecie kalendarza z dostępnymi imprezami</p>
+                <p>tu będzie przykładowe zdjecie kalendarza z dostępnymi imprezami</p>
+                <p>tu będzie przykładowe zdjecie kalendarza z dostępnymi imprezami</p>
+                <p>tu będzie przykładowe zdjecie kalendarza z dostępnymi imprezami</p>
+                <p>tu będzie przykładowe zdjecie kalendarza z dostępnymi imprezami</p>
+                <img src="images/kalendarium_1.jpg" class="oferta-zdjecia">
+            </div>
+
+            <div class="kontenerek2">
+                <h1 class="oferta-tytul-boxa">wyszukaj imprezę</h1>
+                <p>tu będzie przykładowe zdjęcie wyszukiwarki imprez</p>
+                <img src="images/koncert-muzyczny-uniesione-dlonie-ramiona-rece.jpg" class="oferta-zdjecia">
+
+            </div>
+
+            <div class="kontenerek3">
+                <h1 class="oferta-tytul-boxa">Wyszukaj fajne miejsce</h1>
+                <p>tu będzie coś pokazującego wyszukiwanie wg miejsc</p>
+                <img src="images/mapa-jarmark-dominikanski-gdansk-2013.jpg" class="oferta-zdjecia"
+
+            </div>
+        </div>
 
 
-</section> <!-- Sławek -->
-<section class="zapisz-sie">
-    <div class="main-containter">
-        <div class="box">
-            <p>zainteresoway ?</p>
-        </div>
-        <div class="box">
-            <p>chcesz być na bieżąco?</p>
-        </div>
-        <div class="box">
-            <p>darmowe eventy, dla klubowiczów </p>
-        </div>
 
-        <div class="box1"><p>nie zwlekaj, <span>zapisz się już dziś</span></p>
-        <img src="images/arrow.png" alt="arrow"></div>
-        <div class="box2">
-             <form class="formular">
-            <input type="email" name="email" placeholder="Wpisz Email">
-             </form>
-            <button type="button" class="btn-class">Zapisz się</button>
-        </div>
-        <div class="box3">
-            <p> Zapisujesz sie w celu otrzymywania informacji reklamowych i promocji aplikacji <span><a href="#home">Event Calendar</a>.</span></p>
-    </div>
-        </div>
-</section> <!-- Marcin -->
 
-</body>
-</html>
+
+
+
+            <div class="nawigacja1"><a href="#zapisz" class="guzik">Zapisz się!</a></div>
+
+
+     </div>
+     <div id="zapisz">
+
+        <div class="form1">
+         <form>
+             <input type="email" placeholder="tu wpisz swój e-mail">
+            <input type="submit" value="Wyślij">
+         </form>
+        </div>
+     </div>
+ </main>
+ <footer>kalendarzimprez.com &copy; 2016 by 50/50</footer>
+
+ </body>
+ </html>
