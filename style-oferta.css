@@ -15,7 +15,7 @@
 .kontenerek1, .kontenerek2, .kontenerek3 {
     float: left;
     width: 30%;
-    background-color: yellow;
+    background: rgba(255, 255, 255, 0.5);
     margin-left: 20px;
 
     background-size: auto;
@@ -25,10 +25,10 @@
 
 }
 .kontenerek2 {
-    background-color: red;
+    background: rgba(255, 255, 255, 0.5);
 }
 .kontenerek3 {
-    background-color: aqua;
+    background: rgba(255, 255, 255, 0.5);
 }
 
 .oferta-marginesy{
@@ -37,7 +37,7 @@
     height: auto;
 }
 .oferta-tytul-boxa {
-    font-family: "Arial";
+    font-family: 'Monda', sans-serif;
     font-size: large;
     text-align: center;
 
