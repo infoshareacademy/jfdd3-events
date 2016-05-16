@@ -1,4 +1,5 @@
-.zapisz-sie {
+.zapisz
+{
     background-color: gray;
     height: 100vh;
     width: 100vw;
@@ -6,10 +7,11 @@
     color:white;
     font-size: 25px;
     }
-.zapisz-sie p{
+.zapisz p
+{
     padding: 25px;
 }
-.zapisz-sie p:first-letter{
+.zapisz p:first-letter{
     text-transform: uppercase;
     font-size: 30px;
     color:gold;

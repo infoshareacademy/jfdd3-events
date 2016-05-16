@@ -2,7 +2,7 @@ body
 {
     background-color: white;
     color: black;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-size: 15px;
     margin: 0;
 }
@@ -22,7 +22,7 @@ nav
     position: fixed;
     width: 100%;
     padding: 5px 0;
-    background-color: #CC0066;
+    background-color: transparent;
     text-align: center;
     margin: 0;
     height: 30px;
@@ -42,8 +42,8 @@ ol
 
 ol a
 {
-    color: greenyellow;
-    text-decoration: none;
+    color: black;
+    /*text-decoration: none;*/
     position: relative;
     padding: 5px 25px;
 
@@ -52,90 +52,50 @@ ol a
 ol > li
 {
     float: left;
-    width: 180px;
+    width: 240px;
     height: 30px;
     display: block;
-    border-right: 2px solid black;
+    /*border-right: 2px solid black;*/
 }
 
 ol > li:hover
 {
-  background-color: aquamarine;
+  background-color: red;
 
 }
 ol > li:hover >a
 {
-    color: deeppink;
+    color: white;
 }
-
-
-
-/*ol > li:last-child
-{
-    border-right: none;*/
-
-ol > li > ul
-{
-   list-style-type: none;
-    padding: 0;
-    margin: 0;
-    height: 30px;
-    display: none;
-}
-ol > li:hover > ul
-{
-    display: block;
-
-}
-
-ol > li > ul >li
-{
-    background-color: #766f34;
-    position: relative;
-    z-index: 100;
-    border-top: 1px dashed black;
-}
-
-ol > li > ul >li:hover
-{
-
-    background-color: #0088cc;
-}
-ol > li > ul >li:hover >a
-{
-    color: #766f34;
-
-}
-
 
 .nawigacja
 {
     text-align: center;
     display: block;
-    padding-top: 15px;
+    /*padding-top: 15px;*/
     width: 200px;
     height: 30px;
-    background-color: magenta;
+    background-color: transparent;
     float: none;
     position: relative;
     z-index: 100;
-    left: 45px;
-    top: 500px;
+    margin: auto;
+    padding-top: 90vh;
 
 }
 .nawigacja1
 {
     text-align: center;
     display: block;
-    padding-top: 15px;
+    /*padding-top: 15px;*/
     width: 200px;
     height: 30px;
-    background-color: magenta;
+    background-color: transparent;
     float: none;
     position: relative;
     z-index: 100;
-    left: 45px;
-    top: 290px;
+    margin: auto;
+    padding-top: 0;
 
 }
 

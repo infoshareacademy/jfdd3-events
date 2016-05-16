@@ -20,14 +20,16 @@
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 10px;
+    height: 80vh;
+    position: relative;
 }
 .kontenerek2 {
     background-color: red;
-    width: 25%;
+    width: 20%;
 }
 .kontenerek3 {
     background-color: aqua;
-    width: 25%
+    width: 20%
 }
 
 .oferta-marginesy{

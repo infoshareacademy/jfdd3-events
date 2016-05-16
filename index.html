@@ -8,57 +8,34 @@
     <link rel="stylesheet" href="style-oferta.css">
     <link rel="stylesheet" href="style-zapisz-sie.css">
     <link rel="stylesheet" href="style-nawigacja.css">
+    <link rel="stylesheet" href="fontello.css">
 </head>
 <body>
 <nav>
     <ol>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Moje imprezy</a>
-            <ul>
-                <li><a href="#">impreza 1</a></li>
-                <li><a href="#">impreza 2</a></li>
-                <li><a href="#">impreza 3</a></li>
-                <li><a href="#">impreza 4</a></li>
-            </ul>
-        </li>
-        <li><a href="#">Gdańsk</a>
-            <ul>
-                <li><a href="#">miejsce 1</a></li>
-                <li><a href="#">miejsce 2</a></li>
-                <li><a href="#">miejsce 3</a></li>
-                <li><a href="#">miejsce 4</a></li>
-            </ul>
-        </li>
-        <li><a href="#">Miejsca</a>
-            <ul>
-                <li><a href="#">miejsce 1</a></li>
-                <li><a href="#">miejsce 2</a></li>
-                <li><a href="#">miejsce 3</a></li>
-                <li><a href="#">miejsce 4</a></li>
-            </ul>
-        </li>
-        <li><a href="#">Dla kogo</a>
-            <ul>
-                <li><a href="#">dzieci</a></li>
-                <li><a href="#">młodzież</a></li>
-                <li><a href="#">studenci</a></li>
-                <li><a href="#">single</a></li>
-            </ul>
-        </li>
+        <li><a href="#zajawka">Home</a></li>
+        <li><a href="#oferta">Oferta</a></li>
+        <li><a href="#zapisz">Zapisz się na premierę</a></li>
         <li><a href="#">O autorach</a></li>
-        <li><a href="#">Szukaj</a></li>
     </ol>
 </nav>
 <main>
     <div id="zajawka">
 
-        <div class="nawigacja"><a href="#oferta" class="guzik">Chcesz
-            dowiedzieć więcej?</a></div>
+        <div class="nawigacja"><a href="#oferta" class="guzik"><i class="icon-down-open"></i></a></div>
     </div>
-    <section id="oferta" class="oferta">
+
+    <!--Ustalenia były po to aby utrzymać ład, a nie robić pierdolnik w kodzie!!
+        DIV z laScali nam tu nie potrzeba, wstawcie normalne porządnie sformatowane divy!!-->
+
+    <div id="oferta" class="oferta">
         <p>Co oferujemy</p>
         <div class="oferta-marginesy">
             <div class="kontenerek1">
+                <!--po co zaśmiecać kod 'p' przy każdej linijce tekstu? Wpisz
+                normalnie jakiś tekst do diva i go
+                sformatuj, wpierw zrób porządny podział na divy i potem divy w divie-->
+
                 <h1 class="oferta-tytul-boxa">Kalendarz imprez</h1>
                 <p>tu będzie przykładowe zdjecie kalendarza z dostępnymi imprezami</p>
                 <p>tu będzie przykładowe zdjecie kalendarza z dostępnymi imprezami</p>
@@ -81,11 +58,15 @@
                 <img src="images/mapa-jarmark-dominikanski-gdansk-2013.jpg" class="oferta-zdjecia">
             </div>
         </div>
-    </section>
-    <div class="nawigacja1">
-        <a href="#" class="guzik">Zapisz się!</a>
     </div>
-    <div class="zapisz-sie">
+    <div class="nawigacja1">
+        <a href="#zapisz" class="guzik"><i class="icon-down-open"></i></a>
+    </div>
+    <div id="zapisz" class="zapisz"> <!--Marcin:Tu musi być id koniecznie - anchor dla nav!
+        Input już był sformatowany bez żadnych br i tym podobnych cudaków, chyba co nie? Fajnie gdybyś wrócił do tej
+        wersji.A do tekstu zrób diva w divie; tam go wstaw i sformatuj, pojedyńcze 'p' do każdej linijki tekstu
+        wygląda trochę śmiesznie. -->
+
         <p>zapisz się na premierę już dziś</p>
         <p>nie zwlekaj, to tylko minuta ! </p>
         <p>by być na bieżąco ze wszystkimi wydarzeniami w Trójmieście</p>
@@ -95,6 +76,7 @@
             <input type="button" class="btn" value="Zapisz się na premierę"></br>
         </form>
         <p>podane informacje służą jedynie do celów promocyjnych aplikacji <span><a href="#home">event calendar</a></span></p>
+        <!--Oświeć mnie proszę o co w tej linijce kodu powyżej chodzi?? Do jakiego home chcesz się dostać? -->
     </div>
 </main>
 <footer>kalendarzimprez.com &copy; 2016 by 50/50</footer>
