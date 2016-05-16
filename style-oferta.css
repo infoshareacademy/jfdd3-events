@@ -1,49 +1,31 @@
-.clear {
-    clear: both;
-}
-
-#oferta {
-    width: 980px;
-    padding: 10px;
+#oferta
+{
+    width: 1060px;
+    position: relative;
+    border: dotted 1px;
+    border-color: magenta;
+    top: 40px;
     margin-left: auto;
     margin-right: auto;
-    min-height: 500px;
-    padding-top: 15px;
-
+    min-height: 620px;
+}
+.oferta
+{
+    position: relative;
+}
+.calendar-padding
+{
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid red;
+    width: 500px;
+    float: right;
 }
 
-.kontenerek1, .kontenerek2, .kontenerek3 {
+.oferta-opis
+{
+    display: inline-block;
+    border: 5px solid red;
+    width: 500px;
     float: left;
-    width: 30%;
-    background: rgba(255, 255, 255, 0.5);
-    margin-left: 20px;
-
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding-top: 10px;
-
-}
-.kontenerek2 {
-    background: rgba(255, 255, 255, 0.5);
-}
-.kontenerek3 {
-    background: rgba(255, 255, 255, 0.5);
-}
-
-.oferta-marginesy{
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-}
-.oferta-tytul-boxa {
-    font-family: 'Monda', sans-serif;
-    font-size: large;
-    text-align: center;
-
-}
-.oferta-zdjecia {
-
-    width: 100%
-
 }
