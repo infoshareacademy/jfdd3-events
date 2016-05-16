@@ -19,12 +19,14 @@ main
 
 nav
 {
+    position: fixed;
     width: 100%;
     padding: 5px 0;
     background-color: #CC0066;
     text-align: center;
     margin: 0;
     height: 30px;
+    z-index: 100;
 }
 
 ol
@@ -153,6 +155,7 @@ footer
     padding-top: 25px;
     font-size: 15px;
     height: 35px;
+
 
 }
 
