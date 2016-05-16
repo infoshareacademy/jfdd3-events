@@ -3,11 +3,11 @@
 }
 
 #oferta {
-    width: 980px;
+    width: auto;
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
-    min-height: 500px;
+    height: auto;
     padding-top: 15px;
 
 }
@@ -34,7 +34,8 @@
 .oferta-marginesy{
     margin-left: auto;
     margin-right: auto;
-    height: auto;
+    height: 100vh;
+
 }
 .oferta-tytul-boxa {
     font-family: "Arial";
