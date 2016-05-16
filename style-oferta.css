@@ -1,0 +1,49 @@
+.clear {
+    clear: both;
+}
+
+#oferta {
+    width: 980px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 500px;
+    padding-top: 15px;
+
+}
+
+.kontenerek1, .kontenerek2, .kontenerek3 {
+    float: left;
+    width: 30%;
+    background-color: yellow;
+    margin-left: 20px;
+
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 10px;
+
+}
+.kontenerek2 {
+    background-color: red;
+}
+.kontenerek3 {
+    background-color: aqua;
+}
+
+.oferta-marginesy{
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+.oferta-tytul-boxa {
+    font-family: "Arial";
+    font-size: large;
+    text-align: center;
+
+}
+.oferta-zdjecia {
+
+    width: 100%
+
+}

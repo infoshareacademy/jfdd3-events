@@ -1,0 +1,60 @@
+.zapisz-sie {
+    background-color: #499CB8;
+    background: url(images/bg-zapisz-sie.jpg) no-repeat;
+    background-size: 100%, 100%, auto;
+    height:100vh;
+}
+.zapisz-sie div p {
+    color: #ffffff;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+div p:nth-child(1){
+    padding-top:25px;
+
+}
+
+button {
+
+    color:#499CB8;
+    border: 1px solid #ffffff;
+    background-color: #ADA8A9;
+}
+
+form {
+
+    color:#499CB8;
+
+}
+input{
+    width:300px;
+    padding:5px;
+    color:#499CB8;
+    border: 1px solid #ffffff;
+    background-color: #ADA8A9;
+    border-radius:2px;
+
+}
+::-webkit-input-placeholder {
+    color: #499CB8;
+
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: #499CB8;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    color: #499CB8;
+}
+
+:-ms-input-placeholder {
+    color: #499CB8;
+}
+span{
+    font-weight:bold;
+    font-size:30px;
+}
+
+
