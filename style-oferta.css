@@ -1,43 +1,45 @@
+#oferta
+{
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+
+}
 .clear {
     clear: both;
 }
 
-#oferta {
-    width: 980px;
-    padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    min-height: 500px;
-    padding-top: 15px;
-
-}
-
 .kontenerek1, .kontenerek2, .kontenerek3 {
     float: left;
-    width: 30%;
-    background: rgba(255, 255, 255, 0.5);
+    width: 50%;
+    background-color: yellow;
     margin-left: 20px;
-
     background-size: auto;
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 10px;
-
+    height: 80vh;
+    position: relative;
 }
 .kontenerek2 {
-    background: rgba(255, 255, 255, 0.5);
+    background-color: red;
+    width: 20%;
 }
 .kontenerek3 {
-    background: rgba(255, 255, 255, 0.5);
+    background-color: aqua;
+    width: 20%
 }
 
 .oferta-marginesy{
     margin-left: auto;
     margin-right: auto;
-    height: auto;
+    height: 100vh;
+
 }
 .oferta-tytul-boxa {
-    font-family: 'Monda', sans-serif;
+    font-family: "Arial";
     font-size: large;
     text-align: center;
 
