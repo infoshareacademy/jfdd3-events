@@ -29,6 +29,16 @@ nav
     z-index: 100;
 }
 
+.sekcja
+{
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
 ol
 {
     padding: 0;
@@ -115,10 +125,7 @@ footer
     padding-top: 25px;
     font-size: 15px;
     height: 35px;
-
-
 }
-
 
 .teil
 {
@@ -128,5 +135,4 @@ footer
     min-width: 280px;
     text-align: center;
     padding-top: 20px;
-
 }
