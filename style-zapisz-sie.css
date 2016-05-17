@@ -6,6 +6,8 @@
     text-align:center;
     color:white;
     font-size: 25px;
+    padding-top:50px;
+    display:flex;
     }
 .zapisz p
 {
@@ -16,16 +18,27 @@
     font-size: 30px;
     color:gold;
 }
+.p-reg{
+    font-size: 10px;
+    text-decoration: blink;
+    }
 input{
-    font-size: 25px;
+    font-size: 18px;
     color: black;
-    padding: 10px;
-    width: 300px;
+    padding: 1px;
+    width: 350px;
+    height: 35px;
+    box-sizing: border-box;
+    text-align: center;
+    border:none;
+    margin-top:10px;
+    margin-bottom:10px;
     }
 input:hover{
-    color:white;
-    background-color: black;
-    border: 1px solid cornsilk;
+    color:gold;
+    background-color: white;
+    opacity: 1;
+
 }
 span {
     color: gold;
@@ -35,6 +48,14 @@ span a{
     color:gold;
 
 }
-
+form{
+    background-color: black;
+    opacity: 0.5;
+}
+.zapisz-center {
+    text-align: center;
+    align-self: center;
+    align-content: center;
+}
 
 
