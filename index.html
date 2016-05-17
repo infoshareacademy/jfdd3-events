@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Landing Page Event</title>
     <link rel="stylesheet" href="reset-css.css">
+    <link rel="stylesheet" href="css/fontello.css">
     <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,800' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="style-zajawka.css">
     <link rel="stylesheet" href="style-oferta.css">
@@ -17,14 +18,15 @@
     <ol>
         <li><a href="#zajawka">Home</a></li>
         <li><a href="#oferta">Oferta</a></li>
-        <li><a href="#zapisz">Zapisz się na premierę</a></li>
-        <li><a href="#onas">O autorach</a></li>
+        <li><a href="#zapisz">Premiera</a></li>
+        <li><a href="#onas">O nas</a></li>
     </ol>
 
 </nav>
 
 <main>
-    <div id="#zajawka" class="div1">
+   <div id="zajawka" class="sekcja">
+    <div class="div1">
 
         <img src="images/object5.png" id="o5">
         <img src="images/object3.png" id="o3">
@@ -38,79 +40,52 @@
             <h1>Skoro miasto nie śpi</h1>
             <h2>to czemu ty masz spać?</h2>
         </div>
-        <div class="nawigacja"><a href="#oferta" class="guzik">Zapisz się<i class="icon-down-open"></i></a></div>
+    </div>
+
+       <div class="button">
+           <div class="nawigacja"><a href="#oferta" class="guzik"><i class="icon-down-open">Strzałka</i></a></div>
+       </div>
+
     </div>
 
 
-    <div id="oferta" class="oferta">
-        <!--<p>Co oferujemy</p>-->
+    <div id="oferta">
+    <div class="sekcja">
 
-        <!--<div class="oferta-marginesy">-->
-            <!--<div class="kontenerek1">-->
-                <!--&lt;!&ndash;po co zaśmiecać kod 'p' przy każdej linijce tekstu? Wpisz-->
-                <!--normalnie jakiś tekst do diva i go-->
-                <!--sformatuj, wpierw zrób porządny podział na divy i potem divy w divie&ndash;&gt;-->
 
-                <!--<h1 class="oferta-tytul-boxa">Kalendarz imprez</h1>-->
 
-                <!--<p>tu będzie przykładowe zdjecie kalendarza z dostępnymi imprezami</p>-->
-
-                <!--<p>tu będzie przykładowe zdjecie kalendarza z dostępnymi imprezami</p>-->
-
-                <!--<p>tu będzie przykładowe zdjecie kalendarza z dostępnymi imprezami</p>-->
-
-                <!--<p>tu będzie przykładowe zdjecie kalendarza z dostępnymi imprezami</p>-->
-
-                <!--<p>tu będzie przykładowe zdjecie kalendarza z dostępnymi imprezami</p>-->
-
-                <!--<p>tu będzie przykładowe zdjecie kalendarza z dostępnymi imprezami</p>-->
-
-                <!--<p>tu będzie przykładowe zdjecie kalendarza z dostępnymi imprezami</p>-->
-
-                <!--<p>tu będzie przykładowe zdjecie kalendarza z dostępnymi imprezami</p>-->
-                <!--<img src="images/kalendarium_1.jpg" class="oferta-zdjecia">-->
-            <!--</div>-->
-
-            <!--<div class="kontenerek2">-->
-                <!--<h1 class="oferta-tytul-boxa">wyszukaj imprezę</h1>-->
-
-                <!--<p>tu będzie przykładowe zdjęcie wyszukiwarki imprez</p>-->
-                <!--<img src="images/koncert-muzyczny-uniesione-dlonie-ramiona-rece.jpg" class="oferta-zdjecia">-->
-
-            <!--</div>-->
-
-            <!--<div class="kontenerek3">-->
-                <!--<h1 class="oferta-tytul-boxa">Wyszukaj fajne miejsce</h1>-->
-
-                <!--<p>tu będzie coś pokazującego wyszukiwanie wg miejsc</p>-->
-                <!--<img src="images/mapa-jarmark-dominikanski-gdansk-2013.jpg" class="oferta-zdjecia">-->
-
-            <!--</div>-->
-        <!--</div>-->
-    </div>
-    <div class="nawigacja1">
-        <a href="#zapisz" class="guzik"><i class="icon-down-open"></i></a>
-    </div>
-    <div id="zapisz" class="zapisz">
-
-        <p>zapisz się na premierę już dziś</p>
-        <p>nie zwlekaj, to tylko minuta ! </p>
-        <p>by być na bieżąco ze wszystkimi wydarzeniami w Trójmieście</p>
-        <p>wpisz email i zapisz się do newslettera</p>
-        <form>
-            <input type="email" name="mail" placeholder="Wpisz adres e-mail"><br>
-            <input type="button" class="btn" value="Zapisz się na premierę"><br>
-        </form>
-        <p>podane informacje służą jedynie do celów promocyjnych aplikacji <span><a href="#home">event calendar</a></span></p>
 
     </div>
-</main>
-<footer>
-    <div class="nawigacja2">
-    <a href="#onas" class="guzik">Chcesz nas poznać?<i class="icon-down-open"></i></a>
+        <div class="button">
+            <div class="nawigacja"><a href="#zapisz" class="guzik"><i class="icon-down-open">Strzałka</i></a></div>
+        </div>
     </div>
-    <div id="onas" class="sekcja">
-        <div class="niewidoczny"></div>
+
+    <div id="zapisz">
+        <div class="sekcja">
+        <div class="zapisz">
+
+            <div class="zbiornik">
+                <div class="z1">//</div>
+                <div class="clear"></div>
+                <div class="z2">dowiedz się</div>
+                <div class="z2">o najnowszych imprezach!</div>
+            </div>
+            <div class="form1">
+                <form>
+                    <input type="email" placeholder="Twój e-mail">
+                    <input type="submit" value="Wyślij">
+                </form>
+            </div>
+        </div>
+        </div>
+        <div class="button">
+            <div class="nawigacja"><a href="#onas" class="guzik"><i class="icon-down-open">Strzałka</i></a></div>
+        </div>
+    </div>
+
+    <div id="onas">
+        <div class="sekcja">
         <div class="fotki">
             <div class="f"><div class="img"><div class="opis"></div></div></div>
             <div class="f"><div class="img"><div class="opis"></div></div></div>
@@ -126,6 +101,10 @@
                 <div class="clear"></div>
             </div>
             <div class="clear"></div>
-    </div></footer>
+         </footer>
+        </div>
+    </div>
+
+</main>
 </body>
 </html>
