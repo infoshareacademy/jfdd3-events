@@ -36,7 +36,6 @@ nav
     height: 100vh;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 ol
@@ -93,6 +92,7 @@ ol > li:hover >a
     padding-top: 90vh;
 
 }
+
 .nawigacja1
 {
     text-align: center;
@@ -105,17 +105,63 @@ ol > li:hover >a
     position: relative;
     z-index: 100;
     margin: auto;
+    padding-top: 50px;
+
+}
+.nawigacja2
+{
+    text-align: center;
+    display: block;
+    /*padding-top: 15px;*/
+    width: 200px;
+    height: 30px;
+    background-color: transparent;
+    float: none;
+    position: relative;
+    z-index: 100;
+    margin: auto;
     padding-top: 0;
+}
+.niewidoczny
+{
+    position: relative;
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+    margin: 0;
+    height: 30px;
+    z-index: 0;
 
 }
 
-.guzik
+/*.guzik
 {
     font-size: 15px;
     text-decoration: none;
     margin-bottom: 60px;
     position: relative;
+}*/
+
+.fotki
+{
+    background-color: blue;
+    position: relative;
+    width: 100%;
+    margin-top: 60px;
+    padding-top: 60px;
+    min-height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
+
+.f
+{
+
+
+
+}
+
 
 footer
 {
