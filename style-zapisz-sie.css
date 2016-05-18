@@ -1,36 +1,40 @@
-.zapisz
-{
+.zapisz {
     background: url('images/object6.png') no-repeat;
     background-size: 100%;
     height: 100vh;
     width: 100vw;
-    text-align:center;
-    color:white;
+    text-align: center;
+    color: white;
     font-size: 25px;
-    padding-top:50px;
+    padding-top: 50px;
     display: flex;
 
-    }
-.bg-form{
+}
+
+.bg-form {
     text-align: center;
     align-self: center;
     align-content: center;
-    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
 }
-.zapisz p
-{
+
+.zapisz p {
     padding: 25px;
 }
-.zapisz p:first-letter{
+
+.zapisz p:first-letter {
     text-transform: uppercase;
     font-size: 30px;
-    color:gold;
+    color: gold;
 }
-.p-reg{
+
+.p-info {
     font-size: 10px;
     text-decoration: blink;
-    }
-input{
+}
+
+input {
     font-size: 18px;
     color: black;
     padding: 1px;
@@ -38,25 +42,29 @@ input{
     height: 35px;
     box-sizing: border-box;
     text-align: center;
-    border:none;
-    margin-top:10px;
-    margin-bottom:10px;
-    }
-input:hover{
-    color:gold;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input:hover {
+    color: gold;
     background-color: white;
     opacity: 1;
 
 }
+
 span {
     color: gold;
 }
-span a{
+
+span a {
     text-decoration: none;
-    color:gold;
+    color: gold;
 
 }
-form{
+
+form {
     background-color: black;
     opacity: 0.5;
 }
