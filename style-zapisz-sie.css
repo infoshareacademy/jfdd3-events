@@ -1,19 +1,22 @@
 .zapisz
 {
-    background-color: gray;
+    background: url('images/object6.png') no-repeat;
+    background-size: 100%;
     height: 100vh;
     width: 100vw;
     text-align:center;
     color:white;
     font-size: 25px;
     padding-top:50px;
+    display: flex;
+
+    }
+.bg-form{
     text-align: center;
     align-self: center;
     align-content: center;
-    display: flex;
-
-
-    }
+    width: 100vw;
+}
 .zapisz p
 {
     padding: 25px;
@@ -57,8 +60,6 @@ form{
     background-color: black;
     opacity: 0.5;
 }
-.zapisz-center {
 
-}
 
 
