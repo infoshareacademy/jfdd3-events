@@ -13,23 +13,28 @@
 
 .kontenerek1, .kontenerek2, .kontenerek3 {
     float: left;
-    width: 50%;
+    width: 45vw;
     background-color: yellow;
-    margin-left: 20px;
+    margin-left:
     background-size: auto;
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 10px;
-    height: 80vh;
+    height: 100vh;
     position: relative;
+    color: green;
+
 }
 .kontenerek2 {
     background-color: red;
-    width: 20%;
+    width: 45vw;
+    height: 50vh;
+
 }
 .kontenerek3 {
     background-color: aqua;
-    width: 20%
+    width: 45vw;
+    height: 50vh;
 }
 
 .oferta-marginesy{
@@ -45,7 +50,8 @@
 
 }
 .oferta-zdjecia {
-
     width: 100%
+
+
 
 }
