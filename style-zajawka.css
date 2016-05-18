@@ -32,7 +32,7 @@ body {
     align-self: center;
 }
 
-h1 {
+.h1 {
     -webkit-transform: rotate(-10deg);
     margin: 5px;
     margin-left: 0px;
@@ -41,7 +41,7 @@ h1 {
     background: rgba(255,255,0,0.5);
 
 }
-h2 {
+.h2 {
     -webkit-transform: rotate(-10deg);
     margin: 5px;
     margin-left: 0px;
@@ -51,12 +51,12 @@ h2 {
     color: white;
 }
 
-img {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: -1;
-}
+/*img {*/
+    /*position: absolute;*/
+    /*left: 0px;*/
+    /*top: 0px;*/
+    /*z-index: -1;*/
+/*}*/
 
 #o5 {
     position: absolute;
@@ -64,12 +64,14 @@ img {
     top: 100px;
     width: 600px;
     height: 600px;
+    z-index: -1;
 }
 
 #o3 {
     position: absolute;
     left: 20px;
     top: 100px;
+    z-index: -1;
     -webkit-transform: rotate(20deg);
 }
 
@@ -77,18 +79,21 @@ img {
     position: absolute;
     left: 700px;
     top: 20px;
+    z-index: -1;
 }
 
 #o1 {
     position: absolute;
     left: 300px;
     top: 10px;
+    z-index: -1;
 }
 
 #o2 {
     position: absolute;
     left: 200px;
     top: 600px;
+    z-index: -1;
 }
 
 /*#o6 {*/

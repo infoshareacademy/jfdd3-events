@@ -1,8 +1,8 @@
-$('#zapisz-sie').css({
+$('#zapisz').css({
 
 }).click(function () {
     $(this).css({
-        backgroundColor: '#c00'
+        backgroundColor: 'black'
     });
 })/**
  * Created by marcin on 18.05.16.
