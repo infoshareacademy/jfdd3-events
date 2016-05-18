@@ -1,13 +1,16 @@
 .zapisz {
     background: url('images/object6.png') no-repeat;
     background-size: 100%;
+    background-position: 10% 80%;
     height: 100vh;
     width: 100vw;
     text-align: center;
     color: white;
     font-size: 25px;
-    padding-top: 50px;
+    padding-top: auto;
+    padding-bottom: auto;
     display: flex;
+    font-weight: 800;
 
 }
 
@@ -17,57 +20,80 @@
     align-content: center;
     margin-left: auto;
     margin-right: auto;
+    border: 20px solid black;
+    width: 70vw;
+    padding: 50px;
 }
 
-.zapisz p {
-    padding: 25px;
+.p-format {
+    width: 30vw;
+    height: 30vh;
+    margin-right: auto;
+    margin-left: auto;
+
 }
 
-.zapisz p:first-letter {
-    text-transform: uppercase;
-    font-size: 30px;
-    color: gold;
+.p-format p {
+    color: black;
+    font-size: 68px;
 }
 
-.p-info {
-    font-size: 10px;
-    text-decoration: blink;
+.p-format p:first-of-type {
+    float: left;
+    font-size: 175px;
+    font-weight: bold;
+}
+
+.p-format p:last-of-type {
+    font-size: 26px;
 }
 
 input {
     font-size: 18px;
-    color: black;
-    padding: 1px;
-    width: 350px;
+    width: 30vw;
     height: 35px;
     box-sizing: border-box;
     text-align: center;
     border: none;
     margin-top: 10px;
     margin-bottom: 10px;
-}
-
-input:hover {
-    color: gold;
     background-color: white;
-    opacity: 1;
-
 }
 
-span {
+::-webkit-input-placeholder {
+    color: black;
+}
+
+.btn {
+    font-size: 18px;
     color: gold;
+    width: 30vw;
+    height: 35px;
+    box-sizing: border-box;
+    text-align: center;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+}
+
+.btn:hover {
+    color: black;
+    background-color: white;
+}
+
+.p-info {
+    font-size: 10px;
+
 }
 
 span a {
     text-decoration: none;
     color: gold;
-
 }
 
-form {
-    background-color: black;
-    opacity: 0.5;
-}
+
+
 
 
 
