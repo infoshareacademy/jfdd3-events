@@ -7,6 +7,11 @@
     color:white;
     font-size: 25px;
     padding-top:50px;
+    text-align: center;
+    align-self: center;
+    align-content: center;
+    display: flex;
+
 
     }
 .zapisz p
@@ -53,11 +58,6 @@ form{
     opacity: 0.5;
 }
 .zapisz-center {
-    text-align: center;
-    align-self: center;
-    align-content: center;
-    display: flex;
-    display: -webkit-flex;
 
 }
 
