@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Landing Page Event</title>
     <link rel="stylesheet" href="reset-css.css">
-    <link rel="stylesheet" href="css/fontello.css">
     <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,800' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="style-zajawka.css">
     <link rel="stylesheet" href="style-oferta.css">
@@ -25,62 +24,100 @@
 </nav>
 
 <main>
-   <div id="zajawka" class="sekcja">
-    <div class="div1">
+    <div class="div1" id="index">
+        <img src="images/Agradient2.png" id="grad">
+        <img src="images/Afala.png" id="o8">
+        <img src="images/Aobject5.png" id="o5">
+        <img src="images/Aobject5.png" id="o55">
+        <img src="images/Aobject3.png" id="o3">
+        <img src="images/object7.png" id="o7">
+        <img src="images/Aobject2.png" id="o2">
+        <img src="images/Aobject1.png" id="o1">
+        <img src="images/Aobject4.png" id="o4">
 
-        <img src="images/object5.png" id="o5">
-        <img src="images/object3.png" id="o3">
-        <img src="images/object2.png" id="o2">
-        <img src="images/object1.png" id="o1">
-        <img src="images/object4.png" id="o4">
 
         <div class="div2">
         </div>
         <div class="div3">
-            <h1>Skoro miasto nie śpi</h1>
-            <h2>to czemu ty masz spać?</h2>
+            <h1 class="h1">Skoro miasto nie śpi</h1>
+
+            <h2 class="h2">to czemu ty masz spać?</h2>
         </div>
+
     </div>
 
        <div class="button">
            <div class="nawigacja"><a href="#oferta">&#8810;</a></div>
        </div>
 
-    </div>
+    <!--<div id="zajawka">-->
+
+    <!--<div class="nawigacja"><a href="#oferta" class="guzik"><i class="icon-down-open"></i></a></div>-->
+    <!--</div>-->
 
 
-    <div id="oferta">
-    <div class="sekcja">
+    <div id="oferta" class="oferta">
 
 
+        <div class="oferta-marginesy">
+            <div class="kontenerek1">
+                <div class="slash">
+                    <p>&#8260;&#8260;</p>
+                </div>
+
+                <div class="tytul-oferty">
+                    <p>kalendarz</p>
+
+                    <p>imprez</p>
+                </div>
 
 
-    </div>
-        <div class="button">
-            <div class="nawigacja"><a href="#zapisz">&#8810;</a></div>
-        </div>
-    </div>
-
-    <div id="zapisz">
-        <div class="sekcja">
-        <div class="zapisz">
-
-            <div class="zbiornik">
-                <div class="z1">//</div>
-                <div class="clear"></div>
-                <div class="z2">dowiedz się</div>
-                <div class="z2">o najnowszych imprezach!</div>
             </div>
-            <div class="form1">
-                <form>
-                    <input type="email" placeholder="Twój e-mail">
-                    <input type="submit" value="Wyślij">
-                </form>
+
+            <div class="kontenerek2">
+                <div class="slash">
+                    <p>&#8260;&#8260;</p>
+                </div>
+
+                <div class="tytul-oferty">
+                    <p>wyszukaj</p>
+
+                    <p>imprezę</p>
+                </div>
+
+            </div>
+
+            <div class="kontenerek3">
+                <div class="slash">
+                    <p>&#8260;&#8260;</p>
+                </div>
+
+                <div class="tytul-oferty">
+                    <p>wyszukaj</p>
+
+                    <p>lokal</p>
+                </div>
             </div>
         </div>
-        </div>
-        <div class="button">
-            <div class="nawigacja"><a href="#onas">&#8810;</a></div>
+        <!--</div>-->
+        <!--</div>-->
+    </div>
+    <div class="nawigacja1">
+        <a href="#zapisz" class="guzik"><i class="icon-down-open"></i></a>
+    </div>
+    <div id="zapisz" class="zapisz">
+        <div class="bg-form">
+            <div class="p-format">
+                <p class="styl-p">
+                    <span class="span-p0">//</span><span class="span-p1">dowiedz się</span><span class="span-p2">o najnowszych imprezach</span>
+                </p>
+            </div>
+            <input type="email" name="mail" placeholder="Wpisz adres e-mail"><br>
+            <button type="button" class="btn">Wyślij!</button>
+            <br>
+
+            <p class="p-info">podane informacje służą jedynie do celów promocyjnych aplikacji <span><a href="#home">event
+                calendar</a></span></p>
         </div>
     </div>
 
@@ -107,5 +144,8 @@
     </div>
 
 </main>
+
+<script type="text/javascript" src="jquery-2.2.3.min.js"></script>
+<script type="text/javascript" src="img-tracking.js"></script>
 </body>
 </html>

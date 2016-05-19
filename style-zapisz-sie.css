@@ -1,95 +1,107 @@
-.zapisz
-{
-    /*background-color: gray;*/
-    height: 58%;
-    width: 55%;
-    text-align: center;
-    color: black;
-    /*margin: 20%;*/
-    position: relative;
-    display: block;
-    top: 20%;
-    left: 21%;
-    border: solid 10px black;
-    }
-.zbiornik
-{
-    position: relative;
-    width: 500px;
-    height: 230px;
-    margin-left: auto;
-    margin-right: auto;
-    border: solid 1px black;
-}
-/*.z1
-{
-    position: relative;
-    height: 230px;
-    width: 130px;
-    display: inline-block;
-    left: 0;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 800;
-    font-size: 120px;
-    color: black;
-    background-color: transparent;
-}
-.z2
-{
-    position: relative;
-    height: 160px;
-    width: 370px;
-    display: inline-block;
-
-}*/
-.form1
-{
-    width: 240px;
-    height: 80px;
-    /*padding: 50px;*/
-    /*top: 200px;*/
-    background-color: transparent;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-input[type="email"]
-{
-    width: 500px;
-    height: 42px;
+.zapisz {
+    background: url('images/object6.png') no-repeat;
+    background-size: 100%;
+    background-position: 5px 145px;
     background-color: white;
-    color: black;
-    border: solid 5px black;
-    font-size: 16px;
+    height: 100vh;
+    width: 100vw;
     text-align: center;
-    padding: 8px;
-    box-sizing: border-box;
-    outline: none;
-    position: relative;
-    left: -55%;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 400;
-}
-input[type="submit"]
-{
-    width: 240px;
-    background-color: black;
-    color: yellow;
-    font-size: 22px;
-    /*font: bold;*/
-    padding: 8px 10px;
-    border: none;
-    letter-spacing: 3px;
-    margin-top: 30px;
-    font-family: 'Work Sans', sans-serif;
+    color: black;
+    font-size: 25px;
+    padding-top: auto;
+    padding-bottom: auto;
+    display: flex;
     font-weight: 800;
+
 }
-input[type="submit"]:hover
-{
+
+.bg-form {
+    text-align: center;
+    align-self: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 20px solid black;
+    width: 70vw;
+    padding: 50px;
+}
+
+.p-format { /*kontener z p*/
+    width: 30vw;
+    height: 30vh;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.span-p0 {
+    float: left;
+    color: black;
+    font-size: 155px;
+    display: inline-block;
+
+}
+
+.span-p1 {
+    font-size: 70px;
+    font-weight: bold;
+    display: block;
+    line-height: 135%;
+}
+
+.span-p2 {
+    color: black;
+    font-size: 27px;
+    display: block;
+
+}
+
+input {
+    font-size: 18px;
+    width: 30vw;
+    height: 35px;
+    box-sizing: border-box;
+    text-align: center;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+::-webkit-input-placeholder {
+    color: black;
+}
+
+.btn {
+    font-size: 18px;
+    color: gold;
+    width: 30vw;
+    height: 35px;
+    box-sizing: border-box;
+    text-align: center;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
     background-color: black;
-    color: transparent;
 }
+
+.btn:hover {
+    color: black;
+    background-color: white;
+}
+
+.p-info {
+    font-size: 10px;
+
+}
+
+span a {
+    text-decoration: none;
+    color: gold;
+}
+
+
+
 
 
 
