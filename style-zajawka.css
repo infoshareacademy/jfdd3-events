@@ -51,40 +51,60 @@ body {
     color: white;
 }
 
+#o8 {
+    position: absolute;
+    z-index: -1;
+}
+
 #o5 {
     position: absolute;
-    /*left: 200px;*/
-    /*top: 100px;*/
-    width: 1000px;
-    height: 1000px;
+    width: 40%;
+    height: auto;
     z-index: -1;
+    -webkit-transform: rotate(230deg);
+}
+
+#o55 {
+    position: absolute;
+    width: 7%;
+    height: auto;
+    z-index: -1;
+    /*-webkit-transform: rotate(230deg);*/
 }
 
 #o3 {
     position: absolute;
-    /*left: 20px;*/
-    /*top: 100px;*/
     z-index: -1;
-    -webkit-transform: rotate(20deg);
+    width: 50%;
+    height: auto;
+    -webkit-transform: rotate(10deg);
 }
 
 #o4 {
     position: absolute;
-    /*left: 700px;*/
-    /*top: 20px;*/
     z-index: -1;
 }
 
 #o1 {
     position: absolute;
-    /*left: 300px;*/
-    /*top: 10px;*/
     z-index: -1;
+    -webkit-transform: rotate(-20deg);
 }
 
 #o2 {
     position: absolute;
-    /*left: 200px;*/
-    /*top: 600px;*/
     z-index: -1;
+}
+
+#grad {
+    position: absolute;
+    z-index: -1;
+    -webkit-transform: rotate(-90deg);
+}
+
+#o7 {
+    position: absolute;
+    z-index: 1;
+    /*-webkit-transform: rotate(-20deg);*/
+
 }
