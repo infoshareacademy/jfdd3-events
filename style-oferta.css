@@ -53,6 +53,7 @@
     width: 30%;
     font-weight: 800;
     text-align: right;
+    background-color:
 
 }
 .tytul-oferty {
@@ -62,5 +63,12 @@
     width: 70%;
     font-weight: 800;
     padding-top: 0.5em;
+    background-color:
+
+}
+.oferta-tekst-opis {
+    font-size: 3em;
+    padding-top: 7em;
+
 
 }
