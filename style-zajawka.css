@@ -51,118 +51,40 @@ body {
     color: white;
 }
 
-/*img {*/
-    /*position: absolute;*/
-    /*left: 0px;*/
-    /*top: 0px;*/
-    /*z-index: -1;*/
-/*}*/
-
 #o5 {
     position: absolute;
-    left: 200px;
-    top: 100px;
-    width: 600px;
-    height: 600px;
+    /*left: 200px;*/
+    /*top: 100px;*/
+    width: 1000px;
+    height: 1000px;
     z-index: -1;
 }
 
 #o3 {
     position: absolute;
-    left: 20px;
-    top: 100px;
+    /*left: 20px;*/
+    /*top: 100px;*/
     z-index: -1;
     -webkit-transform: rotate(20deg);
 }
 
 #o4 {
     position: absolute;
-    left: 700px;
-    top: 20px;
+    /*left: 700px;*/
+    /*top: 20px;*/
     z-index: -1;
 }
 
 #o1 {
     position: absolute;
-    left: 300px;
-    top: 10px;
+    /*left: 300px;*/
+    /*top: 10px;*/
     z-index: -1;
 }
 
 #o2 {
     position: absolute;
-    left: 200px;
-    top: 600px;
+    /*left: 200px;*/
+    /*top: 600px;*/
     z-index: -1;
 }
-
-/*#o6 {*/
-    /*position: absolute;*/
-    /*bottom: -200px;*/
-/*}*/
-
-
-/*.zajawka {*/
-    /*!*background-image: url(images/001.jpg);*!*/
-    /*background-color: white;*/
-    /*position: relative;*/
-    /*width: 100vw;*/
-    /*height: 100vh;*/
-    /*margin-left: auto;*/
-    /*margin-right: auto;*/
-    /*z-index: 100;*/
-    /*font-family: 'Work Sans', sans-serif;*/
-    /*font-weight: 800;*/
-/*}*/
-
-/*#div0 {*/
-    /*width: 100vw;*/
-    /*height: 100vh;*/
-    /*margin-left: auto;*/
-    /*margin-right: auto;*/
-/*}*/
-
-/*#div1 {*/
-    /*float:left;*/
-    /*position: relative;*/
-    /*width:50vw;*/
-    /*height: 100vh;*/
-    /*background-color:white;*/
-    /*z-index:100;*/
-/*}*/
-
-/*#div2 {*/
-    /*float:right;*/
-    /*position: relative;*/
-    /*display: table-cell;*/
-    /*vertical-align: middle;*/
-    /*width:50vw;*/
-    /*height: 100vh;*/
-    /*background-color:white;*/
-    /*z-index:100;*/
-/*}*/
-
-/*h1 {*/
-/*}*/
-/*!*header*/
-/*{*/
-    /*width: 100%;*/
-    /*background-color: transparent;*/
-    /*padding: 10px 0;*/
-    /*margin: 0;*/
-/*}*!*/
-
-/*!**/
-/*.logo*/
-/*{*/
-    /*font-family: 'Arial', sans-serif;*/
-    /*font-size: 35px;*/
-    /*padding-top: 10px;*/
-    /*padding-left: 10px;*/
-    /*letter-spacing: 3px;*/
-    /*color: black;*/
-    /*text-transform: uppercase;*/
-    /*margin-right: auto;*/
-    /*margin-left: auto;*/
-    /*text-align: center;*/
-/*}*!*/
