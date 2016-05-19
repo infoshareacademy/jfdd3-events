@@ -1,11 +1,12 @@
 .zapisz {
     background: url('images/object6.png') no-repeat;
     background-size: 100%;
-    background-position: 10% 80%;
+    background-position: 5px 145px;
+    background-color: white;
     height: 100vh;
     width: 100vw;
     text-align: center;
-    color: white;
+    color: black;
     font-size: 25px;
     padding-top: auto;
     padding-bottom: auto;
@@ -33,24 +34,26 @@
 
 }
 
-.p-format p {
-    color: black;
-    font-size: 68px;
-
-}
-
-.p-styl {
-    line-height: 1000%;
-}
-
-.p-format p:first-of-type {
+.span-p0 {
     float: left;
-    font-size: 175px;
-    font-weight: bold;
+    color: black;
+    font-size: 155px;
+    display: inline-block;
+
 }
 
-.p-format p:last-of-type {
-    font-size: 26px;
+.span-p1 {
+    font-size: 70px;
+    font-weight: bold;
+    display: block;
+    line-height: 135%;
+}
+
+.span-p2 {
+    color: black;
+    font-size: 27px;
+    display: block;
+
 }
 
 input {
