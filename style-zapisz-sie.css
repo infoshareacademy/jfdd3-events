@@ -25,7 +25,7 @@
     padding: 50px;
 }
 
-.p-format {
+.p-format { /*kontener z p*/
     width: 30vw;
     height: 30vh;
     margin-right: auto;
@@ -36,6 +36,11 @@
 .p-format p {
     color: black;
     font-size: 68px;
+
+}
+
+.p-styl {
+    line-height: 1000%;
 }
 
 .p-format p:first-of-type {
