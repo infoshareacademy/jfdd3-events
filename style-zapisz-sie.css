@@ -24,6 +24,8 @@
     border: 20px solid black;
     width: 70vw;
     padding: 50px;
+    position: relative;
+    top: 150px;
 }
 
 .p-format { /*kontener z p*/
