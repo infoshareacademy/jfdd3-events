@@ -23,7 +23,7 @@ main
 }
 .sekcja
 {
-    background-color: white;
+    background-color: transparent;
     min-width: 100vw;
     min-height: 100vh;
     margin-left: auto;
