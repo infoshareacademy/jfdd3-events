@@ -13,28 +13,35 @@
 .kontenerek1, .kontenerek2, .kontenerek3 {
     float: left;
     width: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
+    /*background-repeat: no-repeat;
+    background-position: center;*/
     padding-top: 10px;
+    /*padding-left: 5%;*/
+    /*padding-right:*/
     height: 100%;
     position: relative;
     color: black;
+    /*margin-right: 5px;*/
+    /*background-color: aqua;*/
 
 
 }
 .kontenerek2 {
-    width: 50%;
+   /* width: 50%;*/
     height: 50%;
+    /*background-color: yellow;*/
 
 }
 .kontenerek3 {
-    width: 50%;
+    /*width: 50%*/;
     height: 50%;
+    /*background-color: red;*/
 }
 
 .oferta-marginesy{
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 20px;
     height: 100vh;
 
 }
@@ -52,22 +59,34 @@
     width: 30%;
     font-weight: 800;
     text-align: right;
+   /* padding-left: 10%;*/
     /*background-color:*/
 
 }
 .tytul-oferty {
-    font-size: 7em;
+    font-size: 60px;
     text-align: right;
     float: left;
-    width: 70%;
+    width: 60%;
     font-weight: 800;
     padding-top: 0.5em;
+    /*padding-right: 1px*/;
+    background-color:
     /*background-color:*/
+
+
 
 }
 .oferta-tekst-opis {
-    font-size: 3em;
+    /*font-size: 3em;*/
+    font-size: 30px;;
     padding-top: 7em;
+    padding-left: 10px;
 
 
+}
+/*.slash2 {
+    font-size: 300px;
+    font-weight: 800;
+    text-align: left;*/
 }
