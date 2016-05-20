@@ -101,40 +101,49 @@ ol > li:hover >a
     z-index: 100;
     font-size: 200%;
     font-weight: 800;
-    color: black;
-    text-decoration: none;
+    text-decoration: none !important;
+
+    /*rotation: 180deg;*/
     }
+/*
+button.visited
+{
+color: black
+}
+*/
+
+/*a:link
+a:visited
+            a:hover - a link when the user mouses over it
+                      a:active - a link the moment it is clicked*/
 
 
 .nawigacja
 {
 
     position: relative;
-    text-align: center;
     display: block;
-    font-size: 200%;
-    font-weight: 800;
-    color: black;
-    text-decoration: none;
-    text-transform: full-width;
-    -webkit-transform: rotate(-90deg);
-    font-stretch: ultra-expanded;
-    /*padding-top: 15px;*/
     width: 100px;
     height: 80px;
     background-color: transparent;
     float: none;
     z-index: 100 !important;
     margin: auto;
-
-   /* padding-top: 90vh;*/
-
+    -webkit-transform: rotate(90deg);
 }
+
+.colorb
+{
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+/*
 .nawigacja:hover
 {
-    /*background-color: rgba(255,255,0,0.5);*/
+    background-color: rgba(255,255,0,0.5);
 
 }
+*/
 
 /*.niewidoczny
 {
