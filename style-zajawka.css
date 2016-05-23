@@ -8,7 +8,7 @@ body {
     height: 100vh;
 }
 
-.div1
+.zajawka
 {
     display: -webkit-flex;
     display: flex;
@@ -21,19 +21,19 @@ body {
     z-index: 1000;
 }
 
-.div2 {
+.empty {
     order: 1;
     flex-grow: 2;
 }
 
-.div3 {
+.title {
     order: 2;
     flex-grow: 1;
     -webkit-align-self: center;
     align-self: center;
 }
 
-.h1 {
+.title1 {
     -webkit-transform: rotate(-10deg);
     margin: 5px;
     margin-left: 0px;
@@ -42,7 +42,7 @@ body {
     background: rgba(255,255,0,0.5);
 
 }
-.h2 {
+.subtitle {
     -webkit-transform: rotate(-10deg);
     margin: 5px;
     margin-left: 0px;
@@ -52,12 +52,12 @@ body {
     color: white;
 }
 
-#o8 {
+#fala {
     position: absolute;
     z-index: -1;
 }
 
-#o5 {
+#vinyl {
     position: absolute;
     width: 40%;
     height: auto;
@@ -65,7 +65,7 @@ body {
     -webkit-transform: rotate(230deg);
 }
 
-#o55 {
+#vinyl2 {
     position: absolute;
     width: 7%;
     height: auto;
@@ -73,7 +73,7 @@ body {
     /*-webkit-transform: rotate(230deg);*/
 }
 
-#o3 {
+#sfinks {
     position: absolute;
     z-index: -1;
     width: 50%;
@@ -81,29 +81,29 @@ body {
     -webkit-transform: rotate(10deg);
 }
 
-#o4 {
+#neptun {
     position: absolute;
     z-index: -1;
 }
 
-#o1 {
+#zuraw {
     position: absolute;
     z-index: -1;
     -webkit-transform: rotate(-20deg);
 }
 
-#o2 {
+#kapsel {
     position: absolute;
     z-index: -1;
 }
 
-#grad {
+#gradient {
     position: absolute;
     z-index: -1;
     -webkit-transform: rotate(-90deg);
 }
 
-#o7 {
+#molo {
     position: absolute;
     z-index: 1;
     /*-webkit-transform: rotate(-20deg);*/
