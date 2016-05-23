@@ -63,7 +63,8 @@
 
 }
 .offer-text {
-    font-size: 30px;;
+    font-size: 30px;
+    font-weight: 200;
     padding-top: 7em;
     padding-left: 10px;
 }
