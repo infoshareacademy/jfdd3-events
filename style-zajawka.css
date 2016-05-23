@@ -44,6 +44,8 @@ body {
 }
 
 .subtitle {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
     font-size: 200%;
     background: black;
     color: white;
