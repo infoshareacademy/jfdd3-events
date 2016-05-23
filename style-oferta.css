@@ -1,4 +1,4 @@
-#oferta
+#offer
 {
     background-color: white;
     width: 100%;
@@ -10,7 +10,7 @@
     clear: both;
 }
 
-.kontenerek1, .kontenerek2, .kontenerek3 {
+.container1, .container2, .container3 {
     float: left;
     width: 50%;
     /*background-repeat: no-repeat;
@@ -26,13 +26,13 @@
 
 
 }
-.kontenerek2 {
+.container2 {
    /* width: 50%;*/
     height: 50%;
     /*background-color: yellow;*/
 
 }
-.kontenerek3 {
+.container3 {
     /*width: 50%*/;
     height: 50%;
     /*background-color: red;*/
@@ -53,7 +53,7 @@
 .oferta-zdjecia {
     width: 100%
 }
-.slash {
+.oferta-slash2 {
     font-size: 20em;
     float: left;
     width: 30%;
@@ -63,7 +63,7 @@
     /*background-color:*/
 
 }
-.tytul-oferty {
+.offer-title {
     font-size: 60px;
     text-align: right;
     float: left;
@@ -71,13 +71,13 @@
     font-weight: 800;
     padding-top: 0.5em;
     /*padding-right: 1px*/;
-    background-color:
+    /*background-color:*/
     /*background-color:*/
 
 
 
 }
-.oferta-tekst-opis {
+.offer-text {
     /*font-size: 3em;*/
     font-size: 30px;;
     padding-top: 7em;
@@ -89,4 +89,4 @@
     font-size: 300px;
     font-weight: 800;
     text-align: left;*/
-}
+/*
