@@ -32,75 +32,49 @@ body {
     align-self: center;
 }
 
-.title1 {
+.title1, .subtitle {
     -webkit-transform: rotate(-10deg);
     margin: 5px 5px 5px 0;
-    font-size: 400%;
     font-weight: 800;
-    background: rgba(255, 255, 0, 0.5);
+}
 
+.title1 {
+    font-size: 400%;
+    background: rgba(255, 255, 0, 0.5);
 }
 
 .subtitle {
-    -webkit-transform: rotate(-10deg);
-    margin: 5px 5px 5px 0;
     font-size: 200%;
-    font-weight: 800;
     background: black;
     color: white;
 }
 
-#fala {
+.zajawkaObject {
     position: absolute;
     z-index: -1;
 }
 
 #vinyl {
-    position: absolute;
     width: 40%;
     height: auto;
-    z-index: -1;
     -webkit-transform: rotate(230deg);
 }
 
 #vinyl2 {
-    position: absolute;
     width: 7%;
     height: auto;
-    z-index: -1;
 }
 
 #sfinks {
-    position: absolute;
-    z-index: -1;
     width: 50%;
     height: auto;
     -webkit-transform: rotate(10deg);
 }
 
-#neptun {
-    position: absolute;
-    z-index: -1;
-}
-
 #zuraw {
-    position: absolute;
-    z-index: -1;
     -webkit-transform: rotate(-20deg);
 }
 
-#kapsel {
-    position: absolute;
-    z-index: -1;
-}
-
 #gradient {
-    position: absolute;
-    z-index: -1;
     -webkit-transform: rotate(-90deg);
-}
-
-#molo {
-    position: absolute;
-    z-index: 1;
 }
