@@ -103,22 +103,23 @@ span a {
     color: gold;
 }
 
-@media (min-width: 1080px) and (max-width: 1366px) {
+@media (min-width: 1024px) and (max-width: 1366px) {
     .span-p1-style {
         font-size: 120px;
     }
 }
 
-@media (min-width: 1080px) and (max-width: 1366px) {
-        .span-p2-style {
-            font-size: 50px;
-        }
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .span-p2-style {
+        font-size: 50px;
     }
-@media (min-width: 1080px) and (max-width: 1366px) {
-        .span-p3-style {
-            font-size: 22px;
-        }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .span-p3-style {
+        font-size: 22px;
     }
+}
 
 
 
