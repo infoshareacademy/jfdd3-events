@@ -1,4 +1,4 @@
-.zapisz {
+.main-container-zapisz-sie {
     background: url('images/Afala.png') no-repeat;
     background-size: 100%;
     background-position: 5px 360px;
@@ -15,7 +15,7 @@
 
 }
 
-.bg-form {
+.content-container-form {
     text-align: center;
     align-self: center;
     align-content: center;
@@ -28,7 +28,7 @@
     top: 0px;
 }
 
-.p-format { /*kontener z p*/
+.container-styles-paragraph-p-main {
     width: 30vw;
     height: 30vh;
     margin-right: auto;
@@ -36,7 +36,7 @@
 
 }
 
-.span-p0 {
+.span-p1-style {
     float: left;
     color: black;
     font-size: 155px;
@@ -44,7 +44,7 @@
 
 }
 
-.span-p1 {
+.span-p2-style {
     font-size: 70px;
     font-weight: bold;
     display: block;
@@ -52,7 +52,7 @@
     width: 100%;
 }
 
-.span-p2 {
+.span-p3-style {
     color: black;
     font-size: 27px;
     display: block;
@@ -75,7 +75,7 @@ input {
     color: black;
 }
 
-.btn {
+.button-send {
     font-size: 18px;
     color: gold;
     width: 30vw;
@@ -88,12 +88,12 @@ input {
     background-color: black;
 }
 
-.btn:hover {
+.button-send:hover {
     color: black;
     background-color: white;
 }
 
-.p-info {
+.style-paragraph-p-last {
     font-size: 10px;
 
 }
@@ -103,7 +103,42 @@ span a {
     color: gold;
 }
 
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .span-p1-style {
+        font-size: 120px;
+    }
+}
 
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .span-p2-style {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .span-p3-style {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 766px) and (max-width: 1023px) {
+
+    .span-p1-style {
+        font-size: 85px;
+    }
+}
+
+@media (min-width: 766px) and (max-width: 1023px) {
+    .span-p2-style {
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 766px) and (max-width: 1023px) {
+    .span-p3-style {
+        font-size: 18px;
+    }
+}
 
 
 
