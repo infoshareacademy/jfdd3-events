@@ -1,16 +1,3 @@
-/*
-body
-{
-    background-color: white;
-    color: black;
-    font-family: 'Work Sans', sans-serif;
-    font-size: 15px;
-    font-weight:400;
-    margin: 0;                  !*USTALIĆ JEDNO BODY!*!
-}
-*/
-
-
 main
 {
     min-height: 100vh;
@@ -74,7 +61,6 @@ ol > li
     width: 240px;
     height: 40px;
     display: block;
-    /*border-right: 2px solid black;*/
 }
 
 ol > li:hover
@@ -103,17 +89,6 @@ ol > li:hover >a
     font-weight: 800;
     text-decoration: none !important;
     }
-/*
-button.visited
-{
-color: black
-}
-*/
-
-/*a:link
-a:visited
-            a:hover - a link when the user mouses over it
-                      a:active - a link the moment it is clicked*/
 
 
 .nawigacja
@@ -135,25 +110,6 @@ a:visited
     -webkit-filter: invert(1);
     filter: invert(1);
 }
-/*
-.nawigacja:hover
-{
-    background-color: rgba(255,255,0,0.5);
-
-}
-*/
-
-/*.niewidoczny
-{
-    position: relative;
-    width: 100%;
-    background-color: transparent;
-    text-align: center;
-    margin: 0;
-    height: 30px;
-    z-index: 0;
-
-}*/
 
 
 .fotki
@@ -189,12 +145,10 @@ footer
 {
     position: relative;
     text-align: center;
-    /*padding-top: 25px;*/
     font-size: 20px;
     font-family: 'Work Sans', sans-serif;
     font-weight: 800;
     min-height: 15%;
-    /*overflow: hidden;*/
 }
 .stopka
 {
@@ -228,7 +182,4 @@ footer
     min-width: 80px;
     min-height: 80px;
     margin-left: 20px;
-    /*padding-left: 20px;*/
-    /*text-align: center;*/
-    /*padding: 10px;*/
 }
