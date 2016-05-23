@@ -1,6 +1,3 @@
-/**
- * Created by gabriela on 18.05.16.
- */
 function updateImages(e) {
     var mouseX = e.pageX || 0  - $('#mouseMove').offset().left;
     var mouseY = e.pageY || 0 - $('#mouseMove').offset().top;
