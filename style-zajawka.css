@@ -34,8 +34,7 @@ body {
 
 .title1 {
     -webkit-transform: rotate(-10deg);
-    margin: 5px;
-    margin-left: 0;
+    margin: 5px 5px 5px 0;
     font-size: 400%;
     font-weight: 800;
     background: rgba(255,255,0,0.5);
@@ -43,8 +42,7 @@ body {
 }
 .subtitle {
     -webkit-transform: rotate(-10deg);
-    margin: 5px;
-    margin-left: 0;
+    margin: 5px 5px 5px 0;
     font-size: 200%;
     font-weight: 800;
     background: black;
