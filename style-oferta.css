@@ -11,16 +11,20 @@
 
 .container1, .container2, .container3 {
     float: left;
-    width: 50%;
+    width: 48%;
     padding-top: 10px;
     /*padding-left: 5%;*/
-    /*padding-right:*/
     height: 100%;
     position: relative;
     color: black;
     /*margin-right: 5px;*/
     /*background-color: aqua;*/
 }
+
+.container1 {
+ margin-right: 25px;
+}
+
 .container2 {
    /* width: 50%;*/
     height: 50%;
@@ -55,8 +59,8 @@
 .offer-title {
     font-size: 60px;
     text-align: right;
-    float: left;
-    width: 60%;
+    float: right;
+    width: 100%;
     font-weight: 800;
     padding-top: 0.5em;
 
@@ -66,6 +70,15 @@
     font-size: 20px;
     font-family: 'Libre Baskerville', serif;
     font-weight: 400;
-    padding-top: 7em;
+    padding-top: 9em;
     padding-left: 10px;
+    text-align: right;
 }
+
+.offer-text2 {
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    padding-top: 9em;
+    padding-left: 10px;
+    text-align: left;
