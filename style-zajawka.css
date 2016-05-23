@@ -37,9 +37,10 @@ body {
     margin: 5px 5px 5px 0;
     font-size: 400%;
     font-weight: 800;
-    background: rgba(255,255,0,0.5);
+    background: rgba(255, 255, 0, 0.5);
 
 }
+
 .subtitle {
     -webkit-transform: rotate(-10deg);
     margin: 5px 5px 5px 0;
