@@ -8,8 +8,7 @@ body {
     height: 100vh;
 }
 
-.zajawka
-{
+.zajawka {
     display: -webkit-flex;
     display: flex;
     flex-direction: row;
@@ -36,7 +35,7 @@ body {
 .title1 {
     -webkit-transform: rotate(-10deg);
     margin: 5px;
-    margin-left: 0px;
+    margin-left: 0;
     font-size: 400%;
     font-weight: 800;
     background: rgba(255,255,0,0.5);
@@ -45,7 +44,7 @@ body {
 .subtitle {
     -webkit-transform: rotate(-10deg);
     margin: 5px;
-    margin-left: 0px;
+    margin-left: 0;
     font-size: 200%;
     font-weight: 800;
     background: black;
@@ -70,7 +69,6 @@ body {
     width: 7%;
     height: auto;
     z-index: -1;
-    /*-webkit-transform: rotate(230deg);*/
 }
 
 #sfinks {
@@ -106,6 +104,4 @@ body {
 #molo {
     position: absolute;
     z-index: 1;
-    /*-webkit-transform: rotate(-20deg);*/
-
 }
