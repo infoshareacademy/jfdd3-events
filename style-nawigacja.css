@@ -102,8 +102,6 @@ ol > li:hover >a
     font-size: 200%;
     font-weight: 800;
     text-decoration: none !important;
-
-    /*rotation: 180deg;*/
     }
 /*
 button.visited
@@ -157,13 +155,6 @@ a:visited
 
 }*/
 
-/*.guzik
-{
-    font-size: 15px;
-    text-decoration: none;
-    margin-bottom: 60px;
-    position: relative;
-}*/
 
 .fotki
 {
