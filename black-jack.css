@@ -1,0 +1,33 @@
+.black-jack {
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.black-jack-middle {
+    width: 50%;
+    height: 50%;
+    /*position: relative;*/
+    background-color: red;
+    /*left: 30%;
+    top: 30%;*/
+    display: flex;
+    max-width: 50%;
+
+}
+.black-jack-box {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    float: left;
+    border-bottom-color: red;
+    display: inline-block;
+    position: relative;
+    top: 25%;
+    /*left: 30%;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
