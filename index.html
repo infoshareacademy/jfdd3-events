@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Landing Page Event</title>
+    <title>Landing Page Event Calendar</title>
     <link rel="stylesheet" href="reset-css.css">
     <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400italic' rel='stylesheet' type='text/css'>
@@ -15,8 +15,8 @@
 </head>
 <body>
 
-<nav>
-    <ol>
+<nav class="pasek-nawigacja">
+    <ol class="menu">
         <li><a href="#mouseMove">Home</a></li>
         <li><a href="#offer">Oferta</a></li>
         <li><a href="#main-container-zapisz-sie">Premiera</a></li>
@@ -24,7 +24,6 @@
     </ol>
 
 </nav>
-<main>
 <div>
     <div class="zajawka" id="mouseMove">
         <img src="images/Agradient2.png" class="zajawkaObject" id="gradient">
@@ -43,69 +42,68 @@
 
         <div class="title">
             <h1 class="title1">Skoro miasto nie śpi</h1>
+
             <h2 class="subtitle">...to czemu ty masz spać?</h2>
         </div>
 
     </div>
 
-    <div class="button">
-        <div class="nawigacja"><a href="#offer"><img src="images/strzala.png" alt="x" class="colorb"></a></div>
-    </div>
+    <a href="#offer" class="strzala"><img src="images/strzala.png" class="colorb"></a>
+</div>
 
-    <div id="offer">
+<div id="offer">
 
-        <div class="oferta-marginesy">
-            <div class="container1">
-                    <p class="offer-title">//kalendarz<br> imprez</p>
-                    <p class="offer-text">Piątkowe wieczory spędzane przed youtubem? W weekendy zamiast szaleć na
-                        mieście, głaszczesz kota i bezwiednie zmieniasz kanały w telewizji? Nigdy więcej! Poznaj jedyną
-                        aplikację, która otwiera przed tobą drzwi do nightlifowego życia Trójmiasta. Poznaj nasz
-                        Event Calendar. Od teraz wszystkie imprezy, eventy, koncerty, warsztaty masz w jednym
-                        miejscu. Z Events Calendar nuda ci więcej nie grozi! Zostaw nam swojego maila, a my
-                        powiadomimy cię kiedy nasza apka będzie gotowa.</p>
-            </div>
+    <div class="oferta-marginesy">
+        <div class="container1">
+            <p class="offer-title">//kalendarz<br> imprez</p>
 
-            <div class="container2">
-                <p class="offer-title">//wyszukaj<br>imprezę</p>
-                <p class="offer-text2">Nie wiesz co ze sobą zrobić, szukasz inspiracji na niebanalne spędzenie
-                    wieczoru? Wystarczy, że określisz na co masz ochotę, a nasza aplikacja zaproponuje eventy
-                    najbardziej odpowiadające twoim wymaganiom? Lubisz spędzać aktywnie czas w swojej okolicy? A
-                    może wolisz dziką imprezę w nowej miejscówie? Zrelaksuj się, a my wybierzemy najlepszą opcję dla
-                    ciebie.</p>
-            </div>
+            <p class="offer-text">Piątkowe wieczory spędzane przed youtubem? W weekendy zamiast szaleć na
+                mieście, głaszczesz kota i bezwiednie zmieniasz kanały w telewizji? Nigdy więcej! Poznaj jedyną
+                aplikację, która otwiera przed tobą drzwi do nightlifowego życia Trójmiasta. Poznaj nasz
+                Event Calendar. Od teraz wszystkie imprezy, eventy, koncerty, warsztaty masz w jednym
+                miejscu. Z Events Calendar nuda ci więcej nie grozi! Zostaw nam swojego maila, a my
+                powiadomimy cię kiedy nasza apka będzie gotowa.</p>
+        </div>
 
-            <div class="container3">
-                <p class="offer-title">//wyszukaj<br>lokal</p>
-                </p>
-                <p class="offer-text2">Znudziły ci się dotychczasowe miejscówki? Szukasz nowego klubu do potańczenia,
+        <div class="container2">
+            <p class="offer-title">//wyszukaj<br>imprezę</p>
+
+            <p class="offer-text2">Nie wiesz co ze sobą zrobić, szukasz inspiracji na niebanalne spędzenie
+                wieczoru? Wystarczy, że określisz na co masz ochotę, a nasza aplikacja zaproponuje eventy
+                najbardziej odpowiadające twoim wymaganiom? Lubisz spędzać aktywnie czas w swojej okolicy? A
+                może wolisz dziką imprezę w nowej miejscówie? Zrelaksuj się, a my wybierzemy najlepszą opcję dla
+                ciebie.</p>
+        </div>
+
+        <div class="container3">
+            <p class="offer-title">//wyszukaj<br>lokal</p>
+            </p>
+            <p class="offer-text2">Znudziły ci się dotychczasowe miejscówki? Szukasz nowego klubu do potańczenia,
                 pubu do wyjścia ze znajomymi, a może chcesz zobaczyć co znajduje się w twojej okolicy? Skorzystaj z
-                    wyszukiwarki miejsc, dzięki której nie umknie ci żadna miejscówa!</p>
-            </div>
-        </div>
-
-    </div>
-    <div class="button">
-        <div class="nawigacja"><a href="#main-container-zapisz-sie"><img src="images/strzala.png" alt="x"></a></div>
+                wyszukiwarki miejsc, dzięki której nie umknie ci żadna miejscówa!</p>
         </div>
     </div>
-        <div id="main-container-zapisz-sie" class="main-container-zapisz-sie">
-            <div class="content-container-form">
-                <div class="container-styles-paragraph-p-main">
-                    <p class="style-paragraph-p">
-                        <span class="span-p1-style">//</span>
-                        <span class="span-p2-style">dowiedz się</span>
-                        <span class="span-p3-style">o najnowszych imprezach</span>
-                    </p>
-                </div>
-                <input type="email" name="mail" placeholder="Wpisz adres e-mail"><br>
-                <button type="button" class="button-send">Wyślij!</button><br>
-                <p class="style-paragraph-p-last">podane informacje służą jedynie do celów promocyjnych aplikacji
-                    <span><a href="#home">event calendar</a></span>
-                </p>
 
-            </div>
+</div>
+<div id="main-container-zapisz-sie" class="main-container-zapisz-sie">
+    <div class="content-container-form">
+        <div class="container-styles-paragraph-p-main">
+            <p class="style-paragraph-p">
+                <span class="span-p1-style">//</span>
+                <span class="span-p2-style">dowiedz się</span>
+                <span class="span-p3-style">o najnowszych imprezach</span>
+            </p>
         </div>
-</main>
+        <input type="email" name="mail" placeholder="Wpisz adres e-mail"><br>
+        <button type="button" class="button-send">Wyślij!</button>
+        <br>
+
+        <p class="style-paragraph-p-last">podane informacje służą jedynie do celów promocyjnych aplikacji
+            <span><a href="#home">event calendar</a></span>
+        </p>
+
+    </div>
+</div>
 <div class="black-jack"> <!--black-jack-->
     <div class="black-jack-middle">
         <div class="black-jack-box">okno pierwsze</div>
