@@ -2,11 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Landing Page Event Calendar</title>
+    <title>Event Calendar</title>
     <link rel="stylesheet" href="reset-css.css">
+
     <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="style-zajawka.css">
+
+    <link rel="stylesheet" href="style-body.css">
+    <link rel="stylesheet" href="style-banner.css">
     <link rel="stylesheet" href="style-oferta.css">
     <link rel="stylesheet" href="style-zapisz-sie.css">
     <link rel="stylesheet" href="style-nawigacja.css">
@@ -17,30 +20,31 @@
 
 <nav class="pasek-nawigacja">
     <ol class="menu">
-        <li><a href="#mouseMove">Home</a></li>
+        <li><a href="#banner">Home</a></li>
         <li><a href="#offer">Oferta</a></li>
         <li><a href="#main-container-zapisz-sie">Premiera</a></li>
         <li><a href="#onas">O nas</a></li>
     </ol>
 
 </nav>
+
 <div>
-    <div class="zajawka" id="mouseMove">
-        <img src="images/Agradient2.png" class="zajawkaObject" id="gradient">
-        <img src="images/Afala.png" class="zajawkaObject" id="fala">
-        <img src="images/Aobject5.png" class="zajawkaObject" id="vinyl">
-        <img src="images/Aobject5.png" class="zajawkaObject" id="vinyl2">
-        <img src="images/Aobject3.png" class="zajawkaObject" id="sfinks">
-        <img src="images/object7.png" class="zajawkaObject" id="molo">
-        <img src="images/Aobject2.png" class="zajawkaObject" id="kapsel">
-        <img src="images/Aobject1.png" class="zajawkaObject" id="zuraw">
-        <img src="images/Aobject4.png" class="zajawkaObject" id="neptun">
+    <div class="banner" id="banner">
+        <img src="images/moving-object-gradient.png" class="moving-objects" id="moving-object-gradient">
+        <img src="images/moving-object-fala.png" class="moving-objects" id="moving-object-fala">
+        <img src="images/moving-object-vinyl.png" class="moving-objects" id="moving-object-vinyl">
+        <img src="images/moving-object-vinyl.png" class="moving-objects" id="moving-object-vinyl2">
+        <img src="images/moving-object-sfinks.png" class="moving-objects" id="moving-object-sfinks">
+        <img src="images/moving-object-molo.png" class="moving-objects" id="moving-object-molo">
+        <img src="images/moving-object-kapsel.png" class="moving-objects" id="moving-object-kapsel">
+        <img src="images/moving-object-zuraw.png" class="moving-objects" id="moving-object-zuraw">
+        <img src="images/moving-object-neptun.png" class="moving-objects" id="moving-object-neptun">
 
 
-        <div class="empty">
+        <div class="div-empty">
         </div>
 
-        <div class="title">
+        <div class="div-title">
             <h1 class="title1">Skoro miasto nie śpi</h1>
 
             <h2 class="subtitle">...to czemu ty masz spać?</h2>
@@ -114,6 +118,6 @@
 
 
 <script type="text/javascript" src="jquery-2.2.3.min.js"></script>
-<script type="text/javascript" src="img-tracking.js"></script>
+<script type="text/javascript" src="moving-objects.js"></script>
 </body>
 </html>

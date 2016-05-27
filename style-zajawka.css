@@ -51,32 +51,34 @@ body {
     color: white;
 }
 
-.zajawkaObject {
+.moving-objects {
     position: absolute;
     z-index: -1;
 }
 
-#vinyl {
+#moving-object-vinyl {
     width: 40%;
     height: auto;
     -webkit-transform: rotate(230deg);
 }
 
-#vinyl2 {
+#moving-object-vinyl2 {
     width: 7%;
     height: auto;
 }
 
-#sfinks {
+#moving-object-sfinks {
     width: 50%;
     height: auto;
     -webkit-transform: rotate(10deg);
 }
 
-#zuraw {
+#moving-object-zuraw {
     -webkit-transform: rotate(-20deg);
 }
 
-#gradient {
+#moving-object-gradient {
     -webkit-transform: rotate(-90deg);
+    width: 100%;
+    height: auto;
 }
