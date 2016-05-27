@@ -9,3 +9,14 @@ $(document).ready(function() {
 
     });
 });
+
+
+function endGame (B1, B2, B3) {
+    if (B1===B2 && B2===B3){
+        $('#wynik').html("Wygrałeś nagrodę!");
+    }
+    else{
+        $('#wynik').html("Przegrałeś. Spróbuj jeszcze raz!");
+    }
+
+}
