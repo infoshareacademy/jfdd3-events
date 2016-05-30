@@ -8,6 +8,7 @@
     <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400italic' rel='stylesheet' type='text/css'>
 
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="style-body.css">
     <link rel="stylesheet" href="style-banner.css">
     <link rel="stylesheet" href="style-oferta.css">
@@ -18,14 +19,19 @@
 </head>
 <body>
 
-<nav class="pasek-nawigacja">
-    <ol class="menu">
-        <li><a href="#banner">Home</a></li>
-        <li><a href="#offer">Oferta</a></li>
-        <li><a href="#main-container-zapisz-sie">Premiera</a></li>
-        <li><a href="#onas">O nas</a></li>
-    </ol>
-
+<nav class="navbar navbar-default navbar-fixed-top nav navbar-inverse">
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#banner">Home</a></li>
+                <li><a href="#offer">O aplikacji</a></li>
+                <li><a href="#main-container-zapisz-sie">Zapisz się!</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#offer">O autorach</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
 </nav>
 
 <div>
@@ -56,10 +62,10 @@
 </div>
 
 <div id="offer">
-
+<div class="col-sm-12 empty"></div>
     <div class="oferta-marginesy">
-        <div class="container1">
-            <p class="offer-title">//kalendarz<br> imprez</p>
+        <div class="container1 col-sm-7">
+            <p class="offer-title">//kalendarz<br>imprez</p>
 
             <p class="offer-text">Piątkowe wieczory spędzane przed youtubem? W weekendy zamiast szaleć na
                 mieście, głaszczesz kota i bezwiednie zmieniasz kanały w telewizji? Nigdy więcej! Poznaj jedyną
@@ -69,7 +75,7 @@
                 powiadomimy cię kiedy nasza apka będzie gotowa.</p>
         </div>
 
-        <div class="container2">
+        <div class="col-sm-5">
             <p class="offer-title">//wyszukaj<br>imprezę</p>
 
             <p class="offer-text2">Nie wiesz co ze sobą zrobić, szukasz inspiracji na niebanalne spędzenie
@@ -77,12 +83,10 @@
                 najbardziej odpowiadające twoim wymaganiom? Lubisz spędzać aktywnie czas w swojej okolicy? A
                 może wolisz dziką imprezę w nowej miejscówie? Zrelaksuj się, a my wybierzemy najlepszą opcję dla
                 ciebie.</p>
-        </div>
 
-        <div class="container3">
             <p class="offer-title">//wyszukaj<br>lokal</p>
-            </p>
-            <p class="offer-text2">Znudziły ci się dotychczasowe miejscówki? Szukasz nowego klubu do potańczenia,
+            <p class="offer-text2">
+                Znudziły ci się dotychczasowe miejscówki? Szukasz nowego klubu do potańczenia,
                 pubu do wyjścia ze znajomymi, a może chcesz zobaczyć co znajduje się w twojej okolicy? Skorzystaj z
                 wyszukiwarki miejsc, dzięki której nie umknie ci żadna miejscówa!</p>
         </div>

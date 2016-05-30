@@ -1,73 +1,21 @@
-#offer
-{
-    background-color: white;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.clear {
-    clear: both;
-}
-
-.container1, .container2, .container3 {
-    float: left;
-    width: 48%;
-    padding-top: 10px;
-    /*padding-left: 5%;*/
-    height: 100%;
-    position: relative;
-    color: black;
-    /*margin-right: 5px;*/
-    /*background-color: aqua;*/
-}
-
-.container1 {
- margin-right: 25px;
-}
-
-.container2 {
-   /* width: 50%;*/
-    height: 50%;
-    /*background-color: yellow;*/
-
-}
-.container3 {
-    /*width: 50%*/;
-    height: 50%;
-    /*background-color: red;*/
-}
-
-.oferta-marginesy{
-    margin-top: 30px;
-    margin-left: 70px;
-    margin-right: 20px;
+#offer {
     height: 100vh;
-
-}
-.oferta-tytul-boxa {
-    text-align: center;
-    font-size: 5em;
+    padding-top: 70px;
 }
 
-.oferta-slash2 {
-    font-size: 20em;
-    float: left;
-    width: 30%;
-    font-weight: 800;
-    text-align: right;
-}
 .offer-title {
     font-size: 60px;
     text-align: right;
+    line-height: 80%;
     float: right;
     width: 100%;
     font-weight: 800;
     padding-top: 0.5em;
-
-
+    margin-bottom: 3%;
 }
+
 .offer-text {
-    font-size: 20px;
+    font-size: 1em;
     font-family: 'Libre Baskerville', serif;
     font-weight: 400;
     padding-top: 9em;
@@ -76,10 +24,14 @@
 }
 
 .offer-text2 {
-    font-size: 20px;
+    font-size: 1em;
     font-family: 'Libre Baskerville', serif;
     font-weight: 400;
     padding-top: 9em;
     padding-left: 10px;
     text-align: left;
+}
+
+.empty {
+    height: 30px;
 }
