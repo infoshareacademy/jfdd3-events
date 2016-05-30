@@ -1,27 +1,15 @@
-.strzala
-{
+.nav-arrow {
     position: absolute;
     width: 100px;
     height: 80px;
-    background-color: transparent;
-    display: block;
     bottom: 0;
     z-index: 101;
-    font-size: 200%;
-    font-weight: 800;
-    float: none;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 45%;
     -webkit-transform: rotate(90deg);
-}
-
-
-
-.colorb
-{
     -webkit-filter: invert(1);
-    filter: invert(1);
 }
+
+
 
 .nav {
     z-index: 10;

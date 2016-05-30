@@ -1,11 +1,14 @@
 #offer {
     height: 100vh;
     padding-top: 70px;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 1);
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 .offer-title {
-    font-size: 60px;
+    color: white;
+    font-size: 300%;
     text-align: right;
     line-height: 80%;
     float: right;
@@ -16,23 +19,101 @@
 }
 
 .offer-text {
+    color: white;
     font-size: 1em;
-    font-family: 'Libre Baskerville', serif;
-    font-weight: 400;
-    padding-top: 9em;
-    padding-left: 10px;
+    /*font-family: 'Libre Baskerville', serif;*/
+    /*font-weight: 400;*/
+    padding-top: 2em;
+    padding-left: 3px;
     text-align: right;
 }
 
 .offer-text2 {
+    color: white;
     font-size: 1em;
-    font-family: 'Libre Baskerville', serif;
-    font-weight: 400;
-    padding-top: 9em;
-    padding-left: 10px;
+    /*font-family: 'Libre Baskerville', serif;*/
+    /*font-weight: 400;*/
+    padding-top: 2em;
+    padding-left: 3px;
     text-align: left;
 }
 
-.empty {
-    height: 30px;
+/*calendar*/
+
+.month {
+    padding: 1em 1em;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 2em;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+}
+
+.days li .active {
+    padding: 5px;
+    background: black;
+    color: white !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+    .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+    .weekdays li, .days li {width: 12.5%;}
+    .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+    .weekdays li, .days li {width: 12.2%;}
 }
