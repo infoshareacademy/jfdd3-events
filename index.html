@@ -34,32 +34,33 @@
     </div><!-- /.container-fluid -->
 </nav>
 
-<div>
-    <div class="banner" id="banner">
-        <img src="images/moving-object-gradient.png" class="moving-objects" id="moving-object-gradient">
-        <img src="images/moving-object-fala.png" class="moving-objects" id="moving-object-fala">
-        <img src="images/moving-object-vinyl.png" class="moving-objects" id="moving-object-vinyl">
-        <img src="images/moving-object-vinyl.png" class="moving-objects" id="moving-object-vinyl2">
-        <img src="images/moving-object-sfinks.png" class="moving-objects" id="moving-object-sfinks">
-        <img src="images/moving-object-molo.png" class="moving-objects" id="moving-object-molo">
-        <img src="images/moving-object-kapsel.png" class="moving-objects" id="moving-object-kapsel">
-        <img src="images/moving-object-zuraw.png" class="moving-objects" id="moving-object-zuraw">
-        <img src="images/moving-object-neptun.png" class="moving-objects" id="moving-object-neptun">
+<div class="banner" id="banner">
+    <video loop autoplay id="bgvid">
+        <source src="images/video2.mp4" type="video/mp4">
+    </video>
+    <!--<div class="banner" id="banner">-->
+        <!--<img src="images/moving-object-gradient.png" class="moving-objects" id="moving-object-gradient">-->
+        <!--<img src="images/moving-object-fala.png" class="moving-objects" id="moving-object-fala">-->
+        <!--<img src="images/moving-object-vinyl.png" class="moving-objects" id="moving-object-vinyl">-->
+        <!--<img src="images/moving-object-vinyl.png" class="moving-objects" id="moving-object-vinyl2">-->
+        <!--<img src="images/moving-object-sfinks.png" class="moving-objects" id="moving-object-sfinks">-->
+        <!--<img src="images/moving-object-molo.png" class="moving-objects" id="moving-object-molo">-->
+        <!--<img src="images/moving-object-kapsel.png" class="moving-objects" id="moving-object-kapsel">-->
+        <!--<img src="images/moving-object-zuraw.png" class="moving-objects" id="moving-object-zuraw">-->
+        <!--<img src="images/moving-object-neptun.png" class="moving-objects" id="moving-object-neptun">-->
 
-
-        <div class="div-empty">
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Event calendar</h1>
+            <p>Bo skoro miasto nie śpi, to czemu ty masz spać?</p>
+            <p><a class="btn btn-primary btn-lg" href="#offer" role="button">Dowiedz się więcej</a></p>
         </div>
-
-        <div class="div-title">
-            <h1 class="title1">Skoro miasto nie śpi</h1>
-
-            <h2 class="subtitle">...to czemu ty masz spać?</h2>
-        </div>
-
     </div>
 
-    <a href="#offer" class="strzala"><img src="images/strzala.png" class="colorb"></a>
 </div>
+
+    <a href="#offer" class="strzala"><img src="images/strzala.png" class="colorb"></a>
+
 
 <div id="offer">
 <div class="col-sm-12 empty"></div>
@@ -91,28 +92,32 @@
                 wyszukiwarki miejsc, dzięki której nie umknie ci żadna miejscówa!</p>
         </div>
     </div>
-
 </div>
-<div id="main-container-zapisz-sie" class="main-container-zapisz-sie">
-    <div class="content-container-form">
-        <div class="container-styles-paragraph-p-main">
-            <p class="style-paragraph-p">
-                <span class="span-p1-style">//</span>
-                <span class="span-p2-style">dowiedz się</span>
-                <span class="span-p3-style">o najnowszych imprezach</span>
-            </p>
+
+<div id="main-container-zapisz-sie">
+    <video loop autoplay id="bgvid">
+        <source src="images/video.mp4" type="video/mp4">
+    </video>
+    <form class="v-align">
+        <div class="form-group col-sm-4 col-sm-offset-4">
+            <label for="exampleInputEmail1">Imię</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Imię">
         </div>
-        <form id="send">
-        <input type="email" name="mail" placeholder="Wpisz adres e-mail"><br>
-        <button type="submit" class="button-send">Wyślij!</button>
-        <br>
-        </form>
-        <p class="style-paragraph-p-last">podane informacje służą jedynie do celów promocyjnych aplikacji
-            <span><a href="#home">event calendar</a></span>
-        </p>
-
-    </div>
+        <div class="form-group col-sm-4 col-sm-offset-4">
+            <label for="exampleInputEmail1">Adres e-mail</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+        </div>
+        <div class="checkbox col-sm-4 col-sm-offset-4">
+            <label>
+                <input type="checkbox"> Zgadzam się na wykorzystanie mojego adresu e-mail w celach reklamowych Event Calendar.
+            </label>
+        </div>
+        <button type="submit" class="btn btn-default col-sm-2 col-sm-offset-5">Wyślij</button>
+    </form>
 </div>
+
+
+
 <div id="game" class="black-jack"> <!--black-jack-->
     <div class="black-jack-middle">
         <div class="black-jack-box">okno pierwsze</div>

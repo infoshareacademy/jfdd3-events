@@ -6,34 +6,12 @@
   height: 100vh;
   overflow: hidden;
   position: relative;
-  background-color: #fff;
+  background-color: #000000;
   z-index: 100; }
 
-.div-empty {
-  order: 1;
-  flex-grow: 2; }
-
-.div-title {
-  order: 2;
-  flex-grow: 1;
-  -webkit-align-self: center;
-  align-self: center; }
-
-.title1, .subtitle {
-  -webkit-transform: rotate(-10deg);
-  margin: 0;
-  font-weight: 800; }
-
-.title1 {
-  font-size: 400%;
-  background: rgba(255, 255, 0, 0.5); }
-
-.subtitle {
-  font-family: 'Libre Baskerville', serif;
-  font-weight: 400;
-  font-size: 200%;
-  background: black;
-  color: white; }
+.jumbotron {
+  margin-top: 25%;
+}
 
 .moving-objects {
   position: absolute;

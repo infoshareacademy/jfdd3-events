@@ -1,6 +1,7 @@
 #offer {
     height: 100vh;
     padding-top: 70px;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .offer-title {
