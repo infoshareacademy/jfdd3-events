@@ -1,14 +1,4 @@
 @font-face {
-  font-family: LemonMilk;
-  src: url(LemonMilk.otf);
-}
-
-@font-face {
-  font-family: modernM;
-  src: url(modern%20M.ttf);
-}
-
-@font-face {
   font-family: euro35;
   src: url(eurof35.ttf);
 }
@@ -19,9 +9,6 @@
 }
 
 .banner {
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: row;
   width: 100%;
   height: 100vh;
   overflow: hidden;
@@ -38,6 +25,8 @@
 
 .event-calendar-title h1 {
   font-size: 6em;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-weight: 400;
   margin-top: 15%;
 }
 
@@ -45,10 +34,9 @@
   width: 75%
 }
 
-.logo {
+#logo-white {
   font-family: 'Sansita One', cursive;
-  font-size: 5em;
-  margin-bottom: 3%;
+  color: white;
 }
 
 video#bgvid {
@@ -66,29 +54,3 @@ video#bgvid {
   transform: translateX(-50%) translateY(-50%);
   background-size: cover;
 }
-
-/*.moving-objects {*/
-  /*position: absolute;*/
-  /*z-index: -1; }*/
-
-/*#moving-object-vinyl {*/
-  /*width: 40%;*/
-  /*height: auto;*/
-  /*-webkit-transform: rotate(230deg); }*/
-
-/*#moving-object-vinyl2 {*/
-  /*width: 7%;*/
-  /*height: auto; }*/
-
-/*#moving-object-sfinks {*/
-  /*width: 50%;*/
-  /*height: auto;*/
-  /*-webkit-transform: rotate(10deg); }*/
-
-/*#moving-object-zuraw {*/
-  /*-webkit-transform: rotate(-20deg); }*/
-
-/*#moving-object-gradient {*/
-  /*-webkit-transform: rotate(-90deg); }*/
-
-/*!*# sourceMappingURL=style-banner.css.map *!*/

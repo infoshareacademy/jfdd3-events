@@ -1,115 +1,50 @@
 #offer {
     height: 100vh;
-    padding-top: 70px;
-    background-color: rgba(0, 0, 0, 1);
-    margin-left: 2em;
-    margin-right: 2em;
+    background: url("back-1.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .offer-title {
+    text-align: center;
     color: white;
     font-size: 300%;
     font-family: euro35, sans-serif;
-    text-align: right;
-    line-height: 80%;
-    float: right;
+    line-height: 100%;
     width: 100%;
     padding-top: 0.5em;
-    margin-bottom: 3%;
 }
 
-.offer-text {
-    color: white;
-    font-size: 1em;
-    padding-top: 2em;
-    padding-left: 3px;
+.offer-title-1 {
+    font-size: 450%;
+    font-weight: 800;
     text-align: right;
 }
+.offer-title-1 span {
+    font-size: 180%;
+}
 
-.offer-text2 {
+
+.offer-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 120%;
     color: white;
-    font-size: 1em;
     padding-top: 2em;
-    padding-left: 3px;
-    text-align: left;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
-/*calendar*/
-
-.month {
-    padding: 1em 1em;
+.offer-text img {
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.5);
-    margin-top: 2em;
+    height: auto;
 }
 
-.month ul {
-    margin: 0;
-    padding: 0;
+.offer-container {
+    padding-top: 5%;
 }
 
-.month ul li {
-    color: white;
-    font-size: 20px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-}
-
-.month .prev {
-    float: left;
-    padding-top: 10px;
-}
-
-.month .next {
-    float: right;
-    padding-top: 10px;
-}
-
-.weekdays {
-    margin: 0;
-    padding: 10px 0;
-    background-color: #ddd;
-}
-
-.weekdays li {
-    display: inline-block;
-    width: 13.6%;
-    color: #666;
-    text-align: center;
-}
-
-.days {
-    padding: 10px 0;
-    background: #eee;
-    margin: 0;
-}
-
-.days li {
-    list-style-type: none;
-    display: inline-block;
-    width: 13.6%;
-    text-align: center;
-    margin-bottom: 5px;
-    font-size:12px;
-    color: #777;
-}
-
-.days li .active {
-    padding: 5px;
-    background: black;
-    color: white !important
-}
-
-/* Add media queries for smaller screens */
-@media screen and (max-width:720px) {
-    .weekdays li, .days li {width: 13.1%;}
-}
-
-@media screen and (max-width: 420px) {
-    .weekdays li, .days li {width: 12.5%;}
-    .days li .active {padding: 2px;}
-}
-
-@media screen and (max-width: 290px) {
-    .weekdays li, .days li {width: 12.2%;}
-}
+/*.background-offer {*/
+    /*position: fixed;*/
+/*}*/

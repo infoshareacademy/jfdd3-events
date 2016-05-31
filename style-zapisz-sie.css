@@ -1,147 +1,25 @@
 #main-container-zapisz-sie {
     height: 100vh;
-    padding-top: 100px;
+    background: url("back-2.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .zapisz-sie {
     text-align: center;
-    font-family: 'Sansita One', cursive;
-    font-size: 5em;
+    font-family: "euro35";
+    font-size: 3em;
     margin-bottom: 3%;
+    /*background: rgba(0, 0, 0, 0.5);*/
+    color: white;
+}
+
+.zapisz-sie i {
+    font-size: 2em;
 }
 
 .v-align {
-    margin-top: 12%;
+    padding-top: 8%;
+    color: white;
 }
-
-
-
-/*}*/
-
-/*.content-container-form {*/
-    /*text-align: center;*/
-    /*align-self: center;*/
-    /*align-content: center;*/
-    /*margin-left: auto;*/
-    /*margin-right: auto;*/
-    /*border: 20px solid black;*/
-    /*width: 70vw;*/
-    /*padding: 50px;*/
-    /*position: relative;*/
-    /*top: 0px;*/
-/*}*/
-
-/*.container-styles-paragraph-p-main {*/
-    /*width: 30vw;*/
-    /*height: 30vh;*/
-    /*margin-right: auto;*/
-    /*margin-left: auto;*/
-
-/*}*/
-
-/*.span-p1-style {*/
-    /*float: left;*/
-    /*color: black;*/
-    /*font-size: 155px;*/
-    /*display: inline-block;*/
-
-/*}*/
-
-/*.span-p2-style {*/
-    /*font-size: 70px;*/
-    /*font-weight: bold;*/
-    /*display: block;*/
-    /*line-height: 135%;*/
-    /*width: 100%;*/
-/*}*/
-
-/*.span-p3-style {*/
-    /*color: black;*/
-    /*font-size: 27px;*/
-    /*display: block;*/
-
-/*}*/
-
-/*input {*/
-    /*font-size: 18px;*/
-    /*width: 30vw;*/
-    /*height: 35px;*/
-    /*box-sizing: border-box;*/
-    /*text-align: center;*/
-    /*border: none;*/
-    /*margin-top: 10px;*/
-    /*margin-bottom: 10px;*/
-    /*background-color: white;*/
-/*}*/
-
-/*::-webkit-input-placeholder {*/
-    /*color: black;*/
-/*}*/
-
-/*.button-send {*/
-    /*font-size: 18px;*/
-    /*color: gold;*/
-    /*width: 30vw;*/
-    /*height: 35px;*/
-    /*box-sizing: border-box;*/
-    /*text-align: center;*/
-    /*border: none;*/
-    /*margin-top: 10px;*/
-    /*margin-bottom: 10px;*/
-    /*background-color: black;*/
-/*}*/
-
-/*.button-send:hover {*/
-    /*color: black;*/
-    /*background-color: white;*/
-/*}*/
-
-/*.style-paragraph-p-last {*/
-    /*font-size: 10px;*/
-
-/*}*/
-
-/*span a {*/
-    /*text-decoration: none;*/
-    /*color: gold;*/
-/*}*/
-
-/*@media (min-width: 1024px) and (max-width: 1366px) {*/
-    /*.span-p1-style {*/
-        /*font-size: 120px;*/
-    /*}*/
-/*}*/
-
-/*@media (min-width: 1024px) and (max-width: 1366px) {*/
-    /*.span-p2-style {*/
-        /*font-size: 50px;*/
-    /*}*/
-/*}*/
-
-/*@media (min-width: 1024px) and (max-width: 1366px) {*/
-    /*.span-p3-style {*/
-        /*font-size: 22px;*/
-    /*}*/
-/*}*/
-
-/*@media (min-width: 766px) and (max-width: 1023px) {*/
-
-    /*.span-p1-style {*/
-        /*font-size: 85px;*/
-    /*}*/
-/*}*/
-
-/*@media (min-width: 766px) and (max-width: 1023px) {*/
-    /*.span-p2-style {*/
-        /*font-size: 35px;*/
-    /*}*/
-/*}*/
-
-/*@media (min-width: 766px) and (max-width: 1023px) {*/
-    /*.span-p3-style {*/
-        /*font-size: 18px;*/
-    /*}*/
-/*}*/
-
-
-
-

@@ -6,8 +6,7 @@
     <link rel="stylesheet" href="reset-css.css">
 
     <link href='https://fonts.googleapis.com/css?family=Sansita+One' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
@@ -22,45 +21,38 @@
 
 <body>
 
-<nav class="navbar navbar-default navbar-fixed-top navbar-inverse" id="nav">
+<nav class="navbar navbar-default navbar-fixed-top" id="nav">
     <div class="container-fluid">
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#banner">Home</a></li>
                 <li><a href="#offer">O aplikacji</a></li>
                 <li><a href="#main-container-zapisz-sie">Zapisz się!</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
                 <li><a href="#offer">O autorach</a></li>
             </ul>
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
+            <p class="navbar-text navbar-right" id="logo-white"><i class="fa fa-fire" aria-hidden="true"></i>  Event
+                calendar</p>
+        </div>
+    </div>
 </nav>
 
 <div class="banner" id="banner">
     <video loop autoplay id="bgvid">
         <source src="images/video2.mp4" type="video/mp4">
     </video>
-
-
     <div class="container col-sm-12 event-calendar-title">
             <h1>BO SKORO MIASTO NIE ŚPI,<hr>TO CZEMU TY MASZ SPAĆ?</h1>
-            <p><i class="fa fa-fire" aria-hidden="true"></i> Event calendar</p>
         <br>
+        <!--<img class="gradient" src="images/gradient.png">-->
         <a href="#offer" class="nav-arrow"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
-
     </div>
-
 </div>
 
-
-
-
 <div id="offer">
-<div class="col-sm-12 empty"></div>
-    <div class="oferta-marginesy">
-        <div class="container1 col-sm-7">
-            <p class="offer-title">ODKRYJ SWOJE MIASTO NA NOWO</p>
+    <div class="offer-container container"></div>
+        <div class="col-sm-7">
+            <p class="offer-title offer-title-1"><i class="fa fa-bolt" aria-hidden="true"></i> ODKRYJ SWOJE
+                MIASTO<br><span>NA NOWO</span></p>
 
             <p class="offer-text">Piątkowe wieczory spędzane przed youtubem? W weekendy zamiast szaleć na
                 mieście, głaszczesz kota i bezwiednie zmieniasz kanały w telewizji? Nigdy więcej! Poznaj jedyną
@@ -69,79 +61,20 @@
                 miejscu. Z Events Calendar nuda ci więcej nie grozi! Zostaw nam swojego maila, a my
                 powiadomimy cię kiedy nasza apka będzie gotowa.</p>
 
-            <div class="month">
-                <ul>
-                    <li class="prev">❮</li>
-                    <li class="next">❯</li>
-                    <li style="text-align:center">
-                        August<br>
-                        <span style="font-size:18px">2016</span>
-                    </li>
-                </ul>
-            </div>
-
-            <ul class="weekdays">
-                <li>Mo</li>
-                <li>Tu</li>
-                <li>We</li>
-                <li>Th</li>
-                <li>Fr</li>
-                <li>Sa</li>
-                <li>Su</li>
-            </ul>
-
-            <ul class="days">
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-                <li>4</li>
-                <li>5</li>
-                <li>6</li>
-                <li>7</li>
-                <li>8</li>
-                <li>9</li>
-                <li><span class="active">10</span></li>
-                <li>11</li>
-                <li>12</li>
-                <li>13</li>
-                <li>14</li>
-                <li>15</li>
-                <li>16</li>
-                <li>17</li>
-                <li>18</li>
-                <li>19</li>
-                <li>20</li>
-                <li>21</li>
-                <li>22</li>
-                <li>23</li>
-                <li>24</li>
-                <li>25</li>
-                <li>26</li>
-                <li>27</li>
-                <li>28</li>
-                <li>29</li>
-                <li>30</li>
-                <li>31</li>
-            </ul>
-
-            </body>
-            </html>
-
-
-
         </div>
 
-        <div class="col-sm-5">
-            <p class="offer-title">ZNAJDŹ MELANŻ</p>
 
-            <p class="offer-text2">Nie wiesz co ze sobą zrobić, szukasz inspiracji na niebanalne spędzenie
+        <div class="col-sm-5">
+            <p class="offer-title"><i class="fa fa-glass" aria-hidden="true"></i> ZNAJDŹ MELANŻ</p>
+
+            <p class="offer-text">Nie wiesz co ze sobą zrobić, szukasz inspiracji na niebanalne spędzenie
                 wieczoru? Wystarczy, że określisz na co masz ochotę, a nasza aplikacja zaproponuje eventy
                 najbardziej odpowiadające twoim wymaganiom? Lubisz spędzać aktywnie czas w swojej okolicy? A
                 może wolisz dziką imprezę w nowej miejscówie? Zrelaksuj się, a my wybierzemy najlepszą opcję dla
                 ciebie.</p>
 
-            <p class="offer-title">ODKRYJ NOWE MIEJSCÓWY</p>
-            <p class="offer-text2">
+            <p class="offer-title"><i class="fa fa-map-marker" aria-hidden="true"></i> ODKRYJ NOWE MIEJSCÓWY</p>
+            <p class="offer-text">
                 Znudziły ci się dotychczasowe lokale? Szukasz nowego klubu do potańczenia,
                 pubu do wyjścia ze znajomymi, a może chcesz zobaczyć co znajduje się w twojej okolicy? Skorzystaj z
                 wyszukiwarki miejsc, dzięki której nie umknie ci żadna miejscówa!</p>
@@ -150,27 +83,27 @@
 </div>
 
 <div id="main-container-zapisz-sie">
-
     <form class="v-align">
-        <p class="zapisz-sie">Zapisz sie i wygraj!</p>
+        <p class="zapisz-sie"><i class="fa fa-pencil" aria-hidden="true"></i><br>ZAPISZ SIĘ NA PREMIERĘ APLIKACJI<br>I
+            WYGRAJ WJAZD NA IMPREZĘ ŻYCIA</p>
         <div class="form-group col-sm-4 col-sm-offset-4">
-            <label for="exampleInputEmail1">Imię</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Imię">
+            <label for="exampleInputName">Imię</label>
+            <input type="email" class="form-control" id="exampleInputName" placeholder="Imię">
         </div>
         <div class="form-group col-sm-4 col-sm-offset-4">
-            <label for="exampleInputEmail1">Adres e-mail</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+            <label for="exampleInputEmail">Adres e-mail</label>
+            <input type="email" class="form-control" id="exampleInputEmail" placeholder="Email">
         </div>
         <div class="checkbox col-sm-4 col-sm-offset-4">
             <label>
-                <input type="checkbox"> Zgadzam się na wykorzystanie mojego adresu e-mail w celach reklamowych Event Calendar.
+                <input type="checkbox"> Zgadzam się na wykorzystanie mojego adresu e-mail w celach reklamowych  <span
+                    id="logo-white"><i class="fa fa-fire" aria-hidden="true"></i>
+                Event calendar</span>.
             </label>
         </div>
         <button type="submit" class="btn btn-default col-sm-2 col-sm-offset-5">Wyślij</button>
     </form>
 </div>
-
-
 
 <div id="game" class="black-jack"> <!--black-jack-->
     <div class="black-jack-middle">
@@ -180,9 +113,7 @@
     </div>
 </div>
 
-
 <script type="text/javascript" src="jquery-2.2.3.min.js"></script>
-<script type="text/javascript" src="moving-objects.js"></script>
 <script type="text/javascript" src="black-jack-open-close.js"></script>
 </body>
 </html>
