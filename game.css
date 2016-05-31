@@ -26,10 +26,9 @@
     background-color: aqua;
     height: 40%;
     width: 100%;
-
-}
+  }
 .wynik {
-    order: 2;
+    order: 3;
     background-color: yellow;
     width: 100%;
     height: 10%;
@@ -37,23 +36,29 @@
 }
 
 .item-game-button {
+    display: flex;
+    order: 2;
     background-repeat: repeat-y;
     width: 20%;
-    height: 80%;
+    height: 10%;
     border: 2px solid black;
-    margin-right: 1px
+    margin-right: 1px;
+    margin:0 auto;
 }
 .button-start {
     width: 90%;
+
 }
 
 .item-game-1, .item-game-2, .item-game-3 {
-    background-image: url(images/game-obrazek.jpg);
+    background-image: url(images/background-games.jpg);
     background-repeat: repeat-y;
     width: 20%;
-    height: 80%;
+    height: 90%;
     border: 2px solid black;
     margin-right: 1px;
+    background-size: cover;
+
 
 }
 /*
