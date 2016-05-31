@@ -102,6 +102,24 @@ span a {
     text-decoration: none;
     color: gold;
 }
+/*-------------------------nadpisane classy do bootsratpa-----------------*/
+.carousel-indicators {
+    margin-left:0%;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    max-width:100%;
+    margin: auto;
+    border:25px solid white;
+}
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+}
+.carousel {
+    background-color: black;
+}
+
+
+
 
 @media (min-width: 1024px) and (max-width: 1366px) {
     .span-p1-style {
