@@ -80,61 +80,38 @@ ol > li:hover >a
     filter: invert(1);
 }
 
-
-.fotki
-{
-    background-color: white;
-    position: relative;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    width: 100%;
-    height: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    overflow: hidden;
-}
-
 .f
 {
-    font-size: 1em;
-    background-color: yellow;
-    position: relative;
-    top: 60%;
-    width: 20%;
-    height: 40%;
-    border: 5px solid black;
-    z-index: 100;
+    width: 19%;
     float: left;
-    margin-left: 3%;
+    font-size: 1em;
+    top: 60%;
+    height: 40%;
+    padding: 2%;
+    margin: 8% 1% 8% 1%;
+
 }
 
+.center-text {
+    text-align: center;
+}
 
-.img
+h3
 {
-    background-color: blue;
-    position: relative;
-    top: 60%;
-    width: 20%;
-    height: 40%;
-    z-index: 100;
-    float: left;
-    margin-left: 3%;
-    align-item: center;
+    font-size: 1.5em;
+    margin-top: 4%;
+    margin-bottom: 2%;
 }
 
 
 footer
 {
-    position: relative;
-   /* text-align: center;*/
     font-size: 1.5em;
     font-family: 'Work Sans', sans-serif;
     font-weight: 800;
     height: 10%;
     width: 100%;
     background-color: aquamarine;
-    margin-bottom: 0;
 }
 
 .stopka
@@ -144,10 +121,8 @@ footer
     width: 40%;
     height: 100%;
     margin-left: 5%;
-    margin-top: 10%;
-    margin-bottom: 5%;
-    top: 10%;
     background-color: blueviolet;
+    z-index: 100;
 }
 
 i:link
@@ -165,33 +140,26 @@ i:hover
 
 .social
 {
-    position:relative;
-    display: block;
+    display: inline-block;
     float: left;
-    margin-right: 15%;
-    margin-left: 5%;
-    height: 20%;
-    width: 40%;
-    top: 5%;
-   /* border: solid 2px black;*/
+    height: 100%;
+    width: 30%;
     z-index: 100;
-    background-color: mediumblue;
-
 }
 
 .teil
 {
     color: black;
-    position: relative;
+   /* position: relative;
     display: inline-block;
-    align-items: center;
+    align-items: center;*/
     font-size: 2em;
     float: left;
-    /*b!*order-right: solid 2px black;*!*/
+    /*!*b!*order-right: solid 2px black;*!*!
     width: 10%;
     height: 100%;
-   /* margin-left: 20px;
-    padding-left: 20px;*/
+   !* margin-left: 20px;
+    padding-left: 20px;*!
     text-align: center;
-    padding: 10px;
+    padding: 10px;*/
 }
