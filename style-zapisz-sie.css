@@ -1,6 +1,12 @@
 #main-container-zapisz-sie {
     height: 100vh;
-    padding-top: 70px;
+    padding-top: 100px;
+}
+.zapisz-sie {
+    text-align: center;
+    font-family: 'Sansita One', cursive;
+    font-size: 5em;
+    margin-bottom: 3%;
 }
 
 .v-align {
