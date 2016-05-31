@@ -9,11 +9,11 @@
 .offer-title {
     color: white;
     font-size: 300%;
+    font-family: euro35, sans-serif;
     text-align: right;
     line-height: 80%;
     float: right;
     width: 100%;
-    font-weight: 800;
     padding-top: 0.5em;
     margin-bottom: 3%;
 }
@@ -21,8 +21,6 @@
 .offer-text {
     color: white;
     font-size: 1em;
-    /*font-family: 'Libre Baskerville', serif;*/
-    /*font-weight: 400;*/
     padding-top: 2em;
     padding-left: 3px;
     text-align: right;
@@ -31,8 +29,6 @@
 .offer-text2 {
     color: white;
     font-size: 1em;
-    /*font-family: 'Libre Baskerville', serif;*/
-    /*font-weight: 400;*/
     padding-top: 2em;
     padding-left: 3px;
     text-align: left;

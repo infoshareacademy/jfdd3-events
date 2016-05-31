@@ -1,3 +1,23 @@
+@font-face {
+  font-family: LemonMilk;
+  src: url(LemonMilk.otf);
+}
+
+@font-face {
+  font-family: modernM;
+  src: url(modern%20M.ttf);
+}
+
+@font-face {
+  font-family: euro35;
+  src: url(eurof35.ttf);
+}
+
+@font-face {
+  font-family: euro55;
+  src: url(eurof55.ttf);
+}
+
 .banner {
   display: -webkit-flex;
   display: flex;
@@ -7,38 +27,68 @@
   overflow: hidden;
   position: relative;
   background-color: #fff;
-  z-index: 100; }
-
-.jumbotron {
-  margin-top: 25%;
+  z-index: 100;
 }
-h1 {
+
+.event-calendar-title {
+  font-family: euro35, sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.event-calendar-title h1 {
+  font-size: 6em;
+  margin-top: 15%;
+}
+
+.event-calendar-title hr {
+  width: 75%
+}
+
+.logo {
   font-family: 'Sansita One', cursive;
-  font-size: 7em;
+  font-size: 5em;
+  margin-bottom: 3%;
 }
 
-.moving-objects {
-  position: absolute;
-  z-index: -1; }
-
-#moving-object-vinyl {
-  width: 40%;
+video#bgvid {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
   height: auto;
-  -webkit-transform: rotate(230deg); }
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+}
 
-#moving-object-vinyl2 {
-  width: 7%;
-  height: auto; }
+/*.moving-objects {*/
+  /*position: absolute;*/
+  /*z-index: -1; }*/
 
-#moving-object-sfinks {
-  width: 50%;
-  height: auto;
-  -webkit-transform: rotate(10deg); }
+/*#moving-object-vinyl {*/
+  /*width: 40%;*/
+  /*height: auto;*/
+  /*-webkit-transform: rotate(230deg); }*/
 
-#moving-object-zuraw {
-  -webkit-transform: rotate(-20deg); }
+/*#moving-object-vinyl2 {*/
+  /*width: 7%;*/
+  /*height: auto; }*/
 
-#moving-object-gradient {
-  -webkit-transform: rotate(-90deg); }
+/*#moving-object-sfinks {*/
+  /*width: 50%;*/
+  /*height: auto;*/
+  /*-webkit-transform: rotate(10deg); }*/
 
-/*# sourceMappingURL=style-banner.css.map */
+/*#moving-object-zuraw {*/
+  /*-webkit-transform: rotate(-20deg); }*/
+
+/*#moving-object-gradient {*/
+  /*-webkit-transform: rotate(-90deg); }*/
+
+/*!*# sourceMappingURL=style-banner.css.map *!*/
