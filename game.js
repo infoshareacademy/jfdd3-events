@@ -31,14 +31,22 @@ $(function() {
     });
 });
 
+
+
 function checkResult (B1, B2, B3) {
     if (B1===B2 && B2===B3){
-        $('#wynik').html("WYGRAŁEŚ WJAZD NA IMPREZĘ!");
+        $('#wynik').empty().html("WYGRAŁEŚ WJAZD NA IMPREZĘ!");
     }
     else{
-        $('#wynik').html("PRZEGRAŁEŚ, SPRÓBUJ JESZCZE RAZ!");
+        $('#wynik').empty().html("PRZEGRAŁEŚ, SPRÓBUJ JESZCZE RAZ!");
     }
 
 }
 
+$(document).ready(function() {
+    $('#start').click(function (event) {
+        event.preventDefault();
+        $('#wynik').empty();
 
+            });
+});
