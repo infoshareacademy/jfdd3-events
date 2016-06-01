@@ -33,10 +33,10 @@ $(function() {
 
 function checkResult (B1, B2, B3) {
     if (B1===B2 && B2===B3){
-        $('#wynik').html("Wygrałeś nagrodę!");
+        $('#wynik').html("WYGRAŁEŚ WJAZD NA IMPREZĘ!");
     }
     else{
-        $('#wynik').html("Przegrałeś. Spróbuj jeszcze raz!");
+        $('#wynik').html("PRZEGRAŁEŚ, SPRÓBUJ JESZCZE RAZ!");
     }
 
 }
