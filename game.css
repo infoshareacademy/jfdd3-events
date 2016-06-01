@@ -52,8 +52,8 @@
 .item-game-1, .item-game-2, .item-game-3 {
     background-image: url(images/background-game-100x300px.jpg);
     background-repeat: repeat-y;
-    width: 102px;
-    height: 102px;
+    width: 100px;
+    height: 100px;
     border: 1px solid black;
     margin-right: 1px;
 }

@@ -1,6 +1,4 @@
-/**
- * Created by slawek on 25.05.16.
- */
+'use strict'
 
 $(document).ready(function() {
     $('form').submit(function (event) {
