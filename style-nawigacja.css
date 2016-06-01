@@ -111,7 +111,6 @@ footer
     font-weight: 800;
     height: 10%;
     width: 100%;
-    background-color: aquamarine;
 }
 
 .stopka
@@ -133,9 +132,7 @@ i:link
 
 i:hover
 {
-   /* font-style: italic;*/
     color: yellow;
-   /* text-decoration: underline;*/
 }
 
 .social
@@ -147,19 +144,9 @@ i:hover
     z-index: 100;
 }
 
-.teil
-{
+.teil {
     color: black;
-   /* position: relative;
-    display: inline-block;
-    align-items: center;*/
     font-size: 2em;
     float: left;
-    /*!*b!*order-right: solid 2px black;*!*!
-    width: 10%;
-    height: 100%;
-   !* margin-left: 20px;
-    padding-left: 20px;*!
-    text-align: center;
-    padding: 10px;*/
+    z-index: 100;
 }
