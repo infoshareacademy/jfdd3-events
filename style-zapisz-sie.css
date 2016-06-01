@@ -8,10 +8,11 @@
     text-align: center;
     color: black;
     font-size: 25px;
-    padding-top: auto;
+    /*padding-top: auto;*/
     padding-bottom: auto;
     display: flex;
-    font-weight: 800;
+    /*font-weight: 800;*/
+    padding-top: 40px;
 
 }
 
@@ -77,7 +78,7 @@ input {
 
 .button-send {
     font-size: 18px;
-    color: gold;
+    color: rgb(20, 200, 255);
     width: 30vw;
     height: 35px;
     box-sizing: border-box;
@@ -100,7 +101,7 @@ input {
 
 span a {
     text-decoration: none;
-    color: gold;
+    color: rgb(20, 200, 255);
 }
 
 video#bgvid {

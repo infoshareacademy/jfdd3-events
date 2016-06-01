@@ -25,33 +25,25 @@
     margin-right: 25px;
 }
 
-.container2 {
-    height: 50%;
-
-}
-.container3 {
-    height: 50%;
-}
-
 .oferta-marginesy{
-    padding-top: 30px;
+    padding-top: 40px;
     margin-left: 70px;
     margin-right: 20px;
     height: 100vh;
 
 }
-.oferta-tytul-boxa {
-    text-align: center;
-    font-size: 5em;
-}
+/*.oferta-tytul-boxa {*/
+    /*text-align: center;*/
+    /*font-size: 2em;*/
+/*}*/
 
-.oferta-slash2 {
-    font-size: 20em;
-    float: left;
-    width: 30%;
-    font-weight: 800;
-    text-align: right;
-}
+/*.oferta-slash2 {*/
+    /*font-size: 20em;*/
+    /*float: left;*/
+    /*width: 30%;*/
+    /*font-weight: 800;*/
+    /*text-align: right;*/
+/*}*/
 .offer-title {
     font-size: 3em;
     text-align: right;
