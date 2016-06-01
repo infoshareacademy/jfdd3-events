@@ -22,23 +22,19 @@
 }
 
 .container1 {
- margin-right: 25px;
+    margin-right: 25px;
 }
 
 .container2 {
-   /* width: 50%;*/
     height: 50%;
-    /*background-color: yellow;*/
 
 }
 .container3 {
-    /*width: 50%*/;
     height: 50%;
-    /*background-color: red;*/
 }
 
 .oferta-marginesy{
-    margin-top: 30px;
+    padding-top: 30px;
     margin-left: 70px;
     margin-right: 20px;
     height: 100vh;
@@ -57,29 +53,30 @@
     text-align: right;
 }
 .offer-title {
-    font-size: 60px;
+    font-size: 3em;
     text-align: right;
     float: right;
     width: 100%;
-    font-weight: 800;
     padding-top: 0.5em;
-
-
 }
+.offer-title span {
+    font-size: 1.5em;
+}
+
 .offer-text {
-    font-size: 20px;
-    font-family: 'Libre Baskerville', serif;
+    font-size: 1em;
+    font-family: 'Open Sans', serif;
     font-weight: 400;
-    padding-top: 9em;
+    padding-top: 1em;
     padding-left: 10px;
     text-align: right;
 }
 
 .offer-text2 {
-    font-size: 20px;
-    font-family: 'Libre Baskerville', serif;
+    font-size: 1em;
+    font-family: 'Open Sans', serif;
     font-weight: 400;
-    padding-top: 9em;
+    padding-top: 1em;
     padding-left: 10px;
     text-align: left;
 }
