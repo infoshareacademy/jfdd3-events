@@ -4,7 +4,6 @@
 .game-class {
     width: 100%;
     height: 100%;
-    /*background-color: aqua;*/
     display: flex;
     flex-direction: column;
 }
@@ -51,70 +50,12 @@
 }
 
 .item-game-1, .item-game-2, .item-game-3 {
-    background-image: url(images/background-games.jpg);
+    background-image: url(images/background-game-100x300px.jpg);
     background-repeat: repeat-y;
-    width: 20%;
-    height: 90%;
-    border: 2px solid black;
+    width: 102px;
+    height: 102px;
+    border: 1px solid black;
     margin-right: 1px;
-    background-size: cover;
-
-
-}
-/*
-.item-game-2 {
-    background-image: url(images/game-obrazek.jpg);
-    background-repeat: repeat-y;
-    width: 200px;
-    height: 100px;
-    border: 2px solid black;
-    margin-right: 1px;
-
 }
 
-.item-game-3 {
-    background-image: url(images/game-obrazek.jpg);
-    background-repeat: repeat-y;
-    width: 200px;
-    height: 100px;
-    border: 2px solid black;
-
-}*/
-
-
-/*
-
-.black-jack {
-    width: 100%;
-    height: 100%;
-    background-color: aqua;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.black-jack-middle {
-    width: 50%;
-    height: 50%;
-    !*position: relative;*!
-    background-color: red;
-    !*left: 30%;
-    top: 30%;*!
-    display: flex;
-    max-width: 50%;
-
-}
-.black-jack-box {
-    width: 200px;
-    height: 200px;
-    background-color: yellow;
-    float: left;
-    border-bottom-color: red;
-    display: inline-block;
-    position: relative;
-    top: 25%;
-    !*left: 30%;*!
-    margin-left: auto;
-    margin-right: auto;
-}
-*/
 
