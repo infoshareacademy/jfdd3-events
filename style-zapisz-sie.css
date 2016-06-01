@@ -1,8 +1,4 @@
 .main-container-zapisz-sie {
-    /*background: url('images/moving-object-fala.png') no-repeat;*/
-    /*background-size: 100%;*/
-    /*background-position: 5px 360px;*/
-    /*background-color: white;*/
     height: 100vh;
     width: 100vw;
     text-align: center;
@@ -104,6 +100,22 @@ span a {
 }
 
 video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+}
+
+video#bgvid2 {
     position: fixed;
     top: 50%;
     left: 50%;
