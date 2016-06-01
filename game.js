@@ -31,14 +31,22 @@ $(function() {
     });
 });
 
+
+
 function checkResult (B1, B2, B3) {
     if (B1===B2 && B2===B3){
-        $('#wynik').html("Wygrałeś nagrodę!");
+        $('#wynik').empty().html("Wygrałeś nagrodę!");
     }
     else{
-        $('#wynik').html("Przegrałeś. Spróbuj jeszcze raz!");
+        $('#wynik').empty().html("Przegrałeś. Spróbuj jeszcze raz!");
     }
 
 }
 
+$(document).ready(function() {
+    $('#start').click(function (event) {
+        event.preventDefault();
+        $('#wynik').empty();
 
+            });
+});
