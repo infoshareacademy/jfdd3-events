@@ -12,8 +12,10 @@
     order: 0;
     /*background-color: blanchedalmond;*/
     text-align: center;
+    font-size: 2em;
     height: 20%;
     padding-top: 5%;
+    padding-bottom: 8%;
 }
 
 
@@ -46,11 +48,9 @@
     margin:0 auto;
 }
 
-.button-start {
-    text-align: center;
-    margin-right: 10%;
-    width: 90%;
-}
+/*.button-start {*/
+    /*text-align: center;*/
+/*}*/
 
 .item-game-1, .item-game-2, .item-game-3 {
     background-image: url(images/background-game-100x300px.jpg);
