@@ -1,0 +1,71 @@
+#offer
+{
+    background-color: white;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container1, .container2, .container3 {
+    float: left;
+    width: 48%;
+    padding-top: 10px;
+    /*padding-left: 5%;*/
+    height: 100%;
+    position: relative;
+    color: black;
+    /*margin-right: 5px;*/
+    /*background-color: aqua;*/
+}
+
+.container1 {
+    margin-right: 25px;
+}
+
+.oferta-marginesy{
+    padding-top: 40px;
+    margin-left: 70px;
+    margin-right: 20px;
+    height: 100vh;
+
+}
+/*.oferta-tytul-boxa {*/
+    /*text-align: center;*/
+    /*font-size: 2em;*/
+/*}*/
+
+/*.oferta-slash2 {*/
+    /*font-size: 20em;*/
+    /*float: left;*/
+    /*width: 30%;*/
+    /*font-weight: 800;*/
+    /*text-align: right;*/
+/*}*/
+.offer-title {
+    font-size: 3em;
+    text-align: right;
+    float: right;
+    width: 100%;
+    padding-top: 0.5em;
+}
+.offer-title span {
+    font-size: 1.5em;
+}
+
+.offer-text {
+    font-size: 1em;
+    font-family: 'Open Sans', serif;
+    font-weight: 400;
+    padding-top: 1em;
+    padding-left: 10px;
+    text-align: right;
+}
+
+.offer-text2 {
+    font-size: 1em;
+    font-family: 'Open Sans', serif;
+    font-weight: 400;
+    padding-top: 1em;
+    padding-left: 10px;
+    text-align: left;
+}
