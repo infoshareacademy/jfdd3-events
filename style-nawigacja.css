@@ -92,6 +92,10 @@ ol > li:hover >a
 
 }
 
+span{
+    font-size: 10em;
+}
+
 .center-text {
     text-align: center;
 }
@@ -125,6 +129,7 @@ footer
     z-index: 100;
 }
 
+/*
 i:link
 {
     color: black !important;
@@ -135,6 +140,7 @@ i:hover
 {
     color: yellow;
 }
+*/
 
 .social
 {
