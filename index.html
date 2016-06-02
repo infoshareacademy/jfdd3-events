@@ -5,20 +5,20 @@
     <title>Event Calendar</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="stylesheet" href="reset-css.css">
+    <link rel="stylesheet" href="css/reset-css.css">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
-    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.css">
-    <link rel="stylesheet" href="style-banner.css">
-    <link rel="stylesheet" href="style-body.css">
-    <link rel="stylesheet" href="style-oferta.css">
-    <link rel="stylesheet" href="style-zapisz-sie.css">
-    <link rel="stylesheet" href="style-o-nas.css">
-    <link rel="stylesheet" href="slider.css">
-    <link rel="stylesheet" href="style-nawigacja.css">
-    <link rel="stylesheet" href="game.css">
+    <link rel="stylesheet" href="fonts/font-awesome-4.6.3/css/font-awesome.css">
+    <link rel="stylesheet" href="css/style-banner.css">
+    <link rel="stylesheet" href="css/style-body.css">
+    <link rel="stylesheet" href="css/style-oferta.css">
+    <link rel="stylesheet" href="css/style-zapisz-sie.css">
+    <link rel="stylesheet" href="css/style-o-nas.css">
+    <link rel="stylesheet" href="css/style-nawigacja.css">
+    <link rel="stylesheet" href="css/game.css">
+    <link rel="stylesheet" href="css/slide-show.css">
 
 </head>
 <body>
@@ -27,7 +27,7 @@
     <ol class="menu">
         <li><a href="#banner">HOME</a></li>
         <li><a href="#offer">O APLIKACJI</a></li>
-        <!--<li><a href="#carousel-example-generic">ZOBACZ WIĘCEJ</a></li>-->
+        <li><a href="#sliderContainter">ZOBACZ WIĘCEJ</a></li>
         <li><a href="#main-container-zapisz-sie">ZAPISZ SIĘ</a></li>
         <li><a href="#o-nas">O AUTORACH</a></li>
 
@@ -37,15 +37,15 @@
 
 <div>
     <div class="banner" id="banner">
-        <img src="images/moving-object-gradient.png" class="moving-objects" id="moving-object-gradient">
-        <img src="images/moving-object-fala.png" class="moving-objects" id="moving-object-fala">
-        <img src="images/moving-object-vinyl.png" class="moving-objects" id="moving-object-vinyl">
-        <img src="images/moving-object-vinyl.png" class="moving-objects" id="moving-object-vinyl2">
-        <img src="images/moving-object-sfinks.png" class="moving-objects" id="moving-object-sfinks">
-        <img src="images/moving-object-molo.png" class="moving-objects" id="moving-object-molo">
-        <img src="images/moving-object-kapsel.png" class="moving-objects" id="moving-object-kapsel">
-        <img src="images/moving-object-zuraw.png" class="moving-objects" id="moving-object-zuraw">
-        <img src="images/moving-object-neptun.png" class="moving-objects" id="moving-object-neptun">
+        <img src="images/moving-objects/moving-object-gradient.png" class="moving-objects" id="moving-object-gradient">
+        <img src="images/moving-objects/moving-object-fala.png" class="moving-objects" id="moving-object-fala">
+        <img src="images/moving-objects/moving-object-vinyl.png" class="moving-objects" id="moving-object-vinyl">
+        <img src="images/moving-objects/moving-object-vinyl.png" class="moving-objects" id="moving-object-vinyl2">
+        <img src="images/moving-objects/moving-object-sfinks.png" class="moving-objects" id="moving-object-sfinks">
+        <img src="images/moving-objects/moving-object-molo.png" class="moving-objects" id="moving-object-molo">
+        <img src="images/moving-objects/moving-object-kapsel.png" class="moving-objects" id="moving-object-kapsel">
+        <img src="images/moving-objects/moving-object-zuraw.png" class="moving-objects" id="moving-object-zuraw">
+        <img src="images/moving-objects/moving-object-neptun.png" class="moving-objects" id="moving-object-neptun">
 
 
         <div class="div-empty">
@@ -94,52 +94,24 @@
     </div>
 
 </div>
-
-<!--<div id="carousel-example-generic" class="slider-container">-->
-<!--<div class="carousel slide" data-ride="carousel">-->
-
-    <!--<ol class="carousel-indicators">-->
-        <!--<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>-->
-        <!--<li data-target="#carousel-example-generic" data-slide-to="1"></li>-->
-        <!--<li data-target="#carousel-example-generic" data-slide-to="2"></li>-->
-        <!--<li data-target="#carousel-example-generic" data-slide-to="3"></li>-->
-        <!--<li data-target="#carousel-example-generic" data-slide-to="4"></li>-->
-    <!--</ol>-->
-    <!--<div class="carousel-inner" role="listbox">-->
-        <!--<div class="item active">-->
-            <!--<img src="images/SlideShow/p1.jpg" alt="...">-->
-        <!--</div>-->
-        <!--<div class="item">-->
-            <!--<img src="images/SlideShow/p2.jpg" alt="...">-->
-        <!--</div>-->
-        <!--<div class="item">-->
-            <!--<img src="images/SlideShow/p3.png" alt="...">-->
-        <!--</div>-->
-        <!--<div class="item">-->
-            <!--<img src="images/SlideShow/p4.jpg" alt="...">-->
-        <!--</div>-->
-        <!--<div class="item">-->
-            <!--<img src="images/SlideShow/photo5.jpg" alt="...">-->
-        <!--</div>-->
-        <!--<div class="item">-->
-            <!--<img src="images/SlideShow/photo6.jpg" alt="...">-->
-        <!--</div>-->
-    <!--</div>-->
-    <!--<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">-->
-        <!--<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>-->
-        <!--<span class="sr-only">Previous</span>-->
-    <!--</a>-->
-    <!--<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">-->
-        <!--<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>-->
-        <!--<span class="sr-only">Next</span>-->
-    <!--</a>-->
-
-<!--</div>-->
-<!--</div>-->
-
+<div class="div-container-slider">
+<section class="slideContainer" id="sliderContainter">
+    <img src="images/slide-show/original/photo1.jpg" id="myPicture" alt="SlideShow" class="SlideShow">
+    <a href="previous.html" id="prevLink"><img src="images/slide-show/arrow.png" class="prevBtn"></a>
+    <a href="next.html" id="nextLink"><img src="images/slide-show/arrow.png" class="nextBtn"></a>
+    <div class="container-mini-photo">
+        <img src="images/slide-show/mini/photo1.jpg" class="mini-photo">
+        <img src="images/slide-show/mini/photo2.jpg" class="mini-photo">
+        <img src="images/slide-show/mini/photo3.jpg" class="mini-photo">
+        <img src="images/slide-show/mini/photo4.jpg" class="mini-photo">
+        <img src="images/slide-show/mini/photo5.jpg" class="mini-photo">
+        <img src="images/slide-show/mini/photo6.jpg" class="mini-photo">
+    </div>
+</section>
+</div>
 <div id="main-container-zapisz-sie" class="main-container-zapisz-sie">
     <video loop autoplay id="bgvid2">
-        <source src="images/video.mp4" type="video/mp4">
+        <source src="video/video.mp4" type="video/mp4">
     </video>
 
     <div class="content-container-form">
@@ -165,7 +137,7 @@
 <div id="game" class="game-class">
 
     <video loop autoplay id="bgvid">
-        <source src="images/video.mp4" type="video/mp4">
+        <source src="video/video.mp4" type="video/mp4">
     </video>
 
     <div class="game-thanks"><span>DZIĘKI ZA ZAPISANIE SIĘ DO EVENT CALENDARA!</span><BR>WCIŚNIJ START I WYGRAJ
@@ -191,12 +163,11 @@
 <div>hello, to my</div>
 </div>
 
-
-
-<script type="text/javascript" src="jquery-2.2.3.min.js"></script>
-<script type="text/javascript" src="highlight.js"></script>
-<script type="text/javascript" src="moving-objects.js"></script>
-<script type="text/javascript" src="game.js"></script>
+<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+<script type="text/javascript" src="js/highlight.js"></script>
+<script type="text/javascript" src="js/moving-objects.js"></script>
+<script type="text/javascript" src="js/game.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/slide-show.js"></script>
 </body>
 </html>
