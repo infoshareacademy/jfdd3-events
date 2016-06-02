@@ -1,18 +1,14 @@
 .main-container-zapisz-sie {
-    background: url('images/moving-object-fala.png') no-repeat;
-    background-size: 100%;
-    background-position: 5px 360px;
-    background-color: white;
     height: 100vh;
     width: 100vw;
     text-align: center;
     color: black;
     font-size: 25px;
-    padding-top: auto;
+    /*padding-top: auto;*/
     padding-bottom: auto;
     display: flex;
-    font-weight: 800;
-
+    /*font-weight: 800;*/
+    padding-top: 40px;
 }
 
 .content-container-form {
@@ -59,7 +55,7 @@
 
 }
 
-input {
+.form-input {
     font-size: 18px;
     width: 30vw;
     height: 35px;
@@ -77,7 +73,7 @@ input {
 
 .button-send {
     font-size: 18px;
-    color: gold;
+    color: rgb(20, 200, 255);
     width: 30vw;
     height: 35px;
     box-sizing: border-box;
@@ -100,8 +96,56 @@ input {
 
 span a {
     text-decoration: none;
-    color: gold;
+    color: rgb(20, 200, 255);
 }
+
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+}
+
+video#bgvid2 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+}
+
+.carousel-indicators {
+    margin-left:0;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    width:100%;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+}
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+}
+/*.carousel {*/
+    /*background-color: black;*/
+/*}*/
 
 @media (min-width: 1024px) and (max-width: 1366px) {
     .span-p1-style {

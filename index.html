@@ -3,22 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>Event Calendar</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="reset-css.css">
 
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.css">
     <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="style-body.css">
     <link rel="stylesheet" href="style-banner.css">
+    <link rel="stylesheet" href="style-body.css">
     <link rel="stylesheet" href="style-oferta.css">
     <link rel="stylesheet" href="style-zapisz-sie.css">
+    <link rel="stylesheet" href="style-o-nas.css">
+    <link rel="stylesheet" href="slider.css">
     <link rel="stylesheet" href="style-nawigacja.css">
-    <link rel="stylesheet" href="black-jack.css">
+    <link rel="stylesheet" href="game.css">
 
 </head>
 <body>
 
-<nav class="pasek-nawigacja">
+<nav class="nav pasek-nawigacja">
     <ol class="menu">
         <li><a href="#banner">Home</a></li>
         <li><a href="#offer">Oferta</a></li>
@@ -45,7 +54,7 @@
         </div>
 
         <div class="div-title">
-            <h1 class="title1">Skoro miasto nie śpi</h1>
+            <h1 class="title1">SKORO MIASTO NIE ŚPI</h1>
 
             <h2 class="subtitle">...to czemu ty masz spać?</h2>
         </div>
@@ -59,7 +68,8 @@
 
     <div class="oferta-marginesy">
         <div class="container1">
-            <p class="offer-title">//kalendarz<br> imprez</p>
+            <p class="offer-title">ODKRYJ SWOJE MIASTO<BR>
+                <span><i class="fa fa-bolt" aria-hidden="true"></i>    NA NOWO</span></p>
 
             <p class="offer-text">Piątkowe wieczory spędzane przed youtubem? W weekendy zamiast szaleć na
                 mieście, głaszczesz kota i bezwiednie zmieniasz kanały w telewizji? Nigdy więcej! Poznaj jedyną
@@ -70,7 +80,7 @@
         </div>
 
         <div class="container2">
-            <p class="offer-title">//wyszukaj<br>imprezę</p>
+            <p class="offer-title"><i class="fa fa-glass" aria-hidden="true"></i> WYSZUKAJ EVENT</p>
 
             <p class="offer-text2">Nie wiesz co ze sobą zrobić, szukasz inspiracji na niebanalne spędzenie
                 wieczoru? Wystarczy, że określisz na co masz ochotę, a nasza aplikacja zaproponuje eventy
@@ -79,9 +89,7 @@
                 ciebie.</p>
         </div>
 
-        <div class="container3">
-            <p class="offer-title">//wyszukaj<br>lokal</p>
-            </p>
+            <p class="offer-title"><i class="fa fa-map-marker" aria-hidden="true"></i> ZNAJDŹ NOWĄ MIEJSCÓWĘ</p>
             <p class="offer-text2">Znudziły ci się dotychczasowe miejscówki? Szukasz nowego klubu do potańczenia,
                 pubu do wyjścia ze znajomymi, a może chcesz zobaczyć co znajduje się w twojej okolicy? Skorzystaj z
                 wyszukiwarki miejsc, dzięki której nie umknie ci żadna miejscówa!</p>
@@ -90,78 +98,101 @@
 
 </div>
 <div id="main-container-zapisz-sie" class="main-container-zapisz-sie">
+    <video loop autoplay id="bgvid2">
+        <source src="images/video.mp4" type="video/mp4">
+    </video>
+
     <div class="content-container-form">
         <div class="container-styles-paragraph-p-main">
             <p class="style-paragraph-p">
                 <span class="span-p1-style">//</span>
-                <span class="span-p2-style">dowiedz się</span>
-                <span class="span-p3-style">o najnowszych imprezach</span>
+                <span class="span-p2-style">DOWIEDZ SIĘ</span>
+                <span class="span-p3-style">O NAJNOWSZYCH IMPREZACH</span>
             </p>
         </div>
         <form id="send">
-        <input type="email" name="mail" placeholder="Wpisz adres e-mail"><br>
-        <button type="submit" class="button-send">Wyślij!</button>
-        <br>
+            <input class="form-input" type="email" name="mail" placeholder="Wpisz adres e-mail"><br>
+            <button type="submit" class="button-send">WYŚLIJ!</button>
+            <br>
         </form>
         <p class="style-paragraph-p-last">podane informacje służą jedynie do celów promocyjnych aplikacji
-            <span><a href="#home">event calendar</a></span>
+            <span><a href="#banner">event calendar</a></span>
         </p>
 
     </div>
 </div>
 
+<div id="game" class="game-class">
 
-<div id="game" class="black-jack"> <!--black-jack-->
-    <div class="black-jack-middle">
-        <div class="black-jack-box">okno pierwsze</div>
-        <div class="black-jack-box">okno drugie</div>
-        <div class="black-jack-box">okno trzecie</div>
-        <div id="wynik"></div>
+    <video loop autoplay id="bgvid">
+        <source src="images/video.mp4" type="video/mp4">
+    </video>
+
+    <div class="game-thanks"><span>DZIĘKI ZA ZAPISANIE SIĘ DO EVENT CALENDARA!</span><BR>WCIŚNIJ START I WYGRAJ
+        WJAZD NA DOWOLNĄ IMPREZĘ!
     </div>
+
+    <div class="main-game-box">
+        <div class="item-game-1"></div>
+        <div class="item-game-2"></div>
+        <div class="item-game-3"></div>
+    </div>
+
+    <div class="item-game-button">
+            <input type="button" class="button-start" value="START" id="start">
+    </div>
+
+    <div id="wynik" class="wynik">
+    </div>
+
 </div>
 
-
+<div class="o-nas-container" id="o-nas">
+<div>hello, to my</div>
+</div>
 <div id="onas">
     <div class="sekcja">
-            <div class="f center-text">
-                <span><i class="fa fa-user" aria-hidden="true"></i></span>
-                <h3>Marcin</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut scelerisque quam nec fringilla finibus. Nunc tempus.</p>
-            </div>
-            <div class="f center-text">
-                <span><i class="fa fa-user" aria-hidden="true"></i></span>
-                <h3>Elwi</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut scelerisque quam nec fringilla finibus. Nunc tempus.</p>
-            </div>
-            <div class="f center-text">
-                <span><i class="fa fa-user" aria-hidden="true"></i></span>
-                <h3>Gabi</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut scelerisque quam nec fringilla finibus. Nunc tempus.</p>
-            </div>
-            <div class="f center-text">
-                <span><i class="fa fa-user" aria-hidden="true"></i></span>
-                <h3>Sławek</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut scelerisque quam nec fringilla finibus. Nunc tempus.</p>
-            </div>
+        <div class="f center-text">
+            <span><i class="fa fa-user" aria-hidden="true"></i></span>
+            <h3>Marcin</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut scelerisque quam nec fringilla finibus. Nunc tempus.</p>
+        </div>
+        <div class="f center-text">
+            <span><i class="fa fa-user" aria-hidden="true"></i></span>
+            <h3>Elwi</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut scelerisque quam nec fringilla finibus. Nunc tempus.</p>
+        </div>
+        <div class="f center-text">
+            <span><i class="fa fa-user" aria-hidden="true"></i></span>
+            <h3>Gabi</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut scelerisque quam nec fringilla finibus. Nunc tempus.</p>
+        </div>
+        <div class="f center-text">
+            <span><i class="fa fa-user" aria-hidden="true"></i></span>
+            <h3>Sławek</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut scelerisque quam nec fringilla finibus. Nunc tempus.</p>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <footer><div class="stopka">eventcalendar.com &copy; 2016 by 50/50</div>
+        <div class="social">
+            <a href="#fb" class = "teil"><i class="fa fa-facebook-square" aria-hidden="true" style="color:black"></i></a>
+            <a href="#fb" class = "teil"><i class="fa fa-youtube-square" aria-hidden="true" style="color:black"></i></a>
+            <a href="#fb" class = "teil"><i class="fa fa-twitter-square" aria-hidden="true"></i>
+            </a>
+            <a href="#fb" class = "teil"><i class="fa fa-instagram" aria-hidden="true" style="color:black"></i></a>
             <div class="clear"></div>
         </div>
-        <footer><div class="stopka">eventcalendar.com &copy; 2016 by 50/50</div>
-            <div class="social">
-               <a href="#fb" class = "teil"><i class="fa fa-facebook-square" aria-hidden="true" style="color:black"></i></a>
-                <a href="#fb" class = "teil"><i class="fa fa-youtube-square" aria-hidden="true" style="color:black"></i></a>
-                <a href="#fb" class = "teil"><i class="fa fa-twitter-square" aria-hidden="true"></i>
-                </a>
-                <a href="#fb" class = "teil"><i class="fa fa-instagram" aria-hidden="true" style="color:black"></i></a>
-                <div class="clear"></div>
-            </div>
-            <div class="clear"></div>
-        </footer>
-    </div>
+        <div class="clear"></div>
+    </footer>
+</div>
 </div>
 
 
 <script type="text/javascript" src="jquery-2.2.3.min.js"></script>
+<script type="text/javascript" src="highlight.js"></script>
 <script type="text/javascript" src="moving-objects.js"></script>
-<script type="text/javascript" src="black-jack-open-close.js"></script>
+<script type="text/javascript" src="game.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>

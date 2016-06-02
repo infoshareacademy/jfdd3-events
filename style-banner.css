@@ -1,3 +1,7 @@
+@font-face {
+  font-family: euro35;
+  src: url(eurof35.ttf); }
+
 .banner {
   display: -webkit-flex;
   display: flex;
@@ -26,12 +30,11 @@
 
 .title1 {
   font-size: 400%;
-  background: rgba(255, 255, 0, 0.5); }
+  background: rgba(20, 200, 255, 0.4); }
 
 .subtitle {
-  font-family: 'Libre Baskerville', serif;
-  font-weight: 400;
-  font-size: 200%;
+  font-family: 'Open Sans', serif;
+  font-size: 150%;
   background: black;
   color: white; }
 
