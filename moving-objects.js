@@ -15,7 +15,7 @@ function updateImages(e) {
     $('#moving-object-kapsel').css({'left': startX + (shiftX / 8) - 250 + 'px', 'top': startY + (shiftY / 8) + 750 + 'px'});
     $('#moving-object-sfinks').css({'left': startX + (shiftX / 6) - 100 + 'px', 'top': startY + (shiftY / 6) + 500 + 'px'});
     $('#moving-object-neptun').css({'left': startX + (shiftX / 8) - 100 + 'px', 'top': startY + (shiftY / 8) + 50 + 'px'});
-    $('#moving-object-vinyl').css({'left': startX + (shiftX / 4) + 50 + 'px', 'top': startY + (shiftY / 4) + 50 + 'px'});
+    $('#moving-object-vinyl').css({'left': startX + (shiftX / 4) + 150 + 'px', 'top': startY + (shiftY / 4) + 50 + 'px'});
     $('#moving-object-vinyl2').css({'left': startX + (shiftX / 4) + 900 + 'px', 'top': startY + (shiftY / 4) + 80 + 'px'});
     $('#moving-object-fala').css({'left': startX + (shiftX / 6) - 1000 + 'px', 'top': startY + (shiftY / 6) + 500 + 'px'});
     $('#moving-object-gradient').css({'left': startX + (shiftX / 6) - 1500 + 'px', 'top': startY + (shiftY / 6) - 1000  + 'px'});
