@@ -5,7 +5,6 @@
     font-size: 20px;
     position: fixed;
     width: 100%;
-    /*padding: 5px 0;*/
     background-color: rgba(255, 255, 255, 0.6);
     text-align: center;
     margin: 0;
@@ -18,8 +17,7 @@
 {
     padding: 0;
     margin: 0;
-    /*list-style-type: none;*/
-    /*height: 30px;*/
+
     display: inline-block;
 }
 
@@ -28,9 +26,7 @@ ol a
     color: black;
     text-decoration: none;
     position: relative;
-    /*margin-top: auto;*/
-    /*margin-bottom: auto;*/
-    /*padding: 5px 25px;*/
+
 }
 
 ol > li
@@ -38,7 +34,6 @@ ol > li
     float: left;
     width: 240px;
     height: 30px;
-    /*display: inline-block;*/
 }
 
 ol > li:hover
@@ -71,11 +66,7 @@ ol > li:hover >a
     margin-right: auto;
     -webkit-transform: rotate(90deg);
 }
-#onas
-{
-    width: 100%;
-    height: 100%;
-}
+
 
 
 .colorb
@@ -86,13 +77,14 @@ ol > li:hover >a
 
 .f
 {
+    position: relative;
     width: 19%;
     float: left;
     font-size: 1em;
-    top: 60%;
-    height: 40%;
+    top: 15%;
+    height: 70%;
     padding: 2%;
-    margin: 8% 1% 8% 1%;
+    margin: 5% 1% 5% 3%;
 
 }
 
@@ -114,37 +106,25 @@ h3
 
 footer
 {
-    font-size: 1.5em;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 800;
+
     height: 10%;
     width: 100%;
-    margin-top: 10%;
+    margin-top: 5%;
+    margin-bottom: 2%;
 }
 
 .stopka
 {
     position: relative;
     float: left;
-    padding-top: 3%;
+    padding-top: 2%;
     width: 40%;
     height: 100%;
-    margin-left: 5%;
+    margin-left: 10%;
     z-index: 100;
+    font-size: 1.2em;
 }
 
-/*
-i:link
-{
-    color: black !important;
-    text-decoration: none;
-}
-
-i:hover
-{
-    color: yellow;
-}
-*/
 
 .social
 {
@@ -158,13 +138,13 @@ i:hover
 
 .teil {
     color: black;
-    padding: 5%;
+    padding: 3%;
     font-size: 2.5em;
     float: left;
-    z-index: 100;
 }
 
 .teil:hover
 {
     background-color: rgba(20, 200, 255, 0.8);
+
 }
