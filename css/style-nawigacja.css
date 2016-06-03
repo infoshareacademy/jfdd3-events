@@ -1,6 +1,5 @@
 
-.pasek-nawigacja
-{
+.pasek-nawigacja {
     font-family: 'euro35', sans-serif;
     font-size: 20px;
     position: fixed;
@@ -13,31 +12,25 @@
     overflow: hidden;
 }
 
-.menu
-{
+.menu {
     padding: 0;
     margin: 0;
-
     display: inline-block;
 }
 
-ol a
-{
+ol a {
     color: black;
     text-decoration: none;
     position: relative;
-
 }
 
-ol > li
-{
+ol > li {
     float: left;
     width: 240px;
     height: 30px;
 }
 
-ol > li:hover
-{
+ol > li:hover {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
@@ -45,8 +38,7 @@ ol > li:hover
     background-color: rgba(20, 200, 255, 0.8);
 }
 
-ol > li:hover >a
-{
+ol > li:hover >a {
     color: black;
 }
 
@@ -61,6 +53,8 @@ ol > li:hover >a
     left: 0;
     right: 0;
     z-index: 101;
+    font-size: 200%;
+    font-weight: 800;
     float: none;
     margin-left: auto;
     margin-right: auto;
@@ -92,7 +86,7 @@ ol > li:hover >a
 
 }
 
-span{
+.o-nas-container span{
     font-size: 10em;
 }
 
@@ -100,7 +94,7 @@ span{
     text-align: center;
 }
 
-h3
+.o-nas-container h3
 {
     font-size: 1.5em;
     margin-top: 4%;
@@ -110,7 +104,6 @@ h3
 
 footer
 {
-
     height: 10%;
     width: 100%;
     margin-top: 5%;
@@ -120,18 +113,19 @@ footer
 .stopka
 {
     position: relative;
+    font-family: "Open Sans";
+    font-size: 0.8em;
     float: left;
     padding-top: 2%;
     width: 40%;
     height: 100%;
     margin-left: 10%;
     z-index: 100;
-    font-size: 1.2em;
+    padding-bottom: -3em;
 }
 
 
-.social
-{
+.social {
     display: inline-block;
     float: left;
     height: 100%;
@@ -147,8 +141,14 @@ footer
     float: left;
 }
 
-.teil:hover
-{
+.teil:hover {
     background-color: rgba(20, 200, 255, 0.8);
 
+}
+
+footer {
+    background-image: url("../images/footer-background.png");
+    width: 100%;
+    height: auto;
+    overflow-y: hidden;
 }
