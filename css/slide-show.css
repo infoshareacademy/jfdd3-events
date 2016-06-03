@@ -39,8 +39,9 @@
     width: 10%;
     height: 10%;
     opacity: 0.5;
-    /*z-index:100;*/
-    /*position: relative;*/
+    z-index:100;
+    position:relative;
+    vertical-align: bottom;
 
 }
 .mini-photo:hover{
@@ -48,9 +49,10 @@
     width: 12%;
     height: 12%;
     transition: width 0.5s;
-    transform-origin: 15% 15%;
-    /*z-index: 150;*/
-    /*position: absolute;*/
+    transform:scale(1.1);
+    z-index: 150;
+    position:relative;
+
 }
 
 .img-responsive {
