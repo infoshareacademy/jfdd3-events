@@ -44,21 +44,28 @@ ol > li:hover >a {
 
 .strzala {
     position: absolute;
-    width: 100px;
-    height: 80px;
+    width: 5%;
+    height: 10%;
+    padding: 1%;
     background-color: transparent;
     display: block;
-    bottom: 0;
+    bottom: 3%;
+    left: 0;
+    right: 0;
     z-index: 101;
     font-size: 200%;
     font-weight: 800;
     float: none;
     margin-left: auto;
     margin-right: auto;
-    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
 
+.strzala:hover
+{
+    background-color: rgba(20, 200, 255, 0.8);
 
+}
 
 .colorb
 {
@@ -75,7 +82,8 @@ ol > li:hover >a {
     top: 10%;
     height: 70%;
     padding: 2%;
-    margin: 5% 3% 5% 3%;
+    margin: 5% 1% 5% 4%;
+
 }
 
 .o-nas-container span{
@@ -96,8 +104,10 @@ ol > li:hover >a {
 
 footer
 {
-    height: 10%;
+    background-image: url("images/footer-background.png");
     width: 100%;
+    height: auto;
+    overflow-y: hidden;
 }
 
 .stopka
@@ -134,11 +144,4 @@ footer
 .teil:hover {
     background-color: rgba(20, 200, 255, 0.8);
 
-}
-
-footer {
-    background-image: url("../images/footer-background.png");
-    width: 100%;
-    height: auto;
-    overflow-y: hidden;
 }
