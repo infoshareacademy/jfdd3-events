@@ -4,4 +4,19 @@
     overflow-x: hidden;
     width: auto;
     height: 100vh;
+    text-align: center;
+}
+
+.o-nas-imie {
+    font-family: euro35;
+    font-size: 2em;
+    font-weight: 800;
+    margin-top: -20px;
+
+}
+
+.o-nas-tekst {
+    font-family: "Open Sans";
+    font-weight: 100;
+    font-size: 0.9em
 }
