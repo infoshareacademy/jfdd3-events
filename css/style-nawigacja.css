@@ -101,10 +101,9 @@ ol > li:hover >a {
     margin-bottom: 2%;
 }
 
-
 footer
 {
-    background-image: url("images/footer-background.png");
+    background-image: url("../images/footer-background.png");
     width: 100%;
     height: auto;
     overflow-y: hidden;
