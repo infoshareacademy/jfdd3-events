@@ -5,7 +5,6 @@
     font-size: 20px;
     position: fixed;
     width: 100%;
-    /*padding: 5px 0;*/
     background-color: rgba(255, 255, 255, 0.6);
     text-align: center;
     margin: 0;
@@ -18,8 +17,7 @@
 {
     padding: 0;
     margin: 0;
-    /*list-style-type: none;*/
-    /*height: 30px;*/
+
     display: inline-block;
 }
 
@@ -28,9 +26,7 @@ ol a
     color: black;
     text-decoration: none;
     position: relative;
-    /*margin-top: auto;*/
-    /*margin-bottom: auto;*/
-    /*padding: 5px 25px;*/
+
 }
 
 ol > li
@@ -38,7 +34,6 @@ ol > li
     float: left;
     width: 240px;
     height: 30px;
-    /*display: inline-block;*/
 }
 
 ol > li:hover
@@ -78,4 +73,78 @@ ol > li:hover >a
 {
     -webkit-filter: invert(1);
     filter: invert(1);
+}
+
+.f
+{
+    position: relative;
+    width: 19%;
+    float: left;
+    font-size: 1em;
+    top: 10%;
+    height: 70%;
+    padding: 2%;
+    margin: 5% 1% 5% 3%;
+
+}
+
+span{
+    font-size: 10em;
+}
+
+.center-text {
+    text-align: center;
+}
+
+h3
+{
+    font-size: 1.5em;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+
+footer
+{
+
+    height: 10%;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.stopka
+{
+    position: relative;
+    float: left;
+    padding-top: 2%;
+    width: 40%;
+    height: 100%;
+    margin-left: 10%;
+    z-index: 100;
+    font-size: 1.2em;
+}
+
+
+.social
+{
+    display: inline-block;
+    float: left;
+    height: 100%;
+    width: 30%;
+    z-index: 100;
+    margin-left: 20%;
+}
+
+.teil {
+    color: black;
+    padding: 3%;
+    font-size: 2.5em;
+    float: left;
+}
+
+.teil:hover
+{
+    background-color: rgba(20, 200, 255, 0.8);
+
 }
