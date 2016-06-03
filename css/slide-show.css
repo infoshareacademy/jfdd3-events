@@ -4,12 +4,14 @@
     overflow-x: hidden;
     width: auto;
     height: 100vh;
+
 }
 
 
 .slideContainer {
     position: relative;
     text-align: center;
+
 }
 .prevBtn {
     transform: rotate(90deg);
@@ -25,16 +27,7 @@
     position: absolute;
     right: 5%;
     top: 50%;
-
 }
-
-.SlideShow > img {
-    max-width: 100%;
-    max-height: 100%;
-}
-/*.container-mini-photo img:nth-child(1) {*/
-/*margin-left:50%;*/
-/*}*/
 
 .container-mini-photo{
     position: absolute;
@@ -46,6 +39,9 @@
     width: 10%;
     height: 10%;
     opacity: 0.5;
+    z-index:100;
+    position:relative;
+    vertical-align: bottom;
 
 }
 .mini-photo:hover{
@@ -53,4 +49,16 @@
     width: 12%;
     height: 12%;
     transition: width 0.5s;
+    transform:scale(1.1);
+    z-index: 150;
+    position:relative;
+
+}
+
+.img-responsive {
+    max-width: 1200px;
+    max-height: 780px;
+}
+.SlideShow {
+    padding-top: 30px;
 }

@@ -5,13 +5,9 @@
     <title>Event Calendar</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-
-
     <link rel="stylesheet" href="css/reset-css.css">
-
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-
     <link rel="stylesheet" href="fonts/font-awesome-4.6.3/css/font-awesome.css">
     <link rel="stylesheet" href="css/style-banner.css">
     <link rel="stylesheet" href="css/style-body.css">
@@ -27,11 +23,11 @@
 
 <nav class="nav pasek-nawigacja">
     <ol class="menu">
-        <li><a href="#banner">HOME</a></li>
-        <li><a href="#offer">O APLIKACJI</a></li>
-        <li><a href="#sliderContainter">ZOBACZ WIĘCEJ</a></li>
-        <li><a href="#main-container-zapisz-sie">ZAPISZ SIĘ</a></li>
-        <li><a href="#o-nas">O AUTORACH</a></li>
+        <li><a href="#banner" class="navi">HOME</a></li>
+        <li><a href="#offer" class="navi">O APLIKACJI</a></li>
+        <li><a href="#sliderContainter" class="navi">ZOBACZ WIĘCEJ</a></li>
+        <li><a href="#main-container-zapisz-sie" class="navi">ZAPISZ SIĘ</a></li>
+        <li><a href="#o-nas" class="navi">O AUTORACH</a></li>
 
     </ol>
 
@@ -101,19 +97,21 @@
 
 </div>
 <div class="div-container-slider">
-<section class="slideContainer" id="sliderContainter">
-    <img src="images/slide-show/original/photo1.jpg" id="myPicture" alt="SlideShow" class="SlideShow">
-    <a href="previous.html" id="prevLink"><img src="images/slide-show/arrow.png" class="prevBtn"></a>
-    <a href="next.html" id="nextLink"><img src="images/slide-show/arrow.png" class="nextBtn"></a>
-    <div class="container-mini-photo">
-        <img src="images/slide-show/mini/photo1.jpg" class="mini-photo">
-        <img src="images/slide-show/mini/photo2.jpg" class="mini-photo">
-        <img src="images/slide-show/mini/photo3.jpg" class="mini-photo">
-        <img src="images/slide-show/mini/photo4.jpg" class="mini-photo">
-        <img src="images/slide-show/mini/photo5.jpg" class="mini-photo">
-        <img src="images/slide-show/mini/photo6.jpg" class="mini-photo">
-    </div>
-</section>
+    <section class="slideContainer" id="sliderContainter">
+        <img src="images/slide-show/original/photo1.jpg" id="myPicture" alt="SlideShow"
+             class="SlideShow img-responsive">
+        <a href="previous.html" id="prevLink"><img src="images/slide-show/arrow.png" class="prevBtn"></a>
+        <a href="next.html" id="nextLink"><img src="images/slide-show/arrow.png" class="nextBtn"></a>
+
+        <div class="container-mini-photo">
+            <img src="images/slide-show/mini/photo1.jpg" class="mini-photo">
+            <img src="images/slide-show/mini/photo2.jpg" class="mini-photo">
+            <img src="images/slide-show/mini/photo3.jpg" class="mini-photo">
+            <img src="images/slide-show/mini/photo4.jpg" class="mini-photo">
+            <img src="images/slide-show/mini/photo5.jpg" class="mini-photo">
+            <img src="images/slide-show/mini/photo6.jpg" class="mini-photo">
+        </div>
+    </section>
 </div>
 <div id="main-container-zapisz-sie" class="main-container-zapisz-sie">
     <video loop="true" autoplay id="bgvid2">
@@ -152,7 +150,7 @@
     </div>
 
     <div class="item-game-button">
-            <input type="button" class="button-start" value="START" id="start">
+        <input type="button" class="button-start" value="START" id="start">
     </div>
 
     <div id="wynik" class="wynik">
@@ -205,5 +203,6 @@
 <script type="text/javascript" src="js/game.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/slide-show.js"></script>
+<script type="text/javascript" src="js/scroll.js"></script>
 </body>
 </html>
