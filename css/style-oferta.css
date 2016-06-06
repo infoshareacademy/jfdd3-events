@@ -29,18 +29,7 @@
     height: 100vh;
 
 }
-/*.oferta-tytul-boxa {*/
-    /*text-align: center;*/
-    /*font-size: 2em;*/
-/*}*/
 
-/*.oferta-slash2 {*/
-    /*font-size: 20em;*/
-    /*float: left;*/
-    /*width: 30%;*/
-    /*font-weight: 800;*/
-    /*text-align: right;*/
-/*}*/
 .offer-title {
     font-size: 3em;
     text-align: right;
@@ -68,4 +57,8 @@
     padding-top: 1em;
     padding-left: 10px;
     text-align: left;
+}
+
+.container2 {
+    padding-top: 100px;
 }
