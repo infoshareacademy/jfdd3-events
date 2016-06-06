@@ -4,13 +4,13 @@
     overflow-x: hidden;
     width: auto;
     height: 100vh;
-
 }
 
 
 .slideContainer {
     position: relative;
     text-align: center;
+    margin-top: 1%;
 
 }
 .prevBtn {
