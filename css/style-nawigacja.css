@@ -59,14 +59,6 @@ ol > li:hover >a {
     transform: rotate(90deg);
 }
 
-/*
-.strzala:hover
-{
-    background-color: rgba(20, 200, 255, 0.8);
-
-}
-*/
-
 .colorb
 {
     -webkit-filter: invert(1);
