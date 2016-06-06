@@ -45,7 +45,7 @@ ol > li:hover >a {
 .strzala {
     position: absolute;
     width: 5%;
-    height: 10%;
+    height: 8%;
     padding: 1%;
     background-color: transparent;
     display: block;
@@ -53,19 +53,19 @@ ol > li:hover >a {
     left: 0;
     right: 0;
     z-index: 101;
-    font-size: 200%;
-    font-weight: 800;
     float: none;
     margin-left: auto;
     margin-right: auto;
     transform: rotate(90deg);
 }
 
+/*
 .strzala:hover
 {
     background-color: rgba(20, 200, 255, 0.8);
 
 }
+*/
 
 .colorb
 {
