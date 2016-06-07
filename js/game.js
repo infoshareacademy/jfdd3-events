@@ -11,9 +11,9 @@ $(document).ready(function() {
 $(function() {
     $( "#start" ).click(function() {
         var B1, B2, B3;
-        B1=Math.round(Math.random()*3);
-        B2=Math.round(Math.random()*3);
-        B3=Math.round(Math.random()*3);
+        B1=Math.round(Math.random()*2);
+        B2=Math.round(Math.random()*2);
+        B3=Math.round(Math.random()*2);
 
         $( ".item-game-1" )
             .animate({backgroundPositionY:0})
