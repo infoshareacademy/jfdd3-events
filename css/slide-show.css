@@ -4,11 +4,13 @@
     overflow-x: hidden;
     width: auto;
     height: 100vh;
+    min-height: 1024px;
+    position: relative;
 }
 
 
 .slideContainer {
-    position: relative;
+    /*position: absolute;*/
     text-align: center;
     margin-top: 1%;
 
@@ -56,7 +58,9 @@
 }
 
 .img-responsive {
+    min-width: 768px;
     max-width: 1200px;
+
     max-height: 780px;
 }
 .SlideShow {

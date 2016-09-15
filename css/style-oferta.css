@@ -4,12 +4,21 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 70px;
+    position: relative;
+}
+.oferta-marginesy {
+    padding-top: 40px;
+    margin-left: 70px;
+    margin-right: 20px;
+    height: 100vh;
+    min-height: 1024px;
 }
 
-.container1, .container2, .container3 {
+.container1, .container2 {
     float: left;
     width: 48%;
-    padding-top: 10px;
+    padding-top: 50px;
     height: 100%;
     position: relative;
     color: black;
@@ -19,22 +28,18 @@
     margin-right: 25px;
 }
 
-.oferta-marginesy {
-    padding-top: 40px;
-    margin-left: 70px;
-    margin-right: 20px;
-    height: 100vh;
-}
+
 
 .offer-title {
     font-size: 3em;
     text-align: right;
     float: right;
     width: 100%;
-    padding-top: 0.5em;
+    padding-top: 3em;
 }
 .offer-title span {
     font-size: 2em;
+
 }
 
 .offer-text {
@@ -55,6 +60,3 @@
     text-align: left;
 }
 
-.container2 {
-    padding-top: 100px;
-}
