@@ -1,143 +1,3 @@
-
-/*.pasek-nawigacja {*/
-/*font-family: 'euro35', sans-serif;*/
-/*font-size: 20px;*/
-/*position: fixed;*/
-/*width: 100%;*/
-/*background-color: rgba(255, 255, 255, 1);*/
-/*text-align: center;*/
-/*margin: 0;*/
-/*height: 30px;*/
-/*z-index: 100;*/
-/*overflow: hidden;*/
-/*}*/
-
-/*.menu {*/
-/*padding: 0;*/
-/*margin: 0;*/
-/*display: inline-block;*/
-/*}*/
-
-/*ol a {*/
-/*color: black;*/
-/*text-decoration: none;*/
-/*position: relative;*/
-/*}*/
-
-/*ol > li {*/
-/*float: left;*/
-/*width: 240px;*/
-/*height: 30px;*/
-/*}*/
-
-/*ol > li:hover {*/
-/*background-color: rgba(0, 0, 0, 0.2);*/
-/*}*/
-
-/*.highlight {*/
-/*background-color: rgba(20, 200, 255, 0.8);*/
-/*}*/
-
-/*ol > li:hover >a {*/
-/*color: black;*/
-/*}*/
-
-/*.strzala {*/
-/*position: absolute;*/
-/*width: 5%;*/
-/*height: 8%;*/
-/*padding: 1%;*/
-/*background-color: transparent;*/
-/*display: block;*/
-/*bottom: 3%;*/
-/*left: 0;*/
-/*right: 0;*/
-/*z-index: 101;*/
-/*float: none;*/
-/*margin-left: auto;*/
-/*margin-right: auto;*/
-/*transform: rotate(90deg);*/
-/*}*/
-
-/*.colorb*/
-/*{*/
-/*-webkit-filter: invert(1);*/
-/*filter: invert(1);*/
-/*}*/
-
-/*.f*/
-/*{*/
-/*position: relative;*/
-/*width: 19%;*/
-/*float: left;*/
-/*font-size: 1em;*/
-/*top: 10%;*/
-/*height: 70%;*/
-/*padding: 2%;*/
-/*margin: 5% 1% 5% 4%;*/
-
-/*}*/
-
-/*.o-nas-container span{*/
-/*font-size: 10em;*/
-/*}*/
-
-/*.center-text {*/
-/*text-align: center;*/
-/*}*/
-
-/*.o-nas-container h3*/
-/*{*/
-/*font-size: 1.5em;*/
-/*margin-top: 4%;*/
-/*margin-bottom: 2%;*/
-/*}*/
-
-/*footer*/
-/*{*/
-/*background-image: url("../images/footer-background.png");*/
-/*width: 100%;*/
-/*height: auto;*/
-/*overflow-y: hidden;*/
-/*}*/
-
-/*.stopka*/
-/*{*/
-/*position: relative;*/
-/*font-family: "Open Sans";*/
-/*font-size: 0.8em;*/
-/*float: left;*/
-/*padding-top: 2%;*/
-/*width: 40%;*/
-/*height: 100%;*/
-/*margin-left: 10%;*/
-/*z-index: 100;*/
-/*padding-bottom: -3em;*/
-/*}*/
-
-
-/*.social {*/
-/*display: inline-block;*/
-/*float: left;*/
-/*height: 100%;*/
-/*width: 30%;*/
-/*z-index: 100;*/
-/*margin-left: 20%;*/
-/*}*/
-
-/*.teil {*/
-/*color: black;*/
-/*padding: 3%;*/
-/*font-size: 2.5em;*/
-/*float: left;*/
-/*}*/
-
-/*.teil:hover {*/
-/*background-color: rgba(20, 200, 255, 0.8);*/
-
-/*}*/
-
-
 .pasek-nawigacja {
     font-family: 'euro35', sans-serif;
     font-size: 20px;
@@ -195,6 +55,7 @@ ol > li:hover >a {
     float: none;
     margin-left: auto;
     margin-right: auto;
+    -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
 }
 
@@ -204,7 +65,7 @@ ol > li:hover >a {
     filter: invert(1);
 }
 
-.f
+.about-us-set
 {
     position: relative;
     width: 19%;
@@ -234,7 +95,8 @@ ol > li:hover >a {
 
 footer
 {
-    background-image: url("../images/footer-background.png");
+    background: url("../images/footer-background.png") no-repeat;
+    background-size: cover;
     width: 100%;
     height: auto;
     overflow-y: hidden;
