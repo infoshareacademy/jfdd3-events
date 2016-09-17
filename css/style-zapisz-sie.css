@@ -8,12 +8,10 @@
     padding-left: 3em;
     padding-right: 3em;
     position: relative;
+
     }
 
 .content-container-form {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
     border: 20px solid black;
     padding: 3em;
     }
@@ -35,7 +33,6 @@
 }
 
 .form-input {
-    font-family: Open Sans;
     font-size: .5em;
     width: 66em;
     height: 2.5em;
@@ -68,7 +65,6 @@
 
 .style-paragraph-p-last {
     font-size: 0.5em;
-    font-family: Open Sans;
     margin-top: 1em;
 
 }
@@ -78,87 +74,20 @@ span a {
     color: rgb(20, 200, 255);
 }
 
-video#bgvid {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background-size: cover;
-}
 
 video#bgvid2 {
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translate(-50%, -50%);
     min-width: 100%;
     min-height: 100%;
     width: auto;
     height: auto;
     z-index: -100;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
     background-size: cover;
 }
-
-/*.carousel-indicators {*/
-    /*margin-left:0;*/
-/*}*/
-/*.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {*/
-    /*width:100%;*/
-    /*height: auto;*/
-    /*overflow: hidden;*/
-    /*margin: auto;*/
-/*}*/
-/*.carousel-control.left, .carousel-control.right {*/
-    /*background-image: none;*/
-/*}*/
-/*.carousel {*/
-/*background-color: black;*/
-/*}*/
-
-/*@media (min-width: 1024px) and (max-width: 1366px) {*/
-    /*.span-p1-style {*/
-        /*font-size: 120px;*/
-    /*}*/
-/*}*/
-
-/*@media (min-width: 1024px) and (max-width: 1366px) {*/
-    /*.span-p2-style {*/
-        /*font-size: 50px;*/
-    /*}*/
-/*}*/
-
-/*@media (min-width: 1024px) and (max-width: 1366px) {*/
-    /*.span-p3-style {*/
-        /*font-size: 22px;*/
-    /*}*/
-/*}*/
-
-/*@media (min-width: 766px) and (max-width: 1023px) {*/
-
-    /*.span-p1-style {*/
-        /*font-size: 85px;*/
-    /*}*/
-/*}*/
-
-/*@media (min-width: 766px) and (max-width: 1023px) {*/
-    /*.span-p2-style {*/
-        /*font-size: 35px;*/
-    /*}*/
-/*}*/
-
-/*@media (min-width: 766px) and (max-width: 1023px) {*/
-    /*.span-p3-style {*/
-        /*font-size: 18px;*/
-    /*}*/
-/*}*/
-
 
 
 
