@@ -12,7 +12,7 @@
     -ms-flex-direction: column;
     flex-direction: column;
     /*padding-top: 40px;*/
-    z-index: 100;
+    z-index: 99;
     border: 20px solid black;
     margin: 3em;
     position: relative;
@@ -53,6 +53,43 @@
     height: 40%;
     width: 100%;
 }
+.item-game-1, .item-game-2, .item-game-3 {
+    background-color: white;
+    background-image: url(../images/game/background-game-100x300px.jpg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: repeat-y;
+    width: 20%;
+    height: 160px;
+    border: 8px solid black;
+    margin-right: 2%;
+}
+.item-game-button {
+    /*text-align: center;*/
+    /*display: -webkit-box;*/
+    /*display: -ms-flexbox;*/
+    /*display: flex;*/
+    /*-webkit-box-ordinal-group: 3;*/
+    /*-ms-flex-order: 2;*/
+    /*order: 2;*/
+    /*background-repeat: repeat-y;*/
+    position: relative;
+    width: 20%;
+    margin:0 auto;
+
+    /*background-color: black;*/
+    /*color: rgb(20, 210, 255);*/
+}
+.button-start {
+    position: relative;
+    font-size: 2em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    border: none;
+    color: rgb(20, 210, 255);
+}
 .wynik {
     -webkit-box-ordinal-group: 4;
     -ms-flex-order: 3;
@@ -65,38 +102,39 @@
     padding-top: 3%;
 }
 
-.item-game-button {
-    text-align: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-ordinal-group: 3;
-    -ms-flex-order: 2;
-    order: 2;
-    background-repeat: repeat-y;
-    width: 20%;
-    margin:0 auto;
-    background-color: black;
-    color: rgb(20, 210, 255);
-}
 
-.button-start {
-    font-size: 2em;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: black;
-    border: none;
-}
 
-.item-game-1, .item-game-2, .item-game-3 {
-    background-color: white;
-    background-image: url(../images/game/background-game-100x300px.jpg);
-    background-size: auto;
-    background-position: center;
-    background-repeat: repeat-y;
-    width: 20%;
-    height: 160px;
-    border: 8px solid black;
-    margin-right: 2%;
+
+
+
+@media (max-width: 480px){
+    .game-class{
+        height: 90vh;
+        margin: 2em 0.5em 0.5em 0;
+            }
+    .game-thanks{
+        font-size: 1.5em;
+        padding-top: 2em;
+    }
+    .game-thanks span {
+        font-size: 1.15em;
+    }
+    .main-game-box{
+        padding: 1%;
+        position: relative;
+        top: 3em;
+    }
+    .item-game-1, .item-game-2, .item-game-3{
+        width: 33.33%;
+        height: 125px;
+        position: relative;
+    }
+    .button-start {
+        position: relative;
+        top:10em;
+        font-size: 2em;
+    }
+    .wynik{
+        padding-top: 25%;
+    }
 }

@@ -1,12 +1,11 @@
 .main-container-zapisz-sie {
     height: 100vh;
-    min-height: 100%;
     text-align: center;
     color: black;
     font-size: 25px;
-    padding-top: 10em;
-    padding-left: 3em;
-    padding-right: 3em;
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
     position: relative;
 
     }
@@ -89,6 +88,35 @@ video#bgvid2 {
     background-size: cover;
 }
 
+@media (max-width: 480px){
+    .main-container-zapisz-sie{
+        height: 100vh;
 
+    }
+    .content-container-form{
+        padding: 1em;
+    }
+    .span-p2-style{
+       font-size: 1em;
+
+    }
+    .span-p3-style{
+        font-size: 0.5em;
+    }
+    .form-input{
+        font-size: 0.5em;
+        width: 50vw;
+    }
+    .button-send{
+        width: 50vw;
+    }
+    .style-paragraph-p-last{
+        font-size: 0.3em;
+
+    }
+    video#bgvid2{
+        padding-top: 0.5em;
+    }
+}
 
 

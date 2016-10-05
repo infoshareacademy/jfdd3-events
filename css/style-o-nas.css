@@ -1,12 +1,23 @@
 .o-nas-container {
     background-color: white;
     color: black;
-    overflow-x: hidden;
-    width: auto;
     height: 100vh;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
-
+.about-us-set
+{
+    /*position: relative;*/
+    width: 18%;
+    /*float: left;*/
+    font-size: 1em;
+    top: 10%;
+    height: 70%;
+    padding: 2%;
+    margin: 5% 1% 5% 1%;
+}
 .o-nas-imie {
     font-family: euro35;
     font-size: 2em;
@@ -19,4 +30,26 @@
     font-family: "Open Sans";
     font-weight: 100;
     font-size: 0.9em
+}
+
+
+.o-nas-container span{
+    font-size: 10em;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.o-nas-container h3
+{
+    font-size: 1.5em;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+@media (max-width: 480px){
+    .about-us-set{
+        width: 48%;
+    }
 }
