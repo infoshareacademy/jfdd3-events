@@ -1,76 +1,55 @@
 .main-container-zapisz-sie {
-    height: 100vh;
+    height: 20%;
     text-align: center;
-    color: black;
-    font-size: 25px;
-    padding-top: 60px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 7% 3% 5% 3%;
     position: relative;
 
     }
 
 .content-container-form {
     border: 20px solid black;
-    padding: 3em;
+    height: 80%;
     }
 
-.span-p2-style {
+.content-container-form p:nth-child(1) {
+    font-size: 7em;
+    text-transform: uppercase;
+    padding-top: 3%;
+}
+
+.content-container-form p:nth-child(2) {
     font-size: 3.5em;
-    font-weight: bold;
-    display: block;
-    line-height: 135%;
-    text-transform: uppercase;
-}
-
-.span-p3-style {
-    color: black;
-    font-size: 1em;
-    display: block;
     text-transform: uppercase;
 
 }
 
-.form-input {
-    font-size: .5em;
-    width: 66em;
-    height: 2.5em;
+.form-input, .button-send {
+    font-size: 2em;
+    width: 30%;
+    height: 40px;
     text-align: center;
     border: none;
-    margin-top: 10px;
-    margin-bottom: 10px;
     background-color: #ffffff;
-    color:#000;
+    color:#000000;
 
 }
 
 .button-send {
     position: relative;
-    font-size: .5em;
-    color: rgb(20, 200, 255);
-    width: 66em;
-    height: 2.5em;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: black;
-    border: none;
+    color: #14C8FF;
+    margin-top: 0.5%;
+    background-color: #000000;
     text-transform: uppercase;
 }
 
 .button-send:hover {
-    color: black;
-    background-color: white;
+    color: #000000;
+    background-color: #ffffff;
 }
 
-.style-paragraph-p-last {
+.content-container-form p:nth-child(3) {
     font-size: 0.5em;
-    margin-top: 1em;
-
-}
-
-span a {
-    text-decoration: none;
-    color: rgb(20, 200, 255);
+    margin-top: 1%;
 }
 
 

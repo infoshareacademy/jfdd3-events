@@ -10,8 +10,9 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
-  width: 100%;
+
   height: 100vh;
+  max-height: 100vh;
   overflow: hidden;
   position: relative;
   background-color: #fff;
@@ -80,19 +81,20 @@
   transform: rotate(-10deg);
   -webkit-transform: rotate(-90deg); }
 
-.strzala {
+.arrow {
   position: absolute;
   width: 5%;
   height: 8%;
-  padding: 1%;
+  top:60%;
   display: block;
   bottom: 3%;
   left: 0;
   right: 0;
-  z-index: 101;
-  float: none;
   margin-left: auto;
   margin-right: auto;
+  z-index: 101;
+  float: none;
+
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   color:#fff !important;
@@ -104,18 +106,39 @@
   -webkit-filter: invert(1);
   filter: invert(1);
 }
+@media (max-width: 1200px) {
 
+}
+@media (max-width: 992px) {
+
+}
+
+
+@media (max-width: 768px) {
+
+
+}
 @media (max-width: 480px){
+  .banner{
+    max-height: 640px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
     .title1 {
     font-size: 150%;
   }
   .subtitle {
     font-size: 100%;
   }
-  .strzala{
+  .arrow {
     width:3%;
-    bottom: 8%;
+    bottom: 0%;
+
   }
 
-
 }
+
+
+
+

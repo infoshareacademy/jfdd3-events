@@ -1,32 +1,34 @@
-.pasek-nawigacja {
+.nav {
     font-family: 'euro35', sans-serif;
     font-size: 20px;
     position: fixed;
+    top: 0;
     width: 100%;
     background-color: rgba(255, 255, 255, 1);
     text-align: center;
     margin: 0;
-    height: 30px;
-    z-index: 100;
-    overflow: hidden;
+    z-index: 99;
+
 }
 
 .menu {
     padding: 0;
     margin: 0;
     display: inline-block;
+    width: 70%;
 }
 
 ol a {
     color: black;
     text-decoration: none;
-    position: relative;
+    /*position: relative;*/
 }
 
 ol > li {
     float: left;
-    width: 240px;
+    width: 20%;
     height: 30px;
+
 }
 
 ol > li:hover {
@@ -37,81 +39,72 @@ ol > li:hover {
     background-color: rgba(20, 200, 255, 0.8);
 }
 
-ol > li:hover >a {
+ol > li:hover > a {
     color: black;
 }
 
-
-
-
-footer
-{
+footer {
     background: url("../images/footer-background.png") no-repeat;
     background-size: cover;
     width: 100%;
-    height: auto;
-    overflow-y: hidden;
+    height: 100px;
+
 }
-
-.stopka
-{
-    position: relative;
-    font-family: "Open Sans";
-    font-size: 0.8em;
-    float: left;
-    padding-top: 2%;
-    width: 40%;
-    height: 100%;
-    margin-left: 10%;
-    z-index: 100;
-    padding-bottom: -3em;
-}
-
-
-.social {
+footer > a {
     display: inline-block;
     float: left;
-    /*height: 100%;*/
-    width: 30%;
-    z-index: 100;
-    margin-left: 20%;
-}
-
-.teil {
-    color: black;
-    padding: 3%;
+    padding: 1%;
+    /*width: 10%;*/
+    z-index: 98;
+    color:#000000;
     font-size: 2.5em;
-    float: left;
 }
-
-.teil:hover {
+footer > a:nth-child(1){
+    margin-left:80%;
+}
+footer > a:hover {
     background-color: rgba(20, 200, 255, 0.8);
 
 }
+footer p {
 
-@media (max-width: 480px){
+}
+@media (max-width: 1200px) {
+ol >li {
+    width: 17%;
+}
+}
 
-    .pasek-nawigacja {
-        font-size: 20px;
-        width: 100%;
-        /*height: 30px;*/
-        z-index: 100;
-    }
-    .menu {
-        padding: 0;
-        margin: 0;
-        display:block;
-    }
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
     ol > li {
-        float: left;
-        width: 25%;
-        height: 30px;
-        display:inline-block;
-    }
-    footer{
-        height: 10vh;
-    }
-    .teil{
-        font-size: 1.5em;
+        width: 20%;
+
     }
 }
+
+    @media (max-width: 480px) {
+
+        ol > li {
+            float: left;
+            width: 25%;
+            height: 30px;
+            display: block;
+        }
+
+        ol li:nth-child(1) {
+            display: none;
+        }
+
+        footer {
+            height: 10vh;
+        }
+
+        .teil {
+            font-size: 1.5em;
+        }
+    }
+

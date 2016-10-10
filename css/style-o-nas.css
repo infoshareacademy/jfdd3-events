@@ -1,7 +1,7 @@
 .o-nas-container {
     background-color: white;
     color: black;
-    height: 100vh;
+    height: 10%;
     text-align: center;
     display: flex;
     flex-direction: row;
@@ -9,9 +9,7 @@
 }
 .about-us-set
 {
-    /*position: relative;*/
-    width: 18%;
-    /*float: left;*/
+    width: 23%;
     font-size: 1em;
     top: 10%;
     height: 70%;
@@ -47,7 +45,18 @@
     margin-top: 4%;
     margin-bottom: 2%;
 }
+@media (max-width: 1200px) {
 
+}
+@media (max-width: 992px) {
+
+}
+
+
+@media (max-width: 768px) {
+
+
+}
 @media (max-width: 480px){
     .about-us-set{
         width: 48%;
