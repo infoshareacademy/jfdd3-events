@@ -12,7 +12,7 @@
   flex-direction: row;
 
   height: 100vh;
-  max-height: 100vh;
+  min-height: 100vh;
   overflow: hidden;
   position: relative;
   background-color: #fff;
@@ -85,7 +85,7 @@
   position: absolute;
   width: 5%;
   height: 8%;
-  top:60%;
+  top:92%;
   display: block;
   bottom: 3%;
   left: 0;
@@ -94,18 +94,14 @@
   margin-right: auto;
   z-index: 101;
   float: none;
-
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
-  color:#fff !important;
-
-}
-
-.colorb
-{
+ color: white;
   -webkit-filter: invert(1);
   filter: invert(1);
+
 }
+
 @media (max-width: 1200px) {
 
 }

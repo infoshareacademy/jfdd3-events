@@ -1,14 +1,15 @@
 .main-container-zapisz-sie {
     height: 20%;
     text-align: center;
-    padding: 7% 3% 5% 3%;
+    padding: 7% 3% 4% 3%;
     position: relative;
 
     }
 
 .content-container-form {
     border: 20px solid black;
-    height: 80%;
+    height: 760px;
+    margin-bottom: 5%;
     }
 
 .content-container-form p:nth-child(1) {
@@ -50,6 +51,7 @@
 .content-container-form p:nth-child(3) {
     font-size: 0.5em;
     margin-top: 1%;
+    padding-bottom: 5%;
 }
 
 

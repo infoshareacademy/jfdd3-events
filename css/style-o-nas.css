@@ -1,50 +1,40 @@
 .o-nas-container {
-    background-color: white;
-    color: black;
-    height: 10%;
+    position: relative;
     text-align: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    height: 1080px;
+    z-index: 98;
+
+
 }
 .about-us-set
 {
-    width: 23%;
-    font-size: 1em;
-    top: 10%;
-    height: 70%;
-    padding: 2%;
-    margin: 5% 1% 5% 1%;
-}
-.o-nas-imie {
-    font-family: euro35;
+    width: 25%;
+    float: left;
+    display: inline-block;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
     font-size: 2em;
-    font-weight: 800;
+
+
+}
+.p-author-name {
+    font-size: 2em;
     margin-top: -20px;
 
 }
 
-.o-nas-tekst {
+.p-autor-slogan {
     font-family: "Open Sans";
     font-weight: 100;
     font-size: 0.9em
 }
 
-
 .o-nas-container span{
-    font-size: 10em;
+    font-size: 8em;
 }
 
-.center-text {
-    text-align: center;
-}
-
-.o-nas-container h3
-{
-    font-size: 1.5em;
-    margin-top: 4%;
-    margin-bottom: 2%;
-}
 @media (max-width: 1200px) {
 
 }

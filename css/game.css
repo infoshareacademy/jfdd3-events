@@ -1,10 +1,16 @@
 /*#game {*/
 /*display: none;*/
 /*}*/
-.game-class {
-    height: 15%;
-    background: url("../images/moving-objects/moving-object-gradient-2.png") no-repeat;
+.main-game-container{
+    z-index: 98;
+    padding: 7% 3% 5% 3%;
     position: relative;
+    top:2%;
+
+}
+.game-class {
+    height: 960px;
+    border: 20px solid black;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -12,9 +18,8 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    z-index: 98;
-    border: 20px solid black;
-    margin: 7% 3% 5% 3%;
+    background: url("../images/moving-objects/moving-object-gradient-2-1000.png") no-repeat center;
+
 
 }
 
@@ -27,7 +32,7 @@
     height: 20%;
     padding-top: 2%;
     padding-bottom: 2%;
-    color: black;
+    color: #000000;
     text-transform: uppercase;
 }
 

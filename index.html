@@ -22,18 +22,17 @@
 </head>
 <body>
 
-
 <div>
     <div class="banner" id="banner">
         <img src="images/moving-objects/moving-object-gradient.png" class="moving-objects" id="moving-object-gradient">
         <img src="images/moving-objects/moving-object-fala.png" class="moving-objects" id="moving-object-fala">
         <img src="images/moving-objects/moving-object-vinyl-320.png" class="moving-objects" id="moving-object-vinyl">
         <img src="images/moving-objects/moving-object-vinyl-320.png" class="moving-objects" id="moving-object-vinyl2">
-        <img src="images/moving-objects/moving-object-sfinks.png" class="moving-objects" id="moving-object-sfinks">
+        <img src="images/moving-objects/moving-object-sfinks-1200.png" class="moving-objects" id="moving-object-sfinks">
         <img src="images/moving-objects/moving-object-molo.png" class="moving-objects" id="moving-object-molo">
         <img src="images/moving-objects/moving-object-kapsel.png" class="moving-objects" id="moving-object-kapsel">
-        <img src="images/moving-objects/moving-object-zuraw.png" class="moving-objects" id="moving-object-zuraw">
-        <img src="images/moving-objects/moving-object-neptun.png" class="moving-objects" id="moving-object-neptun">
+        <img src="images/moving-objects/moving-object-zuraw-760h.png" class="moving-objects" id="moving-object-zuraw">
+        <img src="images/moving-objects/moving-object-neptun-960h.png" class="moving-objects" id="moving-object-neptun">
         <div class="div-empty">
         </div>
         <div class="div-title">
@@ -42,19 +41,21 @@
         </div>
     </div>
     <a href="#arrow-show-offer" class="arrow navi">
-        <img src="images/strzala.png" class="colorb">
+        <img src="images/strzala.png">
     </a>
 </div>
+
 <nav class="nav">
     <ol class="menu">
         <li><a href="#banner" class="navi">HOME</a></li>
         <li><a href="#offer" class="navi">O APLIKACJI</a></li>
         <li><a href="#slider-container" class="navi">ZOBACZ WIĘCEJ</a></li>
         <li><a href="#main-container-zapisz-sie" class="navi">ZAPISZ SIĘ</a></li>
+        <li><a href="#game" class="navi">GRA</a></li>
         <li><a href="#o-nas" class="navi">O AUTORACH</a></li>
     </ol>
 </nav>
-<div id="offer" class="offer">
+<section id="offer" class="offer">
         <div class="container1" id="arrow-show-offer">
             <p class="offer-title">ODKRYJ SWOJE MIASTO<BR>
                 <span><i class="fa fa-bolt" aria-hidden="true"></i>NA NOWO</span></p>
@@ -80,7 +81,7 @@
                 maila, a my powiadomimy cię kiedy nasza apka będzie gotowa.</p>
         </div>
 
-</div>
+</section>
 <section id="slider-container" class="slider-container">
     <div class="slider-item">
         <img src="images/slide-show/original/photo1.jpg" id="myPicture" alt="SlideShow"
@@ -115,7 +116,8 @@
     </div>
 </section>
 
-<section id="game" class="game-class">
+<section id="game" class="main-game-container">
+    <div class="game-class">
     <div class="game-thanks">
         <p>dzieki za zapisanie sie do event calendara!</p>
         <p>wciśnij start i wygraj wjazd na dowolona imprezę!</p>
@@ -128,30 +130,32 @@
         <input type="button" class="button-start" value="START" id="start">
     <div id="wynik" class="wynik">
     </div>
+    </div>
 </section>
 
-<section id="o-nas" class="o-nas-container">
-        <div class="about-us-set center-text">
+<section  class="o-nas-container" id="o-nas">
+        <div class="about-us-set" >
             <span><i class="fa fa-user" aria-hidden="true"></i></span>
-            <h3 class="o-nas-imie">MARCIN</h3>
-            <p class="o-nas-tekst">Przewodzi mu hasło: "Najlepszy czas do działania jest teraz" - E. Fisher. Więc nie
+            <p class="p-author-name">MARCIN</p>
+            <p class="p-autor-slogan">Przewodzi mu hasło: "Najlepszy czas do działania jest teraz" - E. Fisher.<br/> Więc nie
                 traci czasu i działa!</p>
         </div>
-        <div class="about-us-set center-text">
+        <div class="about-us-set ">
             <span><i class="fa fa-user" aria-hidden="true"></i></span>
-            <h3 class="o-nas-imie">ELWI</h3>
-            <p class="o-nas-tekst">Ukochane góry zamieniła na morze aby uczyć się programowania od najlepszych.</p>
+            <p class="p-author-name">ELWI</p>
+            <p class="p-autor-slogan">Ukochane góry zamieniła na morze aby uczyć się programowania od najlepszych.</p>
         </div>
-        <div class="about-us-set center-text">
+        <div class="about-us-set">
             <span><i class="fa fa-user" aria-hidden="true"></i></span>
-            <h3 class="o-nas-imie">GABI</h3>
-            <p class="o-nas-tekst">Wszystko co zrobi działa, nie do końca wiedzieć dlaczego.</p>
+            <p class="p-author-name">GABI</p>
+            <p class="p-autor-slogan">Wszystko co zrobi działa, nie do końca wiedzieć dlaczego.</p>
         </div>
-        <div class="about-us-set center-text">
+        <div class="about-us-set">
             <span><i class="fa fa-user" aria-hidden="true"></i></span>
-            <h3 class="o-nas-imie">SŁAWEK</h3>
-            <p class="o-nas-tekst">Weteran sprzedaży IT na kursie zmiany zawodowej. Przyszły analityk biznesowy IT.</p>
+            <p class="p-author-name">SŁAWEK</p>
+            <p class="p-autor-slogan">Weteran sprzedaży IT na kursie zmiany zawodowej. Przyszły analityk biznesowy IT.</p>
         </div>
+
 </section>
 
     <footer>
@@ -160,8 +164,8 @@
         <a href="https://www.youtube.com/?hl=pl&gl=PL" class = "teil"><i class="fa fa-youtube-square" aria-hidden="true" style="color:black"></i></a>
         <a href="https://twitter.com/tweeter" class = "teil"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
         <a href="https://www.instagram.com/" class = "teil"><i class="fa fa-instagram" aria-hidden="true" style="color:black"></i></a>
-
     </footer>
+
 
 
 
