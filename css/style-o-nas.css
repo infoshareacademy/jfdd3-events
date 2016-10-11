@@ -36,7 +36,20 @@
 }
 
 @media (max-width: 1200px) {
-
+    .o-nas-container {
+        height: 760px;
+    }
+    .about-us-set {
+        padding-top: 17%;
+        font-size: 1.5em;
+    }
+    .p-author-name {
+        font-size: 1.75em;
+    }
+    .p-autor-slogan {
+        font-size: 0.8em;
+        padding-top: 8%;
+    }
 }
 @media (max-width: 992px) {
 
@@ -44,7 +57,12 @@
 
 
 @media (max-width: 768px) {
-
+    .about-us-set {
+        font-size: 1.25em;
+    }
+    .p-author-name {
+        font-size: 1.5em;
+    }
 
 }
 @media (max-width: 480px){

@@ -68,36 +68,88 @@ video#bgvid2 {
     z-index: -100;
     background-size: cover;
 }
+@media (max-width: 1200px) {
 
-@media (max-width: 480px){
-    .main-container-zapisz-sie{
-        height: 100vh;
 
+    .content-container-form p:nth-child(1) {
+        font-size: 5em;
+        margin-top: 1em;
     }
-    .content-container-form{
-        padding: 1em;
+    .content-container-form p:nth-child(2) {
+        font-size: 2.5em
     }
-    .span-p2-style{
-       font-size: 1em;
-
-    }
-    .span-p3-style{
-        font-size: 0.5em;
+    .form-input, .button-send {
+        font-size: 1.5em;
+        width: 50%;
     }
     .form-input{
-        font-size: 0.5em;
-        width: 50vw;
+        margin-top: 2em;
     }
-    .button-send{
-        width: 50vw;
-    }
-    .style-paragraph-p-last{
-        font-size: 0.3em;
-
-    }
-    video#bgvid2{
-        padding-top: 0.5em;
+    video#bgvid2 {
+        height: 700px;
     }
 }
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+
+    .content-container-form p:nth-child(1) {
+        font-size: 4em;
+
+    }
+    .content-container-form p:nth-child(2) {
+        font-size: 2em
+    }
+    .form-input, .button-send {
+        font-size: 1.5em;
+        width: 70%;
+    }
+    .form-input{
+        margin-top: 3em;
+    }
+    .button-send{
+        margin-top: 0.5em;
+    }
+    video#bgvid2 {
+        height: 700px;
+    }
+}
+
+@media (max-width: 480px) {
+
+}
+/*@media (max-width: 480px){*/
+    /*.main-container-zapisz-sie{*/
+        /*height: 100vh;*/
+
+    /*}*/
+    /*.content-container-form{*/
+        /*padding: 1em;*/
+    /*}*/
+    /*.span-p2-style{*/
+       /*font-size: 1em;*/
+
+    /*}*/
+    /*.span-p3-style{*/
+        /*font-size: 0.5em;*/
+    /*}*/
+    /*.form-input{*/
+        /*font-size: 0.5em;*/
+        /*width: 50vw;*/
+    /*}*/
+    /*.button-send{*/
+        /*width: 50vw;*/
+    /*}*/
+    /*.style-paragraph-p-last{*/
+        /*font-size: 0.3em;*/
+
+    /*}*/
+    /*video#bgvid2{*/
+        /*padding-top: 0.5em;*/
+    /*}*/
+/*}*/
 
 

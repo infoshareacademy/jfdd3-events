@@ -46,89 +46,37 @@
 }
 
 @media (max-width: 1200px) {
-
+    .container1, .container2 {
+        padding-top: 5%;
+    }
+    .offer-title {
+        font-size: 2em;
+        padding-top: 1.5em;
+    }
+    .offer-text, .offer-text2 {
+        font-size: 1.75em;
+    }
 }
 
 @media (max-width: 992px) {
-
+    .offer {
+        height: 860px;
+    }
+    .offer-title {
+        font-size: 1.75em;
+        padding-top: 1.25em;
+    }
+    .offer-text, .offer-text2 {
+        font-size: 1.35em;
+    }
 }
 
 @media (max-width: 768px) {
-    #offer {
-        margin-top: 40px;
 
-    }
-
-    .oferta-marginesy {
-        padding-top: 0px;
-        margin-left: 0px;
-        margin-right: 0px;
-        height: 650px;
-        display: flex;
-        flex-direction: column;
-
-    }
-
-    .container1, .container2 {
-        width: 100%;
-        padding-top: 40px;
-
-    }
-
-    .offer-title {
-        font-size: 1em;
-        padding-top: 2em;
-        padding-right: 1em;
-    }
-
-    .offer-text {
-
-        padding: 2em 1em 1em 1em;
-    }
-
-    .offer-text2 {
-        padding: 2em 1em 1em 1em;
-        text-align: right;
-    }
 
 }
 
 @media (max-width: 480px) {
-    #offer {
-        margin-top: 30px;
 
-    }
-
-    .oferta-marginesy {
-        padding-top: 0px;
-        margin-left: 0px;
-        margin-right: 0px;
-        height: 650px;
-        display: flex;
-        flex-direction: column;
-
-    }
-
-    .container1, .container2 {
-        width: 100%;
-        padding-top: 20px;
-
-    }
-
-    .offer-title {
-        font-size: 1em;
-        padding-top: 2em;
-        padding-right: 1em;
-    }
-
-    .offer-text {
-
-        padding: 2em 1em 1em 1em;
-    }
-
-    .offer-text2 {
-        padding: 2em 1em 1em 1em;
-        text-align: right;
-    }
 }
 

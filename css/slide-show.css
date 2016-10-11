@@ -60,15 +60,59 @@
 
 }
 @media (max-width: 1200px) {
+    .img-responsive {
+        width: 80%;
+    }
+    .slider-item {
+        padding-top: 11%;
+        padding-bottom: 11%;
+    }
+    .prevBtn {
+        left: 3%;
+        top: 38%;
+    }
+    .nextBtn {
+        right: 3%;
+        top: 38%;
+    }
 
+    .slider-item-mini {
+
+        padding-top: 8%;
+
+    }
 }
 @media (max-width: 992px) {
+    .mini-photo {
+        height: 5%;
+        width:15%
+    }
+
+    .mini-photo:hover{
+        height: 11%;
+
+    }
 
 }
 
 
 @media (max-width: 768px) {
-
+    .img-responsive {
+        width: 90%;
+    }
+    .prevBtn {
+        left: 7%;
+        top: 38%;
+        width: 7%;
+    }
+    .nextBtn {
+        right: 7%;
+        top: 38%;
+        width: 7%;
+    }
+    .mini-photo {
+        width:13%
+    }
 
 }
 @media (max-width: 480px){
