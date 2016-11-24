@@ -25,7 +25,7 @@
 
 }
 
-.p-autor-slogan {
+.p-author-slogan {
     font-family: "Open Sans";
     font-weight: 100;
     font-size: 0.9em
@@ -46,7 +46,7 @@
     .p-author-name {
         font-size: 1.75em;
     }
-    .p-autor-slogan {
+    .p-author-slogan {
         font-size: 0.8em;
         padding-top: 8%;
     }

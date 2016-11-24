@@ -3,8 +3,8 @@
 $(document).ready(function() {
     $('form').submit(function (event) {
         event.preventDefault();
-        // $('#main-container-zapisz-sie').hide();
-        // $('#game').css({display:'flex'});
+        $('.subscription').hide();
+        $('.main-game-container').css({display:'flex'});
 
     });
 });
