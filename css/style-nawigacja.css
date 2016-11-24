@@ -102,11 +102,15 @@ footer p {
     }
 }
 
-@media (max-width: 768px) {
-    ol > li {
+@media (max-width: 768px) and (orientation: landscape) {
+    .menu {
+        width: 100%;
+    }
+     ol > li {
         font-size: 1.35em;
         height: 1.35em;
     }
+
     footer p {
         font-size: 1.3em;
         left: 30%;

@@ -1,6 +1,7 @@
-/*#game {*/
-/*display: none;*/
-/*}*/
+#game {
+display: none;
+}
+
 .main-game-container{
     z-index: 98;
     padding: 7% 3% 5% 3%;

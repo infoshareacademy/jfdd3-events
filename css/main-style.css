@@ -1,0 +1,528 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: 'euro35', sans-serif;
+    font-weight: 800;
+    width: 100%;
+    /*height: auto;*/
+}
+@font-face {
+    font-family: 'euro35';
+    src: url(../fonts/eurof35.ttf);
+}
+section {
+    position: relative;
+    margin:0 auto;
+}
+/*----------------------------BANNER----------------------------------------*/
+
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    min-height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+    z-index: 100;
+}
+
+.div-empty {
+
+    order: 1;
+
+    flex-grow: 2;
+}
+
+.div-title {
+
+    order: 2;
+
+    flex-grow: 1;
+
+    align-self: center;
+}
+
+.title1, .subtitle {
+    transform: rotate(-10deg);
+
+    margin: 0;
+    font-weight: 800;
+}
+
+.title1 {
+    font-size: 400%;
+    background: rgba(20, 200, 255, 0.4);
+}
+
+.subtitle {
+    font-family: 'Open Sans', serif;
+    font-size: 150%;
+    background: black;
+    color: white;
+}
+
+.moving-objects {
+    position: absolute;
+    z-index: -1;
+}
+
+#moving-object-vinyl {
+    width: 40%;
+    height: auto;
+    transform: rotate(-230deg);;
+}
+
+#moving-object-vinyl2 {
+    width: 7%;
+    height: auto;
+}
+
+#moving-object-sfinks {
+    width: 50%;
+    height: auto;
+    transform: rotate(-10deg);
+}
+
+#moving-object-zuraw {
+    transform: rotate(-20deg);
+}
+
+#moving-object-gradient {
+    transform: rotate(-10deg);
+}
+
+.arrow {
+    position: absolute;
+    width: 5%;
+    height: 8%;
+    top: 92%;
+    display: block;
+    bottom: 3%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 101;
+    float: none;
+    transform: rotate(90deg);
+    color: white;
+    filter: invert(1);
+
+}
+
+/*----------------------------NAVI----------------------------------------*/
+.nav {
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    text-align: center;
+    margin: 0 auto;
+    z-index: 99;
+
+}
+
+.menu {
+    padding: 0;
+    margin: 0 auto;
+    width: 80%;
+}
+
+ol a {
+    color: black;
+    text-decoration: none;
+
+}
+
+ol > li {
+    float: left;
+    width: 20%;
+    height: 40px;
+    font-size: 26px;
+
+}
+
+ol > li:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+ol > li:hover > a {
+    color: black;
+}
+.highlight {
+    background-color: rgba(20, 200, 255, 0.8);
+}
+/*----------------------------OFFER----------------------------------------*/
+.offers {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*position: relative;*/
+    z-index: 98;
+    /*height: 1300px;*/
+}
+
+.container1, .container2 {
+    width: 50%;
+    float: left;
+    padding: 2%;
+    /*padding-top: 1%;*/
+    /*margin-left: 1%;*/
+    /*margin-right: 1%;*/
+}
+
+
+.offer-title {
+    font-size: 4em;
+    text-align: right;
+    float: right;
+    width: 100%;
+    padding-top: 1em;
+}
+
+.offer-title span {
+    font-size: 2em;
+}
+
+.offer-text, .offer-text2 {
+    font-size: 2em;
+    font-family: 'Open Sans', serif;
+    font-weight: 400;
+    padding-top: 1em;
+    padding-left: 10px;
+    text-align: right;
+}
+
+.offer-text2 {
+    text-align: left;
+}
+
+/*----------------------------SLIDE-SHOW----------------------------------------*/
+.slider-container {
+    /*background-color: white;*/
+    /*!*color: black;*!*/
+    /*height: 20%;*/
+    /*height: 1300px;*/
+    /*position: relative;*/
+    text-align: center;
+}
+
+.prevBtn {
+    transform: rotate(90deg);
+    width: 5%;
+    /*position: absolute;*/
+    left: 5%;
+    top: 33%;
+}
+
+.nextBtn {
+    transform: rotate(-90deg);
+
+    width: 5%;
+    position: absolute;
+    right: 5%;
+    top: 33%;
+}
+
+.slider-item {
+    /*position: absolute;*/
+    padding-top: 6%;
+    padding-bottom: 6%;
+    width: 100%;
+
+}
+
+.img-responsive {
+    width: 60%;
+    display: inline-block;
+}
+
+.slider-item-mini {
+    position: relative;
+    padding-top: 3%;
+    width: 100%;
+
+}
+
+.mini-photo {
+    height: 10%;
+    opacity: 0.5;
+    position: relative;
+    z-index: 98;
+    transition-duration: 0.75s;
+
+}
+
+.mini-photo:hover {
+    opacity: 1;
+    height: 12%;
+    transform: scale(2);
+
+    position: relative;
+    z-index: 100;
+
+}
+
+/*----------------------------ZAPISZ-SIE----------------------------------------*/
+.main-container-zapisz-sie {
+    height: 20%;
+    text-align: center;
+    padding: 7% 3% 4% 3%;
+    position: relative;
+
+}
+
+.content-container-form {
+    border: 20px solid black;
+    height: 760px;
+    margin-bottom: 5%;
+}
+
+.content-container-form p:nth-child(1) {
+    font-size: 7em;
+    text-transform: uppercase;
+    padding-top: 3%;
+}
+
+.content-container-form p:nth-child(2) {
+    font-size: 3.5em;
+    text-transform: uppercase;
+
+}
+
+.form-input, .button-send {
+    font-size: 2em;
+    width: 30%;
+    height: 40px;
+    text-align: center;
+    border: none;
+    background-color: #ffffff;
+    color: #000000;
+
+}
+
+.button-send {
+    position: relative;
+    color: #14C8FF;
+    margin-top: 0.5%;
+    background-color: #000000;
+    text-transform: uppercase;
+}
+
+.button-send:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.content-container-form p:nth-child(3) {
+    font-size: 0.5em;
+    margin-top: 1%;
+    padding-bottom: 5%;
+}
+
+video#bgvid2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background-size: cover;
+
+}
+
+/*----------------------------GAME----------------------------------------*/
+#game {
+    display: none;
+}
+
+.main-game-container {
+    z-index: 98;
+    padding: 7% 3% 5% 3%;
+    position: relative;
+    top: 2%;
+
+}
+
+.game-class {
+    height: 960px;
+    border: 20px solid black;
+    display: flex;
+    flex-direction: column;
+    background: url("../images/moving-objects/moving-object-gradient-2-1000.png") no-repeat center;
+
+}
+
+.game-thanks {
+
+    order: 0;
+    text-align: center;
+    /*font-size: 2em;*/
+    height: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.game-thanks p:nth-child(1) {
+    font-size: 3em;
+    padding-top: 4%;
+}
+
+.game-thanks p:nth-child(2) {
+    font-size: 2em;
+}
+
+.main-game-box {
+    height: 40%;
+    width: 100%;
+    position: relative;
+    top: 10%;
+
+    order: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.item-game-1, .item-game-2, .item-game-3 {
+    background-color: white;
+    background-image: url(../images/game/background-game-100x300px.jpg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: repeat-y;
+    width: 20%;
+    height: 160px;
+    border: 10px solid black;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/*.button-start {*/
+/*width: 20%;*/
+/*position: relative;*/
+/*top:50%;*/
+/*margin:0 auto;*/
+/*}*/
+.button-start {
+
+    order: 3;
+    width: 20%;
+    position: relative;
+    top: 8%;
+    font-size: 2em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    border: none;
+    color: rgb(20, 210, 255);
+}
+
+.wynik {
+
+    order: 4;
+    width: 100%;
+    height: 10%;
+    position: relative;
+    top: 6%;
+    text-align: center;
+    font-size: 3em;
+    color: #ff0000;
+    padding-top: 3%;
+}
+
+/*----------------------------ONAS----------------------------------------*/
+.o-nas-container {
+    position: relative;
+    text-align: center;
+    height: 1080px;
+    z-index: 98;
+
+}
+
+.about-us-set {
+    width: 25%;
+    float: left;
+    display: inline-block;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 2em;
+
+}
+
+.p-author-name {
+    font-size: 2em;
+    margin-top: -20px;
+
+}
+
+.p-autor-slogan {
+    font-family: "Open Sans";
+    font-weight: 100;
+    font-size: 0.9em
+}
+
+.o-nas-container span {
+    font-size: 8em;
+}
+
+/*----------------------------FOOTER----------------------------------------*/
+
+footer {
+    background: url("../images/footer-background.png") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 98px;
+    position: relative;
+
+}
+
+footer > a {
+    display: inline-block;
+    float: right;
+    padding: 1%;
+    z-index: 98;
+    color: #000000;
+    font-size: 2.5em;
+    text-align: center;
+    position: relative;
+
+    height: 100%;
+}
+
+footer a:nth-child(1) {
+    margin-right: 20%;
+}
+
+footer > a:hover {
+    background-color: rgba(20, 200, 255, 0.8);
+
+}
+
+footer p {
+    position: absolute;
+    font-size: 2em;
+    left: 40%;
+    padding-top: 1%;
+
+}
+
+
+

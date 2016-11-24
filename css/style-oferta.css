@@ -1,4 +1,4 @@
-.offer {
+.offers {
     background-color: white;
     /*width: 100%;*/
     margin-left: auto;
@@ -59,7 +59,7 @@
 }
 
 @media (max-width: 992px) {
-    .offer {
+    .offers {
         height: 860px;
     }
     .offer-title {
@@ -71,7 +71,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) and  (orientation: landscape) {
 
 
 }
